@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    font-family: 'Lato';
+    background: url("/media/vecteezy_expert-carpenter-creates-art-using-old-wood-generated-by-ai_25121219_700.jpg") center/cover no-repeat fixed;
+}
+
+.box_color{
+    border: solid 5px red;
+}
