@@ -42,6 +42,8 @@
 
         <script src="https://kit.fontawesome.com/15ddf10dff.js" crossorigin="anonymous"></script>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     {% endblock %}
         
     {% block extra_js %}
@@ -55,35 +57,43 @@
     <header class="container-fluid fixed-top"></header>
     <button style="cursor: pointer;" class=" m-3 btn" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars'
-            style='font-size:48px; color:white'></i></button>
+            style='font-size:48px; color: black;'></i></button>
     
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop"
         aria-labelledby="offcanvasWithBackdropLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+            <h4>Menu</h4>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+        </div> 
+        <!-- closed offcanvas-header -->
         <div class="offcanvas-body">
-            <div class="row">
-                {% if request.user.is_authenticated %}
-                {% if request.user.is_superuser %}
-                <a href="" class="dropdown-item">Product Management</a>
-                {% endif %}
-            </div>
-            <div class="row">
-                <a href="" class="dropdown-item">My Profile</a>
-                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                {% else %}
-            </div>
-            <div class="row">
-                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                {% endif %}
-            </div>
-    
-    
+
+<div class="sidenav">
+    <a class="hover-underline-animation" href="#about">Home</a>
+    <a class="hover-underline-animation" href="#services">About</a>
+    <a class="hover-underline-animation" href="#clients">Art Gallery</a>
+    <a class="hover-underline-animation" href="#contact">Search</a>
+    <button class="dropdown_btn hover-underline-animation">My Account
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="slidedown">
+        {% if request.user.is_authenticated %}
+        {% if request.user.is_superuser %}
+        <a class="hover-underline-animation" href="">Product Management</a>
+        {% endif %}
+        <a class="hover-underline-animation" href="">My Profile</a>
+        <a class="hover-underline-animation" href="{% url 'account_logout' %}">Logout</a>
+        {% else %}
+        <a class="hover-underline-animation" href="{% url 'account_signup' %}">Register</a>
+        <a class="hover-underline-animation" href="{% url 'account_login' %}">Login</a>
+        {% endif %}
+    </div>
+    <a class="hover-underline-animation" href="#contact">Contact</a>
+</div>
+        
         </div>
     </div>
+    
 
 {% if messages %}
     <div class="message-container"></div>
@@ -98,7 +108,14 @@
 {% block postloadjs %}
 {% endblock %}
 
-   
+ <script>
+  
+  $(document).ready(function () {
+        $(".dropdown_btn").click(function () {
+            $(".slidedown").slideToggle("slow");
+        });
+    });
+</script>
 </body>
 
 </html>

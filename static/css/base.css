@@ -3,11 +3,77 @@ html {
 }
 
 body {
-    color: #fff;
+    color: black;
     font-family: 'Lato';
     background: url("/media/vecteezy_expert-carpenter-creates-art-using-old-wood-generated-by-ai_25121219_700.jpg") center/cover no-repeat fixed;
 }
 
 .box_color{
     border: solid 5px red;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown_btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    position:relative;
+    color: gray;
+    width: 100%;
+
+}
+
+/* On mouse-over */
+.sidenav a:after,
+.dropdown_btn:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 10px;
+        background-color: gray;
+        transform-origin: bottom right;
+        transition: transform 0.45s ease-out;
+}
+.sidenav a:hover:after,
+.dropdown_btn:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.slidedown {
+    display: none;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 20px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
