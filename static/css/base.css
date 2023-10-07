@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    color: black;
+    color: white;
     font-family: 'Lato';
     background: url("/media/vecteezy_expert-carpenter-creates-art-using-old-wood-generated-by-ai_25121219_700.jpg") center/cover no-repeat fixed;
 }
@@ -74,6 +74,7 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
+    background: black;
+    opacity: 0.6;
     z-index: -1;
 }
