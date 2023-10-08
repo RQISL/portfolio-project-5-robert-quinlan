@@ -39,3 +39,9 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+    
+
+def category_paintings(request):
+    """ A view to return the category painting page """
+
+    return render(request, 'products/category_paintings.html')
