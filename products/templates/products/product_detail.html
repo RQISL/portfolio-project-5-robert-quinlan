@@ -1,14 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
-    </div>
-</div>
-{% endblock %}
-
 {% block content %}
 <div class="overlay"></div>
 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
@@ -101,6 +93,7 @@
     </div>
 </div>
 {% endblock %}
+
 
 {% block postloadjs %}
 {{ block.super }}
