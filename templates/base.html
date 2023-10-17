@@ -60,9 +60,21 @@
 </head>
 
 <body>
+<a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link position-relative"
+    href="{% url 'gallery_view_bag' %}">
+    <div class="text-center position-absolute top-0 end-0 mt-4 pe-5">
+        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+        <p class="my-0">
+            {% if grand_total %}
+            ${{ grand_total|floatformat:2 }}
+            {% else %}
+            $0.00
+            {% endif %}
+        </p>
+    </div>
+</a>
     <button style="cursor: pointer;" class=" m-3 btn" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars'
-            style='font-size:48px; color: white;'></i></button>
+        data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars' style='font-size:48px; color: white;'></i></button>
     
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop"
         aria-labelledby="offcanvasWithBackdropLabel">
@@ -76,7 +88,6 @@
 <div class="sidenav">
     <a class="hover-underline-animation" href="{% url 'home' %}">Home</a>
     <a class="hover-underline-animation" href="#services">About</a>
-    <a class="hover-underline-animation" href="{% url 'products' %}">Art Gallery</a>
     <a class="hover-underline-animation" href="{% url 'category_paintings' %}">Category Painting</a>
     <a class="hover-underline-animation" href="{% url 'search_product' %}">Search</a>
     <button class="dropdown_btn hover-underline-animation">My Account
@@ -96,11 +107,8 @@
     </div>
     <a class="hover-underline-animation" href="#contact">Contact</a>
 </div>
-        
-        </div>
-    </div>
-
-
+</div>
+</div>
 
 {% block page_header %}
 {% if messages %}

@@ -11,6 +11,18 @@ body {
 .box_color{
     border: solid 5px red;
 }
+
+.box_blue {
+    border: solid 5px blue;
+}
+
+.fade-out-element {
+    background-color: black;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
 /* Fixed sidenav, full height */
 .sidenav {
     height: 100%;
@@ -174,6 +186,7 @@ body {
     right: 45px;
     width: 380px;
     height: 420px;
+    z-index: 99999;
 }
 
 .toast-header {
