@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--99&7+!or2(w4_2vyjn&x-s0&tmmm6g_0csn=p1rv@@65!jl%p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-rqisl-portfolioproject-u475b7es264.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['8000-rqisl-portfolioproject-u475b7es264.ws-eu105.gitpod.io', 'art-gallery-elena-d4d9090ab15b.herokuapp.com']
 
 
 # Application definition
