@@ -5,7 +5,7 @@ html {
 body {
     color: black;
     font-family: 'Lato';
-    background: url("https: //res.cloudinary.com/dhl4uxgix/image/upload/v1697640545/knyocy3kodch53p1kgdf.jpg") center/cover no-repeat fixed;
+    background: url("https://res.cloudinary.com/dhl4uxgix/image/upload/v1697640545/knyocy3kodch53p1kgdf.jpg") center/cover no-repeat fixed;
 }
 
 .box_color{
@@ -30,7 +30,6 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    border: solid red 2px;
 }
 
 /* Style the sidenav links and the dropdown button */
