@@ -12,56 +12,22 @@
     </div>
 <div class="container">
     <div class="row">
+        {% for categoriesgroup in categoriesgroups %}
         <div class="col d-flex justify-content-center p-2">
         <div class="card bg-dark" style="width: 18rem;">
-            <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1697556991/Art%20Gallery/vecteezy_abstract-colorful-oil-painting-background-illustration-ai_24399307_529_vxeqkl.jpg" class="card-img-top" alt="oil Painting">
+            {% if categoriesgroup.image %}
+                <img class="card-img-top img-fluid" src="{{ categoriesgroup.image.url }}" alt="{{ categoriesgroup.name }}">
+            {% else %}
+                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ categoriesgroup.name }}">
+            {% endif %}
             <div class="card-body">
-                <h5 class="card-title text-white">Oil Painting</h5>
-                <p class="card-text text-white bg-dark">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                <a class="btn btn-primary" href="{% url 'products' %}?category=Oil Painting">Oil Painting</a>
+                <h5 class="card-title text-white">{{ categoriesgroup.name }}</h5>
+                <p class="card-text text-white bg-dark">{{categoriesgroup.description}}</p>
+                {% if categoriesgroup.category %}
+                <a class="btn btn-primary" href="{% url 'category_paintings' categoriesgroup.id %}?category={{ categoriesgroup.category.friendly_name }}"></a>
+                {% endif %}
             </div>
-        </div>
-        </div>
-        <div class="col d-flex justify-content-center p-2">
-        <div class="card bg-dark" style="width: 18rem;">
-            <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1697556990/Art%20Gallery/vecteezy_abstract-colorful-oil-painting-background-illustration-ai_24399066_912_mjacnb.jpg" class="card-img-top" alt="Texture Painting">
-            <div class="card-body">
-                <h5 class="card-title text-white">Texture Painting</h5>
-                <p class="card-text text-white bg-dark">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a class="btn btn-primary" href="{% url 'products' %}?category=Texture Painting">Texture Painting</a>
-            </div>
-        </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="row">
-        <div class="col d-flex justify-content-center p-2">
-        <div class="card bg-dark " style="width: 18rem;">
-            <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1697556977/Art%20Gallery/vecteezy_background-flower-geranium-garden-flowers-a-bouquet-of_3823527_89_yk3tz5.jpg" class="card-img-top" alt="Water Painting">
-            <div class="card-body">
-                <h5 class="card-title text-white">Water Painting</h5>
-                <p class="card-text text-white bg-dark">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a class="btn btn-primary" href="{% url 'products' %}?category=Water Painting">Water Painting</a>
-            </div>
-        </div>
-        </div>
-        <div class="col d-flex justify-content-center p-2">
-        <div class="card bg-dark" style="width: 18rem;">
-            <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1697556981/Art%20Gallery/vecteezy_expert-carpenter-creates-art-using-old-wood-generated-by-ai_25121219_700_ockagd.jpg">
-            <div class="card-body">
-                <h5 class="card-title text-white">Photo to Painting</h5>
-                <p class="card-text text-white bg-dark">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a class="btn btn-primary" href="{% url 'products' %}?category=#">Photo to Painting</a>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-
 {% endblock %}
