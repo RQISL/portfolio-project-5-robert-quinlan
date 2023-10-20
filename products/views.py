@@ -3,13 +3,13 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
+from .models import Product, Category, CategoriesGroups
 
 # Create your views here.
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
-
+    # <Model>.objects.all()
     products = Product.objects.all()
     query = None
     categories = None
@@ -71,5 +71,10 @@ def product_detail(request, product_id):
 
 def category_paintings(request):
     """ A view to return the category painting page """
+    categoriesgroups = CategoriesGroups.objects.all()
+    
+    context = {
+        "categoriesgroups": categoriesgroups, 
+    }
 
-    return render(request, 'products/category_paintings.html')
+    return render(request, 'products/category_paintings.html', context)
