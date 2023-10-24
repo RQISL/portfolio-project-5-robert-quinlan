@@ -16,6 +16,11 @@ body {
     border: solid 5px blue;
 }
 
+.imagefit{
+    width: 10%;
+    border: palevioletred solid 3px;
+}
+
 .fade-out-element {
     background-color: black;
     top: 0;
