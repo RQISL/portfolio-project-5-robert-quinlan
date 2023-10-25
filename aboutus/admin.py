@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import ImageSlides
+from .models import AboutPersonal
 
 # Register your models here.
 
@@ -13,4 +13,4 @@ class ImageSildeAdmin(admin.ModelAdmin):
 
     ordering = ('number',)
 
-admin.site.register(ImageSlides, ImageSildeAdmin)
+admin.site.register(AboutPersonal, ImageSildeAdmin)

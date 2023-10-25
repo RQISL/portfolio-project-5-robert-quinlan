@@ -1,14 +1,14 @@
 from django.shortcuts import render
 
-from .models import ImageSlides
+from .models import AboutPersonal
 
 # Create your views here.
-def about_us(request):
+def aboutus(request):
     """ A view to return the about us page """
-    aboutus = ImageSlides.objects.all()
+    about_us = AboutPersonal.objects.all()
     
     context = {
-        "aboutus": aboutus, 
+        "about_us": about_us, 
     }
 
     return render(request, 'aboutus/aboutus.html', context)
