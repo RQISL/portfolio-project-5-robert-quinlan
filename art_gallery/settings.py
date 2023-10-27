@@ -40,7 +40,7 @@ ALLOWED_HOSTS = ['8000-rqisl-portfolioproject-gldluwa65e5.ws-eu105.gitpod.io', '
 # Application definition
 
 INSTALLED_APPS = [
-     'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'contactus',
+
 
     # Other
     'crispy_forms',

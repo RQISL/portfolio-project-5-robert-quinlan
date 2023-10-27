@@ -2,11 +2,12 @@
 {% load static %}
 
 {% block content %}
+
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2 class="logo-font">Contact US</h2>
+            <h2 class="logo-font">{{ contact.name}}</h2>
             <hr class="w-100 mb-1">
         </div>
     </div>
@@ -18,11 +19,9 @@
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card bg-dark h-100 border-0">
                         {% if contact.image %}
-                        <img class="card-img-top img-fluid" src="{{ contact.image.url }}"
-                            alt="{{ contact.name }}">
+                        <img class="card-img-top img-fluid" src="{{ contact.image.url }}" alt="{{ contact.name }}">
                         {% else %}
-                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                            alt="{{ contact.name }}">
+                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ contact.name }}">
                         {% endif %}
                         <div class="card-footer pt-0 border-0 text-left">
                             <div class="row">
@@ -31,7 +30,8 @@
                                         <h5 class="card-title text-white">{{ contact.name }}</h5>
                                         <p class="card-text text-white">{{contact.description}}</p>
                                         {% if contact.name %}
-                                        <a class="btn btn-primary" href="hireme/{{ contact.id }}">{{ contact.category.name}}</a>
+                                        <a class="btn btn-primary" href="hireme/{{ contact.id }}">{{
+                                            contact.category.name}}</a>
                                         {% endif %}
                                     </div>
                                 </div>
@@ -44,4 +44,5 @@
         </div>
     </div>
 </div>
+<hr>
 {% endblock %}
