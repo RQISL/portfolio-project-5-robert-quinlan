@@ -16,10 +16,6 @@ body {
     border: solid 5px blue;
 }
 
-.imagefit{
-    width: 10%;
-    border: palevioletred solid 3px;
-}
 
 .fade-out-element {
     background-color: black;
@@ -35,6 +31,10 @@ body {
     position: relative;
     top: 0;
     left: 0;
+}
+
+p {
+    color: blanchedalmond !important;
 }
 
 /* Style the sidenav links and the dropdown button */
