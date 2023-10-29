@@ -34,8 +34,14 @@ body {
 }
 
 p {
-    color: blanchedalmond !important;
+    color: white !important;
+    line-height: 1.8;
 }
+
+.footer_btn{
+    border-radius: 25px 25px 0 0;
+}
+
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
@@ -117,8 +123,8 @@ p {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
-    opacity: 0.6;
+    background: black;
+    opacity: 0.3;
     z-index: -1;
 }
 
