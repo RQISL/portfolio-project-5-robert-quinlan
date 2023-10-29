@@ -2,43 +2,30 @@
 {% load static %}
 
 {% block content %}
-<div class="fade-out-element h-100 text-white"></div>
-    <div class="container h-100 bg-dark">
-        <h3 class="display-4 logo-font d-flex justify-content-center text-white">
-           Elena Swwczenko
-        </h3>
-        <hr class="text-white">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto d-flex justify-content-center">
-                <h1 class="display-4 logo-font text-white">
-                    Image
-                </h1>
+<div class="overlay"></div>
+<h3 class="display-4 logo-font d-flex justify-content-center">
+    Elena's Talent Artist 
+</h3>
+<hr class="text-white">
+<div class="container bg-dark mt-0">
+    <div class="row cols-md-2 mb-5">
+        <div class="col-xl-6 text-center mt-3 p-5">
+            <div>
+                <div>
+                    <img class="d-block w-100" src="{{ home_page.image.url }}" alt="{{ home_page.name }}">
+                </div>
             </div>
-            <div class="col-7 col-md-6 my-auto d-flex justify-content-center">
-                <h1 class="display-4 logo-font text-white">
-                    Text/ISL video
-                </h1>
+        </div>
+        <div class="col-xl-6 p-5">
+            <div>
+                <div class="col mt-3 p-3 border border-white">
+                    <h1 class="text-white">{{ elena_info.head }}</h1>
+                    <br>
+                    <p> {{ elena_info.info|linebreaks }} </p>
+                </div>
             </div>
         </div>
     </div>
-{% endblock %}
-
-{% block postloadjs %}
-{{ block.super }}
-<script>
-    var element = document.querySelector('.fade-out-element');
-    function fadeOut(el) {
-        var opacity = 1; // Initial opacity
-        var interval = setInterval(function () {
-            if (opacity > 0) {
-                opacity -= 0.1;
-                el.style.opacity = opacity;
-            } else {
-                clearInterval(interval); // Stop the interval when opacity reaches 0
-                el.style.display = 'none'; // Hide the element
-            }
-        }, 450);
-    }
-    fadeOut(element);
-</script>
+</div>
+<footer></footer>
 {% endblock %}
