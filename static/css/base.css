@@ -2,10 +2,40 @@ html {
     height: 100%;
 }
 
+/* color palette hex css
+
+--pearl: #D1CEAFff;
+--mountbatten-pink: #AD6E86ff;
+--silver-lake-blue: #5989C2ff; 
+--davys-gray: #4D4C52ff; 
+
+I use contrast color checker at https: //coolors.co/contrast-checker
+
+above the colour palette which I choose it but it was bit a bright so I changed 
+to get bit dark color here is below: 
+--davys-gray to dark Grey: #242327
+--silver-lake-blue to dark lake-blue: #355276
+
+*/
+
 body {
-    color: black;
-    font-family: 'Lato';
+    font-family: 'Roboto';
     background: url("https://res.cloudinary.com/dhl4uxgix/image/upload/v1697640545/knyocy3kodch53p1kgdf.jpg") center/cover no-repeat fixed;
+}
+
+.container{
+    background-color: #242327;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 .box_color{
@@ -32,16 +62,6 @@ body {
     top: 0;
     left: 0;
 }
-
-p {
-    color: white !important;
-    line-height: 1.8;
-}
-
-.footer_btn{
-    border-radius: 25px 25px 0 0;
-}
-
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
@@ -79,7 +99,7 @@ p {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* /* Dropdown  */
 .slidedown {
     display: none;
     padding-left: 8px;
@@ -115,17 +135,7 @@ p {
 .material-icons {
     float: right;
     padding: 8px 30px 0 0;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: black;
-    opacity: 0.3;
-    z-index: -1;
+    border: solid red 3px;
 }
 
 /* from Bulma */
@@ -138,7 +148,7 @@ p {
 }
 
 .logo-font {
-    text-transform: uppercase;
+    font-family: 'Agbalumo';
 }
 
 .main-logo-link {
@@ -192,16 +202,6 @@ p {
     background: #000 !important;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
-}
-
 a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
@@ -223,6 +223,38 @@ a.category-badge>span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+}
+
+p {
+    color: white !important;
+    line-height: 1.8;
+}
+footer{
+    height: 90px;
+}
+.footer_btn {
+    border-radius: 25px 25px 0 0;
+    background-color: #242327 !important;
+    color: white !important
+}
+
+.footer_btn:hover {
+    background-color: #D1CEAFff !important;
+    color: black !important;
+}
+
+.card, .card-body, .card-footer {
+    background-color: #355276;
+}
+
+.btn {
+    background-color: #D1CEAFff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #ad6e86;
+    color: white;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -360,28 +392,3 @@ input[name='q']::placeholder {
     /* text-info */
 }
 
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
