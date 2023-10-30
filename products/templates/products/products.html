@@ -1,12 +1,28 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+<a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+    href="{% url 'gallery_view_bag' %}">
+    <div class="text-center position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 bg-white rounded-3">
+        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+        <p class="my-0 text-black">
+            {% if grand_total %}
+            ${{ grand_total|floatformat:2 }}
+            {% else %}
+            $0.00
+            {% endif %}
+        </p>
+    </div>
+</a>
+{% endblock %}
+
 {% block content %}
 <div class="overlay"></div>
-<div class="container bg-dark py-5">
+<div class="container pt-2 pb-5">
     <div class="row">
-        <div class="col mt-3">
-            <h2 class="logo-font text-white text-center">Art Gallery</h2>
+        <div class="col mt-0">
+            <h2 class=" display-4 logo-font text-white text-center">Art Gallery</h2>
                 <div class="col-12 my-auto order-md-last">
                     <div class="sort-select-wrapper d-flex justify-content-end w-100">
                         <select id="sort-selector"
@@ -15,10 +31,6 @@
                             <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)
                             </option>
                             <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)
-                            </option>
-                            <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)
-                            </option>
-                            <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)
                             </option>
                             <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
                             <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
@@ -37,7 +49,7 @@
             <div class="row mt-1 mb-2"></div>
             <div class="row">
                 {% for product in products %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 bg-dark">
                     <div class="card h-100 border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
@@ -50,17 +62,12 @@
                         </a>
                         {% endif %}
                         <div class="card-body pb-0">
-                            <p class="mb-0">{{ product.name }}</p>
+                            <p class="mb-0 text-white">{{ product.name }}</p>
                         </div>
-                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                        <div class="card-footer pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                    {% if product.rating %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                    {% else %}
-                                    <small class="text-muted">No Rating</small>
-                                    {% endif %}
+                                    <p class="lead mb-0 text-left font-weight-bold text-white">${{ product.price }}</p>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +89,7 @@
                 </div>
                 {% endif %}
                 {% if forloop.counter|divisibleby:4 %}
-                <div class="col-12 d-none d-xl-block mb-5 box_blue">
+                <div class="col-12 d-none d-xl-block mb-5">
                     <hr>
                 </div>
                 {% endif %}

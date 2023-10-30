@@ -2,9 +2,11 @@
     max-height: 416px;
     /* height of profile form + submit button */
     overflow-y: auto;
+    background-color: #D1CEAFff;
 }
 
 #profile-update-form .form-control {
+    background-color: #D1CEAFff;
     color: #000;
     margin-bottom: 1rem;
 }

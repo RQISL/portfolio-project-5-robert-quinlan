@@ -7,15 +7,22 @@
 {% endblock %}
 
 {% block page_header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
+<a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+    href="{% url 'gallery_view_bag' %}">
+    <div class="text-center position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 bg-white rounded-3">
+        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+        <p class="my-0 text-black">
+            {% if grand_total %}
+            ${{ grand_total|floatformat:2 }}
+            {% else %}
+            $0.00
+            {% endif %}
+        </p>
     </div>
-</div>
+</a>
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
 <div class="container">
     <div class="row">
         <div class="col">
@@ -150,6 +157,7 @@
         </span>
     </h1>
 </div>
+<footer></footer>
 {% endblock %}
 
 {% block postloadjs %}
