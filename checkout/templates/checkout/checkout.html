@@ -13,9 +13,9 @@
         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
         <p class="my-0 text-black">
             {% if grand_total %}
-            ${{ grand_total|floatformat:2 }}
+            &#8364;{{ grand_total|floatformat:2 }}
             {% else %}
-            $0.00
+            &#8364;0.00
             {% endif %}
         </p>
     </div>
@@ -23,17 +23,17 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="overlay"></div>
+<div class="container p-5">
     <div class="row">
-        <div class="col">
-            <hr>
-            <h2 class="logo-font mb-4">Checkout Test</h2>
-            <hr>
+        <div class="col p-3">
+            <h2 class=" display-4 logo-font text-white text-center">Checkout</h2>
+            <hr class="w-100 text-white mb-1">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-12 col-lg-6 order-lg-last mb-5">
+        <div class="col-12 col-lg-6 order-lg-last mb-5 bg_color">
             <p class="text-muted">Order Summary ({{ product_count }})</p>
             <div class="row">
                 <div class="col-7 offset-2">
@@ -55,26 +55,26 @@
                     </a>
                 </div>
                 <div class="col-7">
-                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                    <p class="my-0 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                    <p class="my-0 text-black"><strong>{{ item.product.name }}</strong></p>
+                    <p class="my-0 text-black small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                     <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                 </div>
                 <div class="col-3 text-right">
-                    <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                    <p class="my-0 small text-muted">&#8364;{{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </div>
             </div>
             {% endfor %}
             <hr class="my-0">
             <div class="row text-black text-right">
                 <div class="col-7 offset-2">
-                    <p class="my-0">Order Total:</p>
-                    <p class="my-0">Delivery:</p>
-                    <p class="my-0">Grand Total:</p>
+                    <p class="my-0 text-black">Order Total:</p>
+                    <p class="my-0 text-black ">Delivery:</p>
+                    <p class="my-0 text-black">Grand Total:</p>
                 </div>
                 <div class="col-3">
-                    <p class="my-0">${{ total | floatformat:2 }}</p>
-                    <p class="my-0">${{ delivery | floatformat:2 }}</p>
-                    <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                    <p class="my-0 text-black">&#8364;{{ total | floatformat:2 }}</p>
+                    <p class="my-0 text-black">&#8364;{{ delivery | floatformat:2 }}</p>
+                    <p class="my-0 text-black"><strong>&#8364;{{ grand_total | floatformat:2 }}</strong></p>
                 </div>
             </div>
         </div>
@@ -83,13 +83,13 @@
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                 {% csrf_token %}
                 <fieldset class="rounded px-3 mb-5">
-                    <legend class="fieldset-label small text-black px-2 w-auto"><h5>Details</h5></legend>
+                    <legend class="fieldset-label small text-white px-2 w-auto"><h5>Details</h5></legend>
                     {{ order_form.full_name | as_crispy_field }}
                     <div class="mb-2"></div>
                     {{ order_form.email | as_crispy_field }}
                 </fieldset>
                 <fieldset class="rounded px-3 mb-5">
-                    <legend class="fieldset-label small text-black px-2 w-auto"><h5>Delivery</h5></legend>
+                    <legend class="fieldset-label small text-white px-2 w-auto"><h5>Delivery</h5></legend>
                     {{ order_form.phone_number | as_crispy_field }}
                     <div class="mb-2"></div>
                     {{ order_form.street_address1 | as_crispy_field }}
@@ -103,21 +103,23 @@
                     {{ order_form.country | as_crispy_field }}
                     <div class="mb-2"></div>
                     {{ order_form.postcode | as_crispy_field }}
-                    <div class="form-check form-check-inline float-right mr-0">
+                    <div class="form-check text-white form-check-inline float-right mr-0">
                         {% if user.is_authenticated %}
                         <label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
                         <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info"
                             checked>
                         {% else %}
+                        <div class="box_color">
                         <label class="form-check-label" for="id-save-info">
-                            <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or
-                            <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
+                            <a class="text-white box_color" href="{% url 'account_signup' %}">Create an account</a> or
+                            <a class="text-white" href="{% url 'account_login' %}">login</a> to save this information
                         </label>
+                        </div>
                         {% endif %}
                     </div>
                 </fieldset>
-                <fieldset class="px-3">
-                    <legend class="fieldset-label small text-black px-2 w-auto"><h5>Payment</h5></legend>
+                <fieldset class="px-3 text-white">
+                    <legend class="fieldset-label small text-white px-2 w-auto"><h5>Payment</h5></legend>
                     <!-- A Stripe card element will go here -->
                     <div class="mb-3" id="card-element"></div>
                     <!-- Used to display form errors -->
@@ -143,7 +145,7 @@
                         <span class="icon">
                             <i class="fas fa-exclamation-circle"></i>
                         </span>
-                        <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                        <span>Your card will be charged <strong>&#8364;{{ grand_total|floatformat:2 }}</strong></span>
                     </p>
                 </div>
             </form>
@@ -160,8 +162,34 @@
 <footer></footer>
 {% endblock %}
 
+{% if messages %}
+<div class="message-container fade show">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
+{% endif %}
+
 {% block postloadjs %}
 {{ block.super }}
+
+<script type="text/javascript">
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+    })
+</script>
+
 {{ stripe_public_key|json_script:"id_stripe_public_key" }}
 {{ client_secret|json_script:"id_client_secret" }}
 <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>

@@ -12,9 +12,9 @@
         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
         <p class="my-0 text-black">
             {% if grand_total %}
-            ${{ grand_total|floatformat:2 }}
+            &#8364;{{ grand_total|floatformat:2 }}
             {% else %}
-            $0.00
+            &#8364;0.00
             {% endif %}
         </p>
     </div>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-8 text-md-right">
-                        <p class="mb-0 text-black">{{ item.quantity }} @ ${{ item.product.price }} each</p>
+                        <p class="mb-0 text-black">{{ item.quantity }} @ &#8364;{{ item.product.price }} each</p>
                     </div>
                 </div>
                 {% endfor %}
@@ -212,4 +212,32 @@
     </div>
 </div>
 <footer></footer>
+{% endblock %}
+
+{% if messages %}
+<div class="message-container fade show">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
+{% endif %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+    })
+</script>
 {% endblock %}
