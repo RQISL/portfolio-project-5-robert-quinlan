@@ -9,9 +9,9 @@
         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
         <p class="my-0 text-black">
             {% if grand_total %}
-            ${{ grand_total|floatformat:2 }}
+            &#8364;{{ grand_total|floatformat:2 }}
             {% else %}
-            $0.00
+            &#8364;0.00
             {% endif %}
         </p>
     </div>
@@ -22,10 +22,9 @@
 <div class="overlay"></div>
 <div class="container mb-2">
     <div class="row">
-        <div class="col">
-            <hr>
-            <h2 class="logo-font mb-4">Shopping Bag</h2>
-            <hr>
+        <div class="col p-3">
+            <h2 class=" display-4 logo-font text-white text-center">Checkout</h2>
+            <hr class="w-100 text-white mb-1">
         </div>
     </div>
 
@@ -55,7 +54,7 @@
                             <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">${{ item.product.price }}</p>
+                            <p class="my-0">&#8364;{{ item.product.price }}</p>
                         </td>
                         <td class="py-3 w-25">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -71,7 +70,7 @@
                                             </button>
                                         </div>
                                         <input class="form-control form-control-sm qty_input" type="number"
-                                            name="quantity" value="{{ item.quantity }}" min="1" max="99"
+                                            name="quantity" value="{{ item.quantity }}" min="1" max="3"
                                             data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                         <div class="input-group-append">
                                             <button class="increment-qty btn btn-sm btn-black rounded-0"
@@ -92,18 +91,18 @@
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0">&#8364; {{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </td>
                     </tr>
                     {% endfor %}
                     <tr>
                         <td colspan="5" class="pt-5 text-right">
-                            <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
-                            <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                            <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                            <h6><strong>Bag Total: &#8364;{{ total|floatformat:2 }}</strong></h6>
+                            <h6>Delivery: &#8364; {{ delivery|floatformat:2 }}</h6>
+                            <h4 class="mt-4"><strong>Grand Total: &#8364;{{ grand_total|floatformat:2 }}</strong></h4>
                             {% if free_delivery_delta > 0 %}
                             <p class="mb-1 text-danger">
-                                You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong>
+                                You could get free delivery by spending just <strong>&#8364;{{ free_delivery_delta }}</strong>
                                 more!
                             </p>
                             {% endif %}
@@ -139,11 +138,37 @@
         </div>
     </div>
 </div>
+<footer></footer>
 {% endblock %}
+
+{% if messages %}
+<div class="message-container fade show">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
+{% endif %}
 
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
+
+<script type="text/javascript">
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+    })
+</script>
 
 <script type="text/javascript">
     // Update quantity on click

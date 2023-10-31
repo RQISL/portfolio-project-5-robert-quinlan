@@ -8,13 +8,32 @@
         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
         <p class="my-0 text-black">
             {% if grand_total %}
-            ${{ grand_total|floatformat:2 }}
+            &#8364;{{ grand_total|floatformat:2 }}
             {% else %}
-            $0.00
+            &#8364;0.00
             {% endif %}
         </p>
     </div>
 </a>
+
+{% if messages %}
+<div class="message-container position-fixed d-flex justify-content-end fade show">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
+{% endif %}
+
 {% endblock %}
 
 {% block content %}
@@ -43,7 +62,7 @@
         <div class="col-12 col-lg-6 d-flex justify-content-start">
             <div class="product-details-container ps-4 mb-5 mt-md-5">
                 <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 font-weight-bold">${{ product.price }}</p>
+                <p class="lead mb-0 font-weight-bold">&#8364;{{ product.price }}</p>
                 {% if product.category %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -117,8 +136,33 @@
 <footer></footer>
 {% endblock %}
 
+{% if messages %}
+<div class="message-container fade show">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
+{% endif %}
 
 {% block postloadjs %}
 {{ block.super }}
+
+<script type="text/javascript">
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+    })
+</script>
+
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
