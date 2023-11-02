@@ -41,7 +41,6 @@ body {
 .offcanvas {
     background-color: #355276 !important;
     color: white !important;
-    border: red solid 3px;
 }
 
 .nav-link:hover {
@@ -85,7 +84,7 @@ body {
     text-align: left;
     cursor: pointer;
     position:relative;
-    color: gray;
+    color: white;
     width: 100%;
 
 }
@@ -100,7 +99,7 @@ body {
         height: 2px;
         bottom: 0;
         left: 10px;
-        background-color: gray;
+        background-color: white;
         transform-origin: bottom right;
         transition: transform 0.45s ease-out;
 }
@@ -262,11 +261,21 @@ footer{
 }
 
 .btn {
+    background-color: #D1CEAFff !important;
+    color: black !important;
+}
+
+.btn:hover {
+    background-color: #ad6e86 !important;
+    color: white !important;
+}
+
+button[type=submit] {
     background-color: #D1CEAFff;
     color: black;
 }
 
-.btn:hover {
+button[type=submit]:hover {
     background-color: #ad6e86;
     color: white;
 }
@@ -274,7 +283,7 @@ footer{
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
-    top: 122px;
+    top: 120px;
     right: 15px;
     z-index: 99999999999;
 }
@@ -407,5 +416,9 @@ footer{
 .allauth-form-inner-content a {
     color: #17a2b8;
     /* text-info */
+}
+
+.form-control{
+    background-color: #D1CEAFff;
 }
 

@@ -5,25 +5,9 @@
 <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
-{% block page_header %}
-<a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-    href="{% url 'gallery_view_bag' %}">
-    <div class="text-center position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 bg-white rounded-3">
-        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-        <p class="my-0 text-black">
-            {% if grand_total %}
-            &#8364;{{ grand_total|floatformat:2 }}
-            {% else %}
-            &#8364;0.00
-            {% endif %}
-        </p>
-    </div>
-</a>
-{% endblock %}
-
 {% block content %}
 <div class="overlay"></div>
-<div class="container pb-3">
+<div class="container mt-5 pb-3">
     <h3 class="display-4 logo-font p-3 d-flex justify-content-center text-white">
       Thank you
     </h3>
@@ -213,24 +197,6 @@
 </div>
 <footer></footer>
 {% endblock %}
-
-{% if messages %}
-<div class="message-container fade show">
-    {% for message in messages %}
-    {% with message.level as level %}
-    {% if level == 40 %}
-    {% include 'includes/toasts/toast_error.html' %}
-    {% elif level == 30 %}
-    {% include 'includes/toasts/toast_warning.html' %}
-    {% elif level == 25 %}
-    {% include 'includes/toasts/toast_success.html' %}
-    {% else %}
-    {% include 'includes/toasts/toast_info.html' %}
-    {% endif %}
-    {% endwith %}
-    {% endfor %}
-</div>
-{% endif %}
 
 {% block postloadjs %}
 {{ block.super }}
