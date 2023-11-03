@@ -9,20 +9,18 @@
 <div class="container">
     <div class="row">
         <div class="col text-center text-white mt-3">
-            {% for contact in contactus %}
-            <h2 class="logo-font text-white">{{contact.name}}</h2>
-            {% endfor %}
+            <h2 class=" display-4 logo-font p-3 text-white">{{ contactus.name }}</h2>
             <hr class="w-100 mb-1 text-white">
         </div>
-        <div class="rowd-flex justify-content-between ">
-            <div class="col">
+        <div class="row d-flex justify-content-between">
+            <div class="col-12">
             <form class="mt-3 text-white" action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
                 {{form|crispy}}
                 <button class="btn rounded-0 text-uppercase float-end mb-5">Sending message</button>
             </form>
             </div>
-            <div class="col">
+            <div class="col-12 box_color">
             <a class="btn rounded-0 text-uppercase float-start" href="{% url 'contact' %}">Back to Contact page</a>
             </div>
         </div>

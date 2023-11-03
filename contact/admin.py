@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import ContactUs, ContactCategory, FormDynmaic
+from .models import ContactUs
 
 # Register your models here.
+
 class ContactUsAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -12,17 +13,5 @@ class ContactUsAdmin(admin.ModelAdmin):
 
     ordering = ('sku',)
 
-class ContactCategoryAdmin(admin.ModelAdmin):
-    list_display = (
-        'friendly_name',
-        'name',
-    )
-
-class DynmaicFormAdmin(admin.ModelAdmin):
-    list_display = (
-        'name',
-    )
 
 admin.site.register(ContactUs, ContactUsAdmin)
-admin.site.register(ContactCategory, ContactCategoryAdmin)
-admin.site.register(FormDynmaic, DynmaicFormAdmin)

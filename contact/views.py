@@ -4,7 +4,7 @@ from django.template import loader
 from django.core.mail import send_mail, BadHeaderError
 
 from .forms import ContactForm 
-from .models import ContactUs, FormDynmaic
+from .models import ContactUs
 
 
 # Create your views here.
@@ -15,12 +15,12 @@ def contact_us(request):
     context = {
         "contactus": contactus, 
     }
-
+    
     return render(request, 'contact/contact.html', context)
 
 def hireme(request, id):
     """ A view to return the category painting page """
-    contactus = FormDynmaic.objects.filter(id=id)
+    contactus = ContactUs.objects.get(id=id)
     template = loader.get_template('contact/hireme.html')
     
     if request.method == 'POST':
@@ -46,6 +46,6 @@ def hireme(request, id):
         "contactus": contactus,
         "form": form 
     }
-
-    return HttpResponse(template.render(context, request))  
     
+    return HttpResponse(template.render(context, request))  
+  

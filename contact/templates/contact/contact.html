@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container">
+<div class="container py-5">
     <div class="row">
         <div class="col text-center mt-3">
         <h2 class=" display-4 logo-font p-3 text-white">Contact Us</h2>
@@ -27,7 +27,7 @@
                             <h5 class="card-title text-white">{{ contact.name }}</h5>
                             <p class="card-text text-white">{{ contact.description }}</p>
                             {% if contact.name %}
-                            <a class="btn btn-primary" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
+                            <a class="btn btn-primary box_color" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
                             {% endif %}
                         </div>
                     </div>
