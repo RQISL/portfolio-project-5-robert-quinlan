@@ -124,7 +124,7 @@
     <div class="slidedown">
         {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
-        <a class="hover-underline-animation" href="">Product Management</a>
+        <a class="hover-underline-animation" href="{% url 'add_product' %}">Product Management</a>
         {% endif %}
         <a class="hover-underline-animation" href="{% url 'profile' %}">My Profile</a>
         <a class="hover-underline-animation" href="{% url 'account_logout' %}">Logout</a>
