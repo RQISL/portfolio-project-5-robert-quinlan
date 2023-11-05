@@ -6,7 +6,13 @@ def aboutus(request):
     """ A view to return the about us page """
     about_us = AboutUs.objects.all()
     about = BioDetail.objects.get()
+
+    template = 'about/about.html'
+
+    context = {
+        'about_us': about_us,
+        'about': about
+    }
     
-    
-    return render(request, 'about/about.html', {'about_us': about_us, 'about': about})
+    return render(request, template, context)
 
