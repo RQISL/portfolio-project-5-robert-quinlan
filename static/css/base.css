@@ -84,7 +84,7 @@ body {
     text-align: left;
     cursor: pointer;
     position:relative;
-    color: white;
+    color: white !important;
     width: 100%;
 
 }
