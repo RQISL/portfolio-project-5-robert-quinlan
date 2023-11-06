@@ -5,10 +5,27 @@
 <div class="overlay"></div>
 <div class="container py-5">
     <div class="row">
-        <div class="col text-center mt-3">
+        <div class="col text-center">
         <h2 class=" display-4 logo-font p-3 text-white">Contact Us</h2>
         <hr class="w-100 mb-3 text-white">
         </div>
+        {% if request.user.is_superuser %}
+        <div class="col-12 text-white text-right">
+            <form method="POST" action="{% url 'add_category' %}" class="form mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% for field in form %}
+                {% if field.name != 'image' %}
+                {{ field | as_crispy_field }}
+                {% else %}
+                {{ field }}
+                {% endif %}
+                {% endfor %}
+                <div class="text-right mt-3">
+                    <button class="btn btn-black rounded-0" type="submit">Add category</button>
+                </div>
+            </form>
+        </div>
+        {% endif %}
     </div>
     <div class="row">
         <div class="product-container col-10 offset-1">
@@ -27,9 +44,15 @@
                             <h5 class="card-title text-white">{{ contact.name }}</h5>
                             <p class="card-text text-white">{{ contact.description }}</p>
                             {% if contact.name %}
-                            <a class="btn btn-primary box_color" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
+                            <a class="btn" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
                             {% endif %}
                         </div>
+                        {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'delete_category' contact.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_category' contact.id %}">Delete</a>
+                        </small>
+                        {% endif %}
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:1 %}
