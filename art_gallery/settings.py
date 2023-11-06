@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home_page',
-    'about',
+    'about_page',
     'products',
     'search_product',
     'gallery_bag',
