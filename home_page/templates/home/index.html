@@ -26,13 +26,13 @@
                     <p> {{ home_personal.info|linebreaks }} </p>
                 </div>
             </div>
+            {% if request.user.is_superuser %}
+            <small>
+                <a class="btn rounded-0 my-3" href="{% url 'edit_home_page' %}">Edit your personal page</a>
+            </small>
+            {% endif %}
         </div>
     </div>
-    {% if request.user.is_superuser %}
-    <small class="ml-3">
-        <a href="{% url 'edit_home_page' %}">Edit</a>
-    </small>
-    {% endif %}
 </div>
 <footer></footer>
 {% endblock %}
