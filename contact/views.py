@@ -69,7 +69,7 @@ def add_contact_category(request):
     else:
         form = CategoryContactForm()
         
-    template = 'contact/add_category.html'
+    template = 'contact/add_contact_category.html'
     context = {
         'form': form,
     }
@@ -95,7 +95,7 @@ def edit_contact_category(request, contact_id):
     else:
         form = CategoryContactForm()
         
-    template = 'contact/edit_category.html'
+    template = 'contact/edit_contact_category.html'
     context = {
         'form': form,
     }

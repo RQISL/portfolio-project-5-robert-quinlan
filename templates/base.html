@@ -68,15 +68,16 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg fixed-top">
-    <button style="cursor: pointer;" class=" m-3 btn bg-white" type="button" data-bs-toggle="offcanvas"
+    <nav class="navbar d-flex justify-content-between fixed-top">
+    <button class="ms-5 btn" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars'
-            style='font-size:48px; color: black;'></i></button>
+            style='font-size:48px; cursor: pointer;'></i></button>
+    <div><img class="img-fluid" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699373391/Elena_Logo_lkgrt2.png" style="height: 120px;" alt="Art painting logo with her name is Elena Sawczenko"></div>
 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
     href="{% url 'gallery_view_bag' %}">
-    <div class="text-center position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 bg-white rounded-3">
-        <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-        <p class="my-0 text-black">
+    <div class="text-center position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 rounded-3" style="background-color: #194759; color: #ebf2f1;">
+        <div><i class="fas fa-shopping-bag fa-lg" style="color: #ebf2f1;"></i></div>
+        <p class="my-0">
             {% if grand_total %}
             &#8364;{{ grand_total|floatformat:2 }}
             {% else %}
@@ -109,7 +110,7 @@
         aria-labelledby="offcanvasWithBackdropLabel">
         <div class="offcanvas-header">
             <h4>Menu</h4>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div> 
         <!-- closed offcanvas-header -->
         <div class="offcanvas-body">
@@ -141,7 +142,7 @@
 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasBottomLabel">Information</h5>
-        <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-evenly">
         <ul class="nav flex-column m-1">
@@ -184,16 +185,18 @@
 
 {% block postloadjs %}
 
+<script type="text/javascript">
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+    })
+</script>
+
+
 <script>
 $(document).ready(function () {
 $(".dropdown_btn").click(function () {
 $(".slidedown").slideToggle("slow");
-});
-});
-
-$(document).ready(function () {
-$(".button_dropdown").click(function () {
-$(".slidedown_gallery").slideToggle("slow");
 });
 });
 </script>

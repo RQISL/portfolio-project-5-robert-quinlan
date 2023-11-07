@@ -2,49 +2,39 @@ html {
     height: 100%;
 }
 
-/* color palette hex css
-
---pearl: #D1CEAFff;
---mountbatten-pink: #AD6E86ff;
---silver-lake-blue: #5989C2ff; 
---davys-gray: #4D4C52ff; 
-
-I use contrast color checker at https: //coolors.co/contrast-checker
-
-above the colour palette which I choose it but it was bit a bright so I changed 
-to get bit dark color here is below: 
---davys-gray to dark Grey: #242327
---silver-lake-blue to dark lake-blue: #355276
-
-*/
-
 body {
     font-family: 'Roboto';
-    background: url("https://res.cloudinary.com/dhl4uxgix/image/upload/v1697640545/knyocy3kodch53p1kgdf.jpg") center/cover no-repeat fixed;
+    background-color: #194759;
+    margin-top: 130px;
 }
 
+.navbar {
+    background-color: #A7F2E4;
+}
 .container{
-    background-color: #242327;
+    background-color: #7EBFB3;
+    color: #194759;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    opacity: 0.3;
-    z-index: -1;
+.logo-font {
+    font-family: 'Agbalumo';
+}
+
+hr,h1, h2, h3 {
+    color: #194759;
+}
+
+p {
+    line-height: 1.8;
+}
+
+thead, tbody {
+    color: #194759;
 }
 
 .offcanvas {
-    background-color: #355276 !important;
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: #AD6E86ff !important;
+    background-color: #194759 !important;
+    color: #ebf2f1 !important;
 }
 
 .box_color{
@@ -55,14 +45,6 @@ body {
     border: solid 5px blue;
 }
 
-
-.fade-out-element {
-    background-color: black;
-    top: 0;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-}
 /* Fixed sidenav, full height */
 .sidenav {
     height: 100%;
@@ -120,27 +102,6 @@ body {
     padding-right: 20px;
 }
 
-.sidenav_gallery a,
-.button_dropdown {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.2em;
-    display: block;
-    border-top: solid black 2px;
-    background: white;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    color: black;
-    width: 20%;
-    margin: auto;
-}
-
-.slidedown_gallery {
-    display: none;
-    padding-left:0;
-}
-
 .material-icons {
     float: right;
     padding: 8px 30px 0 0;
@@ -155,64 +116,16 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    font-family: 'Agbalumo';
-}
-
-.main-logo-link {
-    width: fit-content;
-}
-
-.shop-now-button {
-    background: #D1CEAFff;
-    color: black;
-    min-width: 260px;
-}
-
-.btn-black {
-    background:#D1CEAFff;
-    color: black;
-}
-
-.btn-outline-black {
-    background: #D1CEAFff;
-    color: black !important;
-    /* use important to override link colors for <a> elements */
-    border: 1px solid black;
-}
-
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: #D1CEAFff;
-    color: white !important;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #D1CEAFff;
-    color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #D1CEAFff!important;
+    background: #194759 !important;
+    color: #ebf2f1 !important;
 }
 
 a.category-badge>span.badge:hover {
-    background: #D1CEAFff !important;
-    color: black !important;
+    background: #194759 !important;
+    color: #ebf2f1 !important;
 }
 
 .btt-button {
@@ -233,10 +146,7 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-p {
-    color: white !important;
-    line-height: 1.8;
-}
+
 footer{
     width: auto;
     height: 90px;
@@ -247,13 +157,12 @@ footer{
     width: fit-content;
     margin: auto;
     border-radius: 25px 25px 0 0;
-    background-color: #242327 !important;
-    color: white !important;
+    border: red solid 5px;
 }
 
 .footer_btn:hover {
-    background-color: #D1CEAFff !important;
-    color: black !important;
+    background-color: #7EBFB3 !important;
+    color: #ebf2f1 !important;
 }
 
 .card, .card-body, .card-footer {
@@ -261,23 +170,24 @@ footer{
 }
 
 .btn {
-    background-color: #D1CEAFff !important;
-    color: black !important;
+    background: #194759 !important;
+    color: #ebf2f1 !important;
 }
 
 .btn:hover {
-    background-color: #ad6e86 !important;
-    color: white !important;
+    background: #194759 !important;
+    color: #ebf2f1 !important;
+    border: solid 2px #194759;
 }
 
 button[type=submit] {
-    background-color: #D1CEAFff;
-    color: black;
+    background-color: #194759 !important;
+    color: #ebf2f1 !important;
 }
 
 button[type=submit]:hover {
-    background-color: #ad6e86;
-    color: white;
+    background-color: #7EBFB3 !important;
+    color: #194759 !important;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -286,10 +196,12 @@ button[type=submit]:hover {
     top: 120px;
     right: 15px;
     z-index: 99999999999;
+    color: #ebf2f1;
+    width: 20%;
 }
 
 .toast {
-    background-color: #D1CEAFff;
+    background-color: #194759;
 }
 
 .custom-toast {
@@ -297,7 +209,7 @@ button[type=submit]:hover {
 }
 
 .toast-capper {
-    height: 60px;
+    height: 30px;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -419,7 +331,7 @@ button[type=submit]:hover {
 }
 
 .form-control{
-    background-color: #D1CEAFff;
+    background-color: #ebf2f1;
 }
 
 /* Product Form */

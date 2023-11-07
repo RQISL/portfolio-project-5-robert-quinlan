@@ -109,7 +109,7 @@ def add_category(request):
 
 
 @login_required
-def edit_category(request, product_id):
+def edit_category(request, categoriesgroup_id):
     """ Edit a product in the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
@@ -130,7 +130,7 @@ def edit_category(request, product_id):
     context = {
         'form': form,
     }
-
+    print(categoriesgroup_id)
     return render(request, template, context)
 
 

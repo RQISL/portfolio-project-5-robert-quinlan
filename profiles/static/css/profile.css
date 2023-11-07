@@ -2,12 +2,13 @@
     max-height: 416px;
     /* height of profile form + submit button */
     overflow-y: auto;
-    background-color: #D1CEAFff;
+    background-color: #ebf2f1;
+    padding: 10px;
 }
 
 #profile-update-form .form-control {
-    background-color: #D1CEAFff;
-    color: #000;
+    background-color: #ebf2f1;
+    color: #194759;
     margin-bottom: 1rem;
 }
 
@@ -17,7 +18,7 @@
 
 #id_default_country,
 #id_default_country option:not(:first-child) {
-    color: #000;
+    color: #194759;
 }
 
 #id_default_country option:first-child {

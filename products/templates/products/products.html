@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block content %}
-<div class="overlay"></div>
+
 <div class="container mt-5 pt-2 pb-5">
     <div class="row">
         <div class="col mt-0">
-            <h2 class=" display-4 logo-font text-white text-center">Art Gallery</h2>
+            <h2 class=" display-4 logo-font text-center">Art Gallery</h2>
                 <div class="col-12 my-auto order-md-last">
                     <div class="sort-select-wrapper d-flex justify-content-end w-100">
                         <select id="sort-selector"
@@ -25,7 +25,7 @@
                         </select>
                     </div>
                 </div>
-            <hr class="w-100 text-white mb-1">
+            <hr class="w-100 mb-1">
         </div>
     </div>
     <div class="row">
@@ -46,12 +46,12 @@
                         </a>
                         {% endif %}
                         <div class="card-body pb-0">
-                            <p class="mb-0 text-white">{{ product.name }}</p>
+                            <p class="mb-0">{{ product.name }}</p>
                         </div>
                         <div class="card-footer pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead mb-0 text-left font-weight-bold text-white">&#8364;{{ product.price }}</p>
+                                    <p class="lead mb-0 text-left font-weight-bold">&#8364;{{ product.price }}</p>
                                 </div>
                                 {% if request.user.is_superuser %}
                                 <small class="ml-3">
@@ -97,19 +97,6 @@
 
 {% block postloadjs %}
 {{ block.super }}
-
-<script type="text/javascript">
-    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
-    var toastList = toastElList.map(function (toastEl) {
-        return new bootstrap.Toast(toastEl)
-    })
-</script>
-
-<script type="text/javascript">
-    $('.btt-link').click(function (e) {
-        window.scrollTo(0, 0)
-    })
-</script>
 
 <script type="text/javascript">
     $('#sort-selector').change(function () {

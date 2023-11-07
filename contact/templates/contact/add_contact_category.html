@@ -17,10 +17,10 @@
             <form method="POST" action="{% url 'add_category' %}" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
-                    {% if field.name != 'image' %}
-                    {{ field | as_crispy_field }}
+                {% if field.name != 'image' %}
+                {{ field | as_crispy_field }}
                 {% else %}
-                    {{ field }}
+                {{ field }}
                 {% endif %}
                 {% endfor %}
                 <div class="text-right mt-3">

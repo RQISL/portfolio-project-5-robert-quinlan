@@ -2,12 +2,11 @@
 {% load static %}
 
 {% block content %}
-<div class="overlay"></div>
 <div class="container">
-    <h3 class="display-4 logo-font p-3 d-flex justify-content-center text-white">
+    <h3 class="display-4 logo-font p-3 d-flex justify-content-center">
         About Us
     </h3>
-    <hr class="text-white">
+    <hr>
     <div class="row cols-md-2 mb-5">
         <div class="col-xl-6 text-center mt-3 p-5">
                     {% if about_us.image %}
@@ -20,7 +19,7 @@
         <div class="col-xl-6 p-5">
             <div>
                 <div class="col mt-3 p-3 border border-white">
-                    <h1 class="text-white">{{ about_us.title }}</h1>
+                    <h1>{{ about_us.title }}</h1>
                     <br>
                     <p> {{ about_us.bio|linebreaks }} </p>
                 </div>

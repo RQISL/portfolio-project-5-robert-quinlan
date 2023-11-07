@@ -8,13 +8,13 @@
                 </div>
             </div>
         </div>
-        <div class="toast-body text-black">
+        <div class="toast-body">
            {{ message }}
         </div>
  
         <div class="container p-2">
             {% if grand_total and not on_profile_page %}
-            <p class="text-white py-1">Your bag: ({{ product_count }})</p>
+            <p class="py-1">Your bag: ({{ product_count }})</p>
             <div class="bag-notification-wrapper">
                 {% for item in bag_items %}
                 <div class="row">
@@ -35,7 +35,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="{% url 'gallery_view_bag' %}" class="btn btn-black btn-block rounded-0 w-100">
+                    <a href="{% url 'gallery_view_bag' %}" class="btn btn-block rounded-0 w-100">
                         <span class=" small text-uppercase">Secure Checkout</span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>

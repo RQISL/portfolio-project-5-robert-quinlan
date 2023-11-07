@@ -6,8 +6,8 @@
 <div class="container py-5">
     <div class="row">
         <div class="col text-center">
-        <h2 class=" display-4 logo-font p-3 text-white">Contact Us</h2>
-        <hr class="w-100 mb-3 text-white">
+            <h2 class=" display-4 logo-font p-3 text-white">Contact Us</h2>
+            <hr class="w-100 mb-3 text-white">
         </div>
         {% if request.user.is_superuser %}
         <div class="col-12 text-white text-right">
@@ -49,8 +49,8 @@
                         </div>
                         {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a href="{% url 'delete_category' contact.id %}">Edit</a> |
-                            <a class="text-danger" href="{% url 'delete_category' contact.id %}">Delete</a>
+                            <a href="{% url 'edit_contact_category' contact.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_contact_category' contact.id %}">Delete</a>
                         </small>
                         {% endif %}
                     </div>
@@ -78,7 +78,7 @@
                 {% endfor %}
             </div>
         </div>
-    </div> 
+    </div>
 </div>
 <footer></footer>
 {% endblock %}
