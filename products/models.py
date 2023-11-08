@@ -39,9 +39,9 @@ class CategoriesGroups(models.Model):
     name = models.CharField(max_length=254)
     description = models.TextField()
     friendly_name = models.CharField(max_length=254, null=True, blank=True)   
-    
+ 
     def __str__(self):
-        return self.name
+        return self.name or ''
 
     def get_friendly_name(self):
-        return self.friendly_name
+        return self.friendly_name or ''
