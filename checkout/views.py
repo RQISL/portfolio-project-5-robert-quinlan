@@ -6,8 +6,8 @@ from django.conf import settings
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from products.models import Product
-from profiles.forms import UserProfileForm
-from profiles.models import UserProfile
+from user_profile.forms import UserProfileForm
+from user_profile.models import UserProfile
 from gallery_bag.contexts import bag_contents
 
 import stripe
