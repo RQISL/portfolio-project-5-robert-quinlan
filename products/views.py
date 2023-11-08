@@ -9,6 +9,7 @@ from .forms import ProductForm, CategoryForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
     # <Model>.objects.all()
@@ -74,7 +75,7 @@ def product_detail(request, product_id):
 def category_paintings(request):
     """ A view to return the category painting page """
     categoriesgroups = CategoriesGroups.objects.all()
-    
+
     context = {
         "categoriesgroups": categoriesgroups, 
     }
@@ -82,6 +83,8 @@ def category_paintings(request):
     return render(request, 'products/category_paintings.html', context)
 
 # CRUD managements for category in Category Painting page
+
+
 @login_required
 def add_category(request):
     """ Add a product to the store """
@@ -92,14 +95,14 @@ def add_category(request):
     if request.method == 'POST':
         form = CategoryForm(request.POST, request.FILES)
         if form.is_valid():
-            category = form.save()
-            messages.success(request, 'Successfully added product!')
+            form = form.save()
+            messages.success(request, 'Successfully added category!')
             return redirect(reverse('category_paintings'))
         else:
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = CategoryForm()
-        
+
     template = 'products/add_category.html'
     context = {
         'form': form,
@@ -115,22 +118,25 @@ def edit_category(request, categoriesgroup_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('category_paintings'))
 
+    category = get_object_or_404(CategoriesGroups, pk=categoriesgroup_id)
     if request.method == 'POST':
-        form = CategoryForm(request.POST, request.FILES)
+        form = CategoryForm(request.POST, request.FILES, instance=category)
         if form.is_valid():
-            category = form.save()
-            messages.success(request, 'Successfully added product!')
-            return redirect(reverse('category_paintings'))
+            form.save()
+            messages.success(request, 'Successfully updated product!')
+            return redirect(reverse('edit_category', args=[category.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
     else:
-        form = CategoryForm()
-        
+        form = CategoryForm(instance=category)
+        messages.info(request, f'You are editing {category.name}')
+
     template = 'products/edit_category.html'
     context = {
         'form': form,
+        'category': category,
     }
-    print(categoriesgroup_id)
+    print(category)
     return render(request, template, context)
 
 
@@ -141,9 +147,9 @@ def delete_category(request, categoriesgroup_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('category_paintings'))
 
-    category = get_object_or_404(CategoriesGroups , pk=categoriesgroup_id)
+    category = get_object_or_404(CategoriesGroups, pk=categoriesgroup_id)
     category.delete()
-    messages.success(request, 'Product deleted!')
+    messages.success(request, 'Category deleted!')
     return redirect(reverse('category_paintings'))
 
 

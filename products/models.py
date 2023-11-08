@@ -28,9 +28,9 @@ class Product(models.Model):
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = CloudinaryField('image')
 
-
     def __str__(self):
         return self.name
+
 
 class CategoriesGroups(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
@@ -38,10 +38,8 @@ class CategoriesGroups(models.Model):
     image = CloudinaryField('image')
     name = models.CharField(max_length=254)
     description = models.TextField()
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
-  
-
-
+    friendly_name = models.CharField(max_length=254, null=True, blank=True)   
+    
     def __str__(self):
         return self.name
 
