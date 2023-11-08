@@ -11,7 +11,7 @@
         </div>
         {% if request.user.is_superuser %}
         <div class="col-12 text-white text-right">
-            <form method="POST" action="{% url 'add_category' %}" class="form mb-2" enctype="multipart/form-data">
+            <form method="POST" action="{% url 'add_contact_category' %}" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
                 {% if field.name != 'image' %}
@@ -21,7 +21,7 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right mt-3">
-                    <button class="btn btn-black rounded-0" type="submit">Add category</button>
+                    <button class="btn btn-black rounded-0" type="submit">Add contact category</button>
                 </div>
             </form>
         </div>

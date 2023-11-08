@@ -6,15 +6,15 @@
 <div class="container p-5">
     <div class="row">
         <div class="col-12">
-            <h2 class="logo-font display-4 mb-4 text-white text-center box_color">Add Category Management</h2>
-            <h5 class="text-muted">Add Category</h5>
+            <h2 class="logo-font display-4 mb-4 text-white text-center">Add Category Contact Management</h2>
+            <h5 class="text-muted">Add contact category</h5>
             <hr class="text-white">
         </div>
     </div>
 
     <div class="row">
         <div class="col-12 text-white">
-            <form method="POST" action="{% url 'add_category' %}" class="form mb-2" enctype="multipart/form-data">
+            <form method="POST" action="{% url 'add_contact_category' %}" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
                 {% if field.name != 'image' %}
@@ -24,6 +24,7 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right mt-3">
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'contact' %}">Cancel</a>
                     <button class="btn btn-black rounded-0" type="submit">Add Category</button>
                 </div>
             </form>

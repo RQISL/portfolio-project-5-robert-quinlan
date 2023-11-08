@@ -14,7 +14,7 @@
 
     <div class="row">
         <div class="col-12">
-            <form method="POST" action="{% url 'edit_contact_category' contact.id %}" class="form mb-2"
+            <form method="POST" action="{% url 'edit_contact_category' contact_category.id %}" class="form mb-2"
                 enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
