@@ -21,11 +21,20 @@ body {
 }
 
 hr,h1, h2, h3 {
-    color: #194759;
+    color: #194759 !important;
+}
+
+h5 {
+    color: #ebf2f1 !important;
 }
 
 p {
     line-height: 1.8;
+    color: #ebf2f1 !important;
+}
+
+.p_dark {
+    color: #194759 !important;
 }
 
 thead, tbody {
@@ -175,9 +184,20 @@ footer{
 }
 
 .btn:hover {
-    background: #194759 !important;
-    color: #ebf2f1 !important;
+    background: #7EBFB3 !important;
+    color: #194759!important;
     border: solid 2px #194759;
+}
+
+.btn_ligth {
+    background: #7EBFB3 !important;
+    color: #194759!important;
+    border: solid 2px #194759;
+}
+
+.btn_ligth:hover {
+    background: #ebf2f1 !important;
+    color: #194759 !important;
 }
 
 button[type=submit] {
