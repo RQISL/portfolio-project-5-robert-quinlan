@@ -16,9 +16,6 @@ import dj_database_url
 import cloudinary
 
 
-if os.path.isfile('env.py'):
-    import env
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -32,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-rqisl-portfolioproject-gldluwa65e5.ws-eu106.gitpod.io', 'art-gallery-elena-d4d9090ab15b.herokuapp.com']
 
@@ -90,16 +87,16 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
                 'gallery_bag.contexts.bag_contents',
             ],
             'builtins': [
-            'crispy_forms.templatetags.crispy_forms_tags',
-            'crispy_forms.templatetags.crispy_forms_field',
-        ]
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+                ]
         },
     },
 ]
@@ -209,7 +206,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL = 'elenafintartgallery.com'
+    DEFAULT_FROM_EMAIL = 'elenafintartgallery@example.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
