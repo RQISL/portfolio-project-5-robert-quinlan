@@ -6,7 +6,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2 class=" display-4 logo-font p-3">Add to bag</h2>
+            <h2 class="display-4 logo-font p-3">Add to bag</h2>
             <hr class="w-100 mb-3">
         </div>
     </div>
@@ -26,8 +26,8 @@
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-start">
             <div class="product-details-container ps-4 mb-5 mt-md-5">
-                <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 font-weight-bold">&#8364;{{ product.price }}</p>
+                <p class="p_dark mb-0">{{ product.name }}</p>
+                <p class="p_dark lead mb-0 font-weight-bold">&#8364;{{ product.price }}</p>
                 {% if product.category %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -35,14 +35,14 @@
                     </a>
                 </p>
                 {% endif %}
-                <p class="mt-3">{{ product.description }}</p>
+                <p class="mt-3 p_dark">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         {% with product.has_sizes as s %}
                         {% if s %}
                         <div class="col-12">
-                            <p><strong>Size:</strong></p>
+                            <p class="p_dark"><strong>Size:</strong></p>
                             <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
                                 <option value='6"x8"'>6"x8"</option>
                                 <option value='8"x10"'>8"x10"</option>
@@ -55,8 +55,8 @@
                         </div>
                         {% endif %}
                         <div class="col-12">
-                            <p class="mt-3"><strong>Quantity:</strong></p>
-                            <div class="form-group w-50">
+                            <p class="mt-3 p_dark"><strong>Quantity:</strong></p>
+                            <div class="form-group w-75">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <button class="decrement-qty btn rounded-0" data-item_id="{{ product.id }}"
@@ -77,9 +77,11 @@
                                         </button>
                                     </div>
                                     {% if request.user.is_superuser %}
-                                    <small class="ml-3">
-                                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                    <small class="ml-3 w-100">
+                                        <div class= "mt-2 d-flex justify-content-between">
+                                        <a class="btn rounded-0 me-5" href="{% url 'edit_product' product.id %}">Edit</a>
+                                        <a class="btn rounded-0 ms-2" href="{% url 'delete_product' product.id %}">Delete</a>
+                                        </div>
                                     </small>
                                     {% endif %}
                                 </div>

@@ -1,5 +1,4 @@
 from django.db import models
-import cloudinary
 from cloudinary.models import CloudinaryField
 
 
@@ -35,13 +34,13 @@ class Product(models.Model):
 class CategoriesGroups(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
-    image = CloudinaryField('image')
     name = models.CharField(max_length=254)
     description = models.TextField()
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)   
- 
+    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    image = CloudinaryField('image')
+    
     def __str__(self):
-        return self.name or ''
+        return self.name
 
     def get_friendly_name(self):
-        return self.friendly_name or ''
+        return self.friendly_name

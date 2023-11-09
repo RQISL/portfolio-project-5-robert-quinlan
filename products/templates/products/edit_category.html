@@ -18,15 +18,18 @@
                 enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
+                <div class="mt-4"></div>
                     {% if field.name != 'image' %}
+                    <div class="mt-4"></div>
                     {{ field | as_crispy_field }}
                 {% else %}
+                <div class="mt-4"></div>
                     {{ field }}
                 {% endif %}
                 {% endfor %}
                 <div class="text-right">
-                    <a class="btn rounded-0" href="{% url 'category_paintings' %}">Cancel</a>
-                    <button class="btn rounded-0" type="submit">Update category</button>
+                    <a class="btn rounded-0 mt-3" href="{% url 'category_paintings' %}">Cancel</a>
+                    <button class="btn rounded-0 mt-3" type="submit">Update category</button>
                 </div>
             </form>
         </div>

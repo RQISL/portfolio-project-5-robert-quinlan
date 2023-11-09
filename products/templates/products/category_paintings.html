@@ -46,7 +46,7 @@
                                 <h5 class="card-title">{{ categoriesgroup.name }}</h5>
                                 <p class="card-text">{{categoriesgroup.description}}</p>
                                 {% if categoriesgroup.category %}
-                                <a class="btn" href="{% url 'products' %}?category={{ categoriesgroup.category.name }}">{{ categoriesgroup.name }}</a>
+                                <a class="btn btn_ligth rounded-0 mt-5" href="{% url 'products' %}?category={{ categoriesgroup.category.name }}">{{ categoriesgroup.name }}</a>
                                 {% endif %}
                             </div>
                             </div>
@@ -85,4 +85,5 @@
     </div>
 </div>
 </div>
+<footer></footer>
 {% endblock %}
