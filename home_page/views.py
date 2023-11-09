@@ -5,6 +5,12 @@ from django.contrib.auth.decorators import login_required
 from .models import HomePage
 from .forms import HomePageForm
 
+
+def error_404(request, exception):
+    data = {}
+    return render(request, 'home_page/404.html', data)
+
+
 def index(request):
     """ A view to return the index page """
     home_personal = HomePage.objects.get()

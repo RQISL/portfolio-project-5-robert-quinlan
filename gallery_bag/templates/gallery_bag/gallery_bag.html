@@ -6,7 +6,7 @@
 <div class="container mt-5 mb-2">
     <div class="row">
         <div class="col p-3">
-            <h2 class=" display-4 logo-font text-center">Checkout</h2>
+            <h2 class="display-4 logo-font text-center">Checkout</h2>
             <hr class="w-100 mb-1">
         </div>
     </div>
@@ -17,7 +17,7 @@
             <div class="table-responsive rounded">
                 <table class="table table-sm table-borderless">
                     <thead class="text-black">
-                        <tr>
+                        <tr class="p_dark">
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
                             <th scope="col">Price</th>
@@ -36,12 +36,12 @@
                             {% endif %}
                         </td>
                         <td class="py-3">
-                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                            <p class="my-0 p_dark"><strong>{{ item.product.name }}</strong></p>
+                            <p class="my-0 p_dark "><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                             <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">&#8364;{{ item.product.price }}</p>
+                            <p class="my-0 p_dark">&#8364;{{ item.product.price }}</p>
                         </td>
                         <td class="py-3 w-25">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -73,12 +73,14 @@
                                     </div>
                                 </div>
                             </form>
-                            <a class="update-link text-info"><small>Update</small></a>
-                            <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
+                            <div class="d-flex justify-content-between">
+                            <a class="update-link btn rounded-0 mt-3"><small>Update</small></a>
+                            <a class="remove-item btn rounded-0 mt-3 float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
+                            </div>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">&#8364; {{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0 p_dark">&#8364; {{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </td>
                     </tr>
                     {% endfor %}
