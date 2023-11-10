@@ -44,16 +44,20 @@
                             <div class="col mt-0">
                             <div class="card-body mt-0">
                                 <h5 class="card-title">{{ categoriesgroup.name }}</h5>
-                                <p class="card-text">{{categoriesgroup.description}}</p>
+                                <p class="card-text p_white">{{categoriesgroup.description}}</p>
                                 {% if categoriesgroup.category %}
-                                <a class="btn btn_ligth rounded-0 mt-5" href="{% url 'products' %}?category={{ categoriesgroup.category.name }}">{{ categoriesgroup.name }}</a>
-                                {% endif %}
-                            </div>
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn btn_ligth rounded-0 mt-1" href="{% url 'products' %}?category={{ categoriesgroup.category.name }}">{{ categoriesgroup.name }}</a>
+                                    {% endif %}
+                                    </div>
+                                </div>
                             </div>
                             {% if request.user.is_superuser %}
                             <small class="ml-3">
-                                <a href="{% url 'edit_category' categoriesgroup.id %}">Edit</a> |
-                                <a class="text-danger" href="{% url 'delete_category' categoriesgroup.id %}">Delete</a>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn_ligth rounded-0 mt-1" href="{% url 'edit_category' categoriesgroup.id %}">Edit</a> |
+                                    <a class="btn btn_ligth rounded-0 mt-1" href="{% url 'delete_category' categoriesgroup.id %}">Delete</a>
+                                </div>
                             </small>
                             {% endif %}
                         </div>
@@ -61,22 +65,22 @@
                 </div>
             </div>
             {% if forloop.counter|divisibleby:1 %}
-            <div class="col-12 d-sm-none mb-5">
+            <div class="col-12 d-sm-none mb-1">
                 <hr>
             </div>
             {% endif %}
             {% if forloop.counter|divisibleby:2 %}
-            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-1">
                 <hr>
             </div>
             {% endif %}
             {% if forloop.counter|divisibleby:3 %}
-            <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+            <div class="col-12 d-none d-lg-block d-xl-none mb-1">
                 <hr>
             </div>
             {% endif %}
             {% if forloop.counter|divisibleby:4 %}
-            <div class="col-12 d-none d-xl-block mb-5">
+            <div class="col-12 d-none d-xl-block mb-1">
                 <hr>
             </div>
             {% endif %}

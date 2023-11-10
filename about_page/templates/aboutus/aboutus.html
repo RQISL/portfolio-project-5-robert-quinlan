@@ -21,7 +21,9 @@
                 <div class="col mt-3 p-3 border border-white">
                     <h1>{{ about_us.title }}</h1>
                     <br>
-                    <p> {{ about_us.bio|linebreaks }} </p>
+                    <div class="p_dark">
+                        <p> {{ about_us.bio|linebreaks }} </p>
+                    </div>
                 </div>
                 {% if request.user.is_superuser %}
                 <small>

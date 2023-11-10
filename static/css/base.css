@@ -30,6 +30,10 @@ h5 {
 
 p {
     line-height: 1.8;
+    color: #194759 !important;
+}
+
+.p_white {
     color: #ebf2f1 !important;
 }
 
