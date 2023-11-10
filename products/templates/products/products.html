@@ -70,6 +70,9 @@
                                 <div class="col">
                                     <p class="lead mb-0 text-left font-weight-bold">&#8364;{{ product.price }}</p>
                                 </div>
+
+                                <a class="btn btn_ligth rounded-0 mt-3" href="{% url 'product_detail' product.id %}">Add to bag</a>
+
                                 {% if request.user.is_superuser %}
                                 <small class="ml-3">
                                     <div class="d-flex justify-content-between">
