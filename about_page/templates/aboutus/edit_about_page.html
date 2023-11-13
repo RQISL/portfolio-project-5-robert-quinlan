@@ -2,10 +2,10 @@
 {% load static %}
 
 {% block content %}
-<div class="container p-5">
+<div class="container px-3">
     <div class="row">
         <div class="col-12">
-            <h2 class="logo-font display-4 text-center">About Us page Management</h2>
+            <h3 class="logo-font display-4 text-center">About Us page Management</h3>
             <h5 class="text-muted">Edit about page</h5>
             <hr>
         </div>
@@ -24,8 +24,8 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'aboutus' %}">Cancel</a>
-                    <button class="btn btn-black rounded-0" type="submit">Update about us page</button>
+                    <a class="btn btn-outline-black rounded-0 mb-2" href="{% url 'aboutus' %}">Cancel</a>
+                    <button class="btn btn-black rounded-0 mb-2" type="submit">Update about us page</button>
                 </div>
             </form>
         </div>

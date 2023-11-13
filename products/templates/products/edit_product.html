@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<div class="container p-5">
+<div class="container px-4">
     <div class="row">
         <div class="col-12">
             <h2 class="logo-font display-4 text-center">Art Gallery Management</h2>
@@ -25,11 +25,12 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'category_paintings' %}">Cancel</a>
-                    <button class="btn btn-black rounded-0" type="submit">Update art gallery</button>
+                    <a class="btn btn-outline-black rounded-0 mb-2" href="{% url 'category_paintings' %}">Cancel</a>
+                    <button class="btn btn-black rounded-0 mb-2" type="submit">Update art gallery</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<footer></footer>
 {% endblock %}

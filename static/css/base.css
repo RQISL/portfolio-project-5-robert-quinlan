@@ -5,12 +5,49 @@ html {
 body {
     font-family: 'Roboto';
     background-color: #194759;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .navbar {
     background-color: #A7F2E4;
+    height: 130px;
 }
+
+.bg-bag {
+    background-color: #194759;
+}
+
+.bg-bag:hover {
+    background-color: #7EBFB3;
+    color: #194759 !important;
+    border: solid 1px #194759;
+}
+
+
+.btn-bg {
+    background-color: #194759;
+    font-size: 1em;
+    padding: 10px 20px 10px 20px;
+    color: #ebf2f1;
+} 
+
+.btn-bg:hover {
+    background-color: #7EBFB3;
+    font-size: 1em;
+    padding: 10px 20px 10px 20px;
+    color: #194759;
+    border: solid 1px #194759;
+}  
+
+.fa-bars {
+    font-size:2em; 
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 50%;
+}
+
 .container{
     background-color: #7EBFB3;
     color: #194759;
@@ -170,12 +207,15 @@ footer{
     width: fit-content;
     margin: auto;
     border-radius: 25px 25px 0 0;
-    border: red solid 5px;
 }
 
 .footer_btn:hover {
     background-color: #7EBFB3 !important;
     color: #ebf2f1 !important;
+}
+
+.show:hover {
+    display: block;
 }
 
 .card, .card-body, .card-footer {
@@ -384,4 +424,117 @@ button[type=submit]:hover {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+    
+
+/* Use a media query to add a breakpoint at 320px: */
+@media (min-width: 300px) and (max-width:420px) {
+    .message-container {
+        top: 120px;
+        right: 15px;
+        width: 70%;
+
+    }
+
+    .container {
+            max-width: 100%;
+            padding: 0;
+    }
+
+    .bg-bag {
+        background-color: transparent;
+        margin-top: 6px !important;
+    }
+
+    h3 {
+        font-size: 1.5em !important;
+    }
+
+    h5 {
+        font-size: 0.8em !important;
+    }
+    
+    
+    .navbar {
+        height: 80px;
+    }
+
+    .img-logo {
+        margin: -30px 0 0 -120px;
+        position: absolute;
+        width: 42% !important;
+    }
+
+    .fa-shopping-bag, .p_white {
+        font-size: 0.8em;
+        margin-right: -80px !important;
+        text-align: center;
+        color: #194759 !important;
+    }
+    .bg-bag {
+        background-color: transparent;
+    }
+    
+    .bg-bag:hover {
+        background-color: transparent;
+        color: transparent !important;
+        border: transparent;
+    }
+
+
+    .btn-bg {
+        background-color: transparent;
+        color: transparent;
+        border: transparent;
+    } 
+    
+    .btn-bg:hover {
+        background-color: transparent;
+        color: transparent;
+        border: transparent;
+    }  
+
+    .fa-bars {
+        margin-top: 7px;
+        margin-left: -95px !important;
+        font-size:1.5em; 
+        color: #194759;
+    }
+    
+    .img-logo {
+        width: 20%;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+    .fa-minus, .fa-plus, .form-control {
+        font-size: 0.8em;
+    }
+
+    .footer_btn {
+        margin: auto;
+        font-size: 0.5em;
+    }
+
+    .fa-facebook-official,
+    .fa-linkedin-square,
+    .fa-youtube-play,
+    .fa-twitter-square {
+        font-size: 1.5em !important;
+    }
+
+    thead, tbody {
+       font-size: 0.6em;
+    }
+
+    .p_dark {
+        font-size: 0.8em;
+    }
+
+    .font_checkout {
+        font-size: 0.8em;
+    }
+
 }

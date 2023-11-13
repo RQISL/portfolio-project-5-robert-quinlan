@@ -3,23 +3,23 @@
 
 {% block content %}
 <div class="container">
-    <h3 class="display-4 logo-font p-3 d-flex justify-content-center">
+    <h3 class="display-4 logo-font py-3 d-flex justify-content-center">
         Elena's Talent Artist
     </h3>
     <hr>
     <div class="row cols-md-2 mb-1">
-        <div class="col-xl-6 text-center p-5">
+        <div class="col-xl-6 text-center px-4">
             <div>
                 {% if home_personal.image %}
                     <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ home_personal.image.url }}" alt="{{ home_personal.name }}">
                 {% else %}
-                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="No image on the display as mute photo image">
+                    <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ MEDIA_URL }}noimage.png" alt="No image on the display as mute photo image">
                 {% endif %}
             </div>
         </div>
-        <div class="col-xl-6 p-5">
+        <div class="col-xl-6 px-4">
             <div>
-                <div class="col p-3 border border-white">
+                <div class="col p-2 border border-white">
                     <h1>{{ home_personal.head }}</h1>
                     <br>
                     <p> {{ home_personal.info|linebreaks }} </p>

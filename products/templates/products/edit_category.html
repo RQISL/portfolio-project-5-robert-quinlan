@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<div class="container p-5">
+<div class="container px-4">
     <div class="row">
         <div class="col-12">
             <h2 class="logo-font display-4 text-center">Edit Category Management</h2>
@@ -28,11 +28,12 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right">
-                    <a class="btn rounded-0 mt-3" href="{% url 'category_paintings' %}">Cancel</a>
-                    <button class="btn rounded-0 mt-3" type="submit">Update category</button>
+                    <a class="btn rounded-0 mb-2" href="{% url 'category_paintings' %}">Cancel</a>
+                    <button class="btn rounded-0 mb-2" type="submit">Update category</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<footer></footer>
 {% endblock %}

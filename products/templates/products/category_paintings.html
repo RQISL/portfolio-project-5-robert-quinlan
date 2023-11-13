@@ -3,10 +3,10 @@
 
 {% block content %}
 
-<div class="container mt-5 pb-5">
+<div class="container">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2 class=" display-4 logo-font p-3">Category Painting</h2>
+            <h3 class=" display-4 logo-font p-3">Category Painting</h3>
             <hr class="w-100 mb-3">
         </div>
         {% if request.user.is_superuser %}
@@ -29,10 +29,10 @@
     </div>
 <div class="row">
     <div class="product-container col-10 offset-1">
-        <div class="row mt-1 mb-2"></div>
+        <div class="row mt-1 mb-4"></div>
         <div class="row">
             {% for categoriesgroup in categoriesgroups %}
-            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="col-xl-6 mb-3">
                 <div class="card h-100 border-0">
                     {% if categoriesgroup.image %}
                     <img class="card-img-top img-fluid" src="{{ categoriesgroup.image.url }}" alt="{{ categoriesgroup.name }}">
@@ -64,26 +64,6 @@
                     </div>
                 </div>
             </div>
-            {% if forloop.counter|divisibleby:1 %}
-            <div class="col-12 d-sm-none mb-1">
-                <hr>
-            </div>
-            {% endif %}
-            {% if forloop.counter|divisibleby:2 %}
-            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-1">
-                <hr>
-            </div>
-            {% endif %}
-            {% if forloop.counter|divisibleby:3 %}
-            <div class="col-12 d-none d-lg-block d-xl-none mb-1">
-                <hr>
-            </div>
-            {% endif %}
-            {% if forloop.counter|divisibleby:4 %}
-            <div class="col-12 d-none d-xl-block mb-1">
-                <hr>
-            </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>
