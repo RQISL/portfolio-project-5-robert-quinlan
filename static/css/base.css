@@ -15,26 +15,25 @@ body {
 
 .bg-bag {
     background-color: #194759;
+    color: #ebf2f1;
+    text-decoration: none;
 }
 
 .bg-bag:hover {
     background-color: #7EBFB3;
-    color: #194759 !important;
+    color: #194759;
     border: solid 1px #194759;
 }
-
 
 .btn-bg {
     background-color: #194759;
     font-size: 1em;
-    padding: 10px 20px 10px 20px;
     color: #ebf2f1;
+    padding: 5px 10px;
 } 
 
 .btn-bg:hover {
     background-color: #7EBFB3;
-    font-size: 1em;
-    padding: 10px 20px 10px 20px;
     color: #194759;
     border: solid 1px #194759;
 }  
@@ -46,6 +45,8 @@ body {
 
 .img-logo {
     width: 50%;
+    display: block;
+    margin: auto;
 }
 
 .container{
@@ -68,10 +69,6 @@ h5 {
 p {
     line-height: 1.8;
     color: #194759 !important;
-}
-
-.p_white {
-    color: #ebf2f1 !important;
 }
 
 .p_dark {
@@ -207,11 +204,16 @@ footer{
     width: fit-content;
     margin: auto;
     border-radius: 25px 25px 0 0;
+    color: #ebf2f1 !important;
 }
 
 .footer_btn:hover {
     background-color: #7EBFB3 !important;
-    color: #ebf2f1 !important;
+    color: #194759 !important;
+}
+
+.nav-link:hover {
+    color: #7EBFB3 !important;
 }
 
 .show:hover {
@@ -224,13 +226,13 @@ footer{
 
 .btn {
     background: #194759 !important;
-    color: #ebf2f1 !important;
+    color: #ebf2f1;
+    border: solid 2px #194759;
 }
 
 .btn:hover {
     background: #7EBFB3 !important;
-    color: #194759!important;
-    border: solid 2px #194759;
+    color: #194759 !important;
 }
 
 .btn_ligth {
@@ -425,10 +427,122 @@ button[type=submit]:hover {
     border-color: #dc3545;
     border-radius: 0;
 }
-    
 
 /* Use a media query to add a breakpoint at 320px: */
-@media (min-width: 300px) and (max-width:420px) {
+@media (min-width: 528px) and (max-width:888px) {
+    .navbar {
+        height: 80px;
+    }
+    
+    .img-logo {
+        max-width: 22% !important;
+        margin-left: 12em;
+    }
+
+    .bg-bag {
+        background-color: #194759;
+        color: #ebf2f1;
+        text-decoration: none;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-right: 10px !important;
+        margin-top: 15px !important;
+        position: absolute;
+        float: right;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    .btn-bg {
+        background-color: #194759;
+        font-size: 1em;
+        color: #ebf2f1;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-left: 10px !important;
+        margin-top: -2px !important;
+        position: absolute;
+        float: left;
+    } 
+
+}
+  
+
+/* Use a media query to add a breakpoint at 320px: */
+@media (min-width: 390px) and (max-width:528px) {
+    .navbar {
+        height: 80px;
+    }
+    
+    .img-logo {
+        max-width: 32% !important;
+    }
+
+    .bg-bag {
+        background-color: #194759;
+        color: #ebf2f1;
+        text-decoration: none;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-right: 10px !important;
+        margin-top: 15px !important;
+        position: absolute;
+        float: right;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    .btn-bg {
+        background-color: #194759;
+        font-size: 1em;
+        color: #ebf2f1;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-left: 10px !important;
+        margin-top: -2px !important;
+        position: absolute;
+        float: left;
+    } 
+
+}
+   
+/* Use a media query to add a breakpoint at 320px: */
+@media (min-width: 378px) and (max-width:390px) {
+    .navbar {
+        height: 80px;
+    }
+    
+    .img-logo {
+        max-width: 45% !important;
+    }
+
+    .bg-bag {
+        background-color: #194759;
+        color: #ebf2f1;
+        text-decoration: none;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-right: 10px !important;
+        margin-top: 15px !important;
+        position: absolute;
+        float: right;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    .btn-bg {
+        background-color: #194759;
+        font-size: 1em;
+        color: #ebf2f1;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-left: 10px !important;
+        margin-top: -2px !important;
+        position: absolute;
+        float: left;
+    } 
+
+}
+
+/* Use a media query to add a breakpoint at 320px: */
+@media (min-width: 300px) and (max-width:378px) {
     .message-container {
         top: 120px;
         right: 15px;
@@ -441,11 +555,6 @@ button[type=submit]:hover {
             padding: 0;
     }
 
-    .bg-bag {
-        background-color: transparent;
-        margin-top: 6px !important;
-    }
-
     h3 {
         font-size: 1.5em !important;
     }
@@ -454,56 +563,38 @@ button[type=submit]:hover {
         font-size: 0.8em !important;
     }
     
-    
     .navbar {
         height: 80px;
     }
 
     .img-logo {
-        margin: -30px 0 0 -120px;
-        position: absolute;
-        width: 42% !important;
+        max-width: 45% !important;
     }
 
-    .fa-shopping-bag, .p_white {
-        font-size: 0.8em;
-        margin-right: -80px !important;
-        text-align: center;
-        color: #194759 !important;
-    }
     .bg-bag {
-        background-color: transparent;
+        background-color: #194759;
+        color: #ebf2f1;
+        text-decoration: none;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-right: 10px !important;
+        margin-top: 15px !important;
+        position: absolute;
+        float: right;
+        padding: 5px 10px 5px 10px !important;
     }
-    
-    .bg-bag:hover {
-        background-color: transparent;
-        color: transparent !important;
-        border: transparent;
-    }
-
 
     .btn-bg {
-        background-color: transparent;
-        color: transparent;
-        border: transparent;
+        background-color: #194759;
+        font-size: 1em;
+        color: #ebf2f1;
+        max-width: 100%;
+        font-size: 0.7em;
+        margin-left: 10px !important;
+        margin-top: -2px !important;
+        position: absolute;
+        float: left;
     } 
-    
-    .btn-bg:hover {
-        background-color: transparent;
-        color: transparent;
-        border: transparent;
-    }  
-
-    .fa-bars {
-        margin-top: 7px;
-        margin-left: -95px !important;
-        font-size:1.5em; 
-        color: #194759;
-    }
-    
-    .img-logo {
-        width: 20%;
-    }
 
     .btn {
         font-size: 0.8em;

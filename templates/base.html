@@ -9,6 +9,9 @@
         <!-- Required meta tags -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
+        <meta name="description" content="Fine art gallery who are interesting to buy a fine art gallery. You can find category painting page and buy a fint art gallery.">
+        <meta name="keywords" content="fine art books, fine art landscape, fine art aminal, fine art nude, fine art body, fine art canvas, fine art education, fine art for sale, fine art frame, fine art gallery, fine art oil painting, photos to fine art painting">
+        <meta name="author" content="Elena Sawczenko">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     {% endblock %}
 
@@ -68,22 +71,24 @@
 
 <body>
 <header>
-        <nav class="navbar d-flex justify-content-between fixed-top">
-        <button class="ms-5 btn-bg rounded-0" type="button" data-bs-toggle="offcanvas"
+        <nav class="navbar fixed-top">
+        <button class="ms-3 btn-bg rounded-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars'
             ></i></button>
         <div><img class="img-fluid img-logo" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699373391/Elena_Logo_lkgrt2.png" alt="Art painting logo with her name is Elena Sawczenko"></div>
-    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
+    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %}nav-link"
         href="{% url 'gallery_view_bag' %}">
-        <div class="text-center bg-bag position-absolute top-0 end-0 mt-3 me-5 pt-2 px-3 rounded-0">
-            <div><i class="fas fa-shopping-bag"></i></div>
-            <p class="my-0 p_white">
-                {% if grand_total %}
-                &#8364;{{ grand_total|floatformat:2 }}
-                {% else %}
-                &#8364;0.00
-                {% endif %}
-            </p>
+        <div class="text-center bg-bag position-absolute top-0 end-0 mt-4 me-3 py-2 px-3 rounded-0">
+            <div><i class="fas fa-shopping-bag"></i>
+                <br>
+                <span class="my-0">
+                    {% if grand_total %}
+                    &#8364;{{ grand_total|floatformat:2 }}
+                    {% else %}
+                    &#8364;0.00
+                    {% endif %}
+                </span>
+            </div>
         </div>
     </a>
 {% if messages %}
@@ -200,9 +205,9 @@
 
 <script>
 $(document).ready(function () {
-$(".dropdown_btn").click(function () {
-$(".slidedown").slideToggle("slow");
-});
+        $(".dropdown_btn").click(function () {
+        $(".slidedown").slideToggle("slow");
+    });
 });
 
 
