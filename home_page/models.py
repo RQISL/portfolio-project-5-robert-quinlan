@@ -17,4 +17,12 @@ class HomePage(models.Model):
     def get_name(self):
         return self.title
 
+class ExhibationView(models.Model):
+    name = models.CharField(max_length=254)
+    info = models.TextField()
+    image = CloudinaryField('image')
+    
+    def __str__(self):
+        return self.name
+
     

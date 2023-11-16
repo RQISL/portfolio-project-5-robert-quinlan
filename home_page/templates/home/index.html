@@ -25,6 +25,9 @@
                     <p> {{ home_personal.info|linebreaks }} </p>
                 </div>
             </div>
+            <small>
+                    <a class="btn rounded-0 my-3" href="{% url 'exhibations' %}"> visit her exhibation</a>
+                </small>
             {% if request.user.is_superuser %}
             <small>
                 <a class="btn rounded-0 my-3" href="{% url 'edit_home_page' %}">Edit your personal page</a>
