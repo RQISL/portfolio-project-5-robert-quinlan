@@ -24,6 +24,9 @@
                     <div class="p_dark">
                         <p> {{ about_us.bio|linebreaks }} </p>
                     </div>
+                    <small>
+                        <a class="btn rounded-0 my-3" href="{% url 'contact' %}"> visit contact page</a>
+                    </small>
                 </div>
                 {% if request.user.is_superuser %}
                 <small>

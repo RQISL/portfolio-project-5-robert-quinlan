@@ -4,6 +4,10 @@ from cloudinary.models import CloudinaryField
 
 # Create your models here.
 class AboutUs(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'About us'
+
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     title = models.CharField(max_length=254)

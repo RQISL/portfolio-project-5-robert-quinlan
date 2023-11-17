@@ -26,7 +26,7 @@ def hireme(request, id):
     template = loader.get_template('contact/hireme.html')
     
     if request.method == 'POST':
-        form = ContactForm(request.POST)
+        form = ContactForm(request.POST, request.FILES)
         if form.is_valid():
             subject = "Website Inquiry"
             body = {
@@ -34,6 +34,7 @@ def hireme(request, id):
 			'last_name': form.cleaned_data['last_name'], 
 			'email': form.cleaned_data['email_address'], 
 			'message':form.cleaned_data['message'], 
+            'image':form.cleaned_data['image'], 
 			}
             message = "\n".join(body.values())
             
