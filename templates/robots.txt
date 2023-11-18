@@ -18,3 +18,5 @@ Allow: /about_page/about_page.html
 Allow: /products/products.html, category_paintings.html
 Allow: /search_product/search_product.html
 Allow: /contact/contact.html
+
+Sitemap: https://art-gallery-elena-d4d9090ab15b.herokuapp.com/sitemap.xml
