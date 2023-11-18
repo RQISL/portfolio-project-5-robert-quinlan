@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /alluth/*
+Disallow: /includes/*
+Disallow: /stitic/*
+Disallow: /profiles/*
+Disallow: /media/*
+Disallow: /art_gallery/*
+Disallow: /checkout/*
+Disallow: /gallery_bag/*
+Disallow: /home_page/edit_page.html/*
+Disallow /about_page/edit_about_page.html/*
+Disallow: /products/*
+
+
+User-agent: *
+Allow: /home_page/index.html
+Allow: /about_page/about_page.html
+Allow: /products/products.html, category_paintings.html
+Allow: /search_product/search_product.html
+Allow: /contact/contact.html
