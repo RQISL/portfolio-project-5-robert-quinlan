@@ -12,9 +12,6 @@ body {
     background-color: #A7F2E4;
     height: 130px;
 }
-.p_white {
-    color: #ebf2f1 !important;
-}
 
 .bg-bag {
     background-color: #194759;
@@ -72,6 +69,10 @@ h5 {
 p {
     line-height: 1.8;
     color: #194759 !important;
+}
+
+.p_white {
+    color: #ebf2f1 !important;
 }
 
 .p_dark {
@@ -347,14 +348,22 @@ button[type=submit]:hover {
 
   /* Mailchimp */
 
-  #mc_embed_signup {
+#mc_embed_signup {
     padding: 0;
     }
-
-    .float-end, .float-start {
+/* button layout */
+.float-end, .float-start {
         margin: 20px;
     }
 /* -------------------------------- Media Queries */
+
+/* Slight too small text home and about pasge between 1200px and 1940px */
+@media (min-width: 1200px) and (max-width:1940px) {
+    
+    .p_dark {
+        font-size: 2.5em;
+    }
+}
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -453,7 +462,7 @@ button[type=submit]:hover {
     border-radius: 0;
 }
 
-/* Use a media query to add a breakpoint at 320px: */
+/* Use a media query to add a breakpoint between 528px and 888px */
 @media (min-width: 528px) and (max-width:888px) {
     .message-container {
         top: 90px;
@@ -512,7 +521,7 @@ button[type=submit]:hover {
 }
   
 
-/* Use a media query to add a breakpoint at 320px: */
+/* Use a media query to add a breakpoint between 390px and 528px */
 @media (min-width: 390px) and (max-width:528px) {
     .message-container {
         top: 90px;
@@ -570,7 +579,7 @@ button[type=submit]:hover {
 
 }
    
-/* Use a media query to add a breakpoint at 320px: */
+/* Use a media query to add a breakpoint between 378px and 390px */
 @media (min-width: 378px) and (max-width:390px) {
     .message-container {
         top: 90px;
