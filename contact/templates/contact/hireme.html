@@ -4,19 +4,19 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-<div class="container">
+<div class="container ps-4 pb-4">
     <div class="row">
         <div class="col text-center mt-3">
             <h2 class=" display-4 logo-font p-3">{{ contactus.name }}</h2>
             <hr class="w-100 mb-1 text-white">
         </div>
-        <div class="row d-flex justify-content-between">
-            <div class="col-12">
+        <div class="row">
+            <div class="col w-100">
             <form class="form mb-2 rounded-0" action="{% url 'contact' %}" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{form|crispy}}
-                <button class="btn rounded-0 text-uppercase float-end my-5">Sending message</button>
-                <a class="btn rounded-0 text-uppercase float-start my-5" href="{% url 'contact' %}">Back to Contact page</a>
+                <button class="btn rounded-0 text-uppercase float-end">Sending message</button>
+                <a class="btn rounded-0 text-uppercase float-start" href="{% url 'contact' %}">Back to Contact</a>
             </form>
             </div>
         </div>

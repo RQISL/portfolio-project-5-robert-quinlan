@@ -259,11 +259,11 @@ button[type=submit]:hover {
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
-    top: 120px;
+    top: 130px;
     right: 15px;
     z-index: 99999999999;
     color: #ebf2f1;
-    width: 20%;
+    width: fit-content;
 }
 
 .toast {
@@ -287,7 +287,7 @@ button[type=submit]:hover {
     border-bottom: 40px solid black;
     position: absolute;
     top: -15px;
-    right: 70px;
+    right: 20px;
 }
 
 /* Convenience classes - colors copied from Bootstrap */
@@ -348,13 +348,12 @@ button[type=submit]:hover {
   /* Mailchimp */
 
   #mc_embed_signup {
-    background:#fff; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-    width: 600px;
+    padding: 0;
     }
 
-
+    .float-end, .float-start {
+        margin: 20px;
+    }
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -456,6 +455,17 @@ button[type=submit]:hover {
 
 /* Use a media query to add a breakpoint at 320px: */
 @media (min-width: 528px) and (max-width:888px) {
+    .message-container {
+        top: 90px;
+        right: 0;
+        max-width: 100%;
+
+    }
+
+    .arrow-up {
+        right: 10px;
+    }
+    
     .navbar {
         height: 80px;
     }
@@ -489,9 +499,13 @@ button[type=submit]:hover {
         position: absolute;
         float: left;
     } 
-
+    /* Exhibitions page */
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .float-end, .float-start {
+        font-size: 0.8em;
     }
 
 
@@ -500,6 +514,17 @@ button[type=submit]:hover {
 
 /* Use a media query to add a breakpoint at 320px: */
 @media (min-width: 390px) and (max-width:528px) {
+    .message-container {
+        top: 90px;
+        right: 0;
+        max-width: 100%;
+
+    }
+
+    .arrow-up {
+        right: 10px;
+    }
+    
     .navbar {
         height: 80px;
     }
@@ -532,15 +557,32 @@ button[type=submit]:hover {
         position: absolute;
         float: left;
     } 
-
+    /* Exhibition page */
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .float-end, .float-start {
+        float: left !important;
+        margin-bottom: 5px;
+    }
+
 
 }
    
 /* Use a media query to add a breakpoint at 320px: */
 @media (min-width: 378px) and (max-width:390px) {
+    .message-container {
+        top: 90px;
+        right: 0;
+        max-width: 100%;
+
+    }
+
+    .arrow-up {
+        right: 10px;
+    }
+    
     .navbar {
         height: 80px;
     }
@@ -574,16 +616,26 @@ button[type=submit]:hover {
         float: left;
     } 
 
+    .float-end, .float-start {
+        float: left !important;
+        margin-bottom: 5px;
+    }
+
 }
 
 /* Use a media query to add a breakpoint between 300px and 378px */
 @media (min-width: 300px) and (max-width:378px) {
     .message-container {
-        top: 120px;
-        right: 15px;
-        width: 70%;
+        top: 90px;
+        right: 0;
+        max-width: 100%;
 
     }
+
+    .arrow-up {
+        right: 10px;
+    }
+    
 
     .container {
             max-width: 100%;
@@ -653,12 +705,19 @@ button[type=submit]:hover {
         font-size: 0.5em;
     }
 
-    .p_dark {
-        font-size: 0.8em;
+
+
+    .p_dark, .p_white {
+        font-size: 0.8em !important;
     }
 
     .font_checkout {
         font-size: 0.8em;
+    }
+
+    .float-end, .float-start {
+        float: left !important;
+        margin-bottom: 5px;
     }
 
 }
