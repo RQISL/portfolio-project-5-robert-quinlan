@@ -78,10 +78,6 @@ p {
     color: #194759 !important;
 }
 
-thead, tbody {
-    color: #194759;
-}
-
 .offcanvas {
     background-color: #194759 !important;
     color: #ebf2f1 !important;
@@ -229,7 +225,7 @@ footer{
 
 .btn {
     background: #194759 !important;
-    color: #ebf2f1;
+    color: #ebf2f1 !important;
     border: solid 2px #194759;
 }
 
@@ -580,7 +576,7 @@ button[type=submit]:hover {
 
 }
 
-/* Use a media query to add a breakpoint at 320px: */
+/* Use a media query to add a breakpoint between 300px and 378px */
 @media (min-width: 300px) and (max-width:378px) {
     .message-container {
         top: 120px;
@@ -600,6 +596,10 @@ button[type=submit]:hover {
 
     h5 {
         font-size: 0.8em !important;
+    }
+
+    h4 {
+        font-size: 1em;
     }
     
     .navbar {
@@ -639,24 +639,18 @@ button[type=submit]:hover {
         font-size: 0.8em;
     }
 
-    .fa-minus, .fa-plus, .form-control {
-        font-size: 0.8em;
+    .fa-minus, .fa-plus {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .form-control {
+        font-size: 1em !important;
     }
 
     .footer_btn {
         margin: auto;
         font-size: 0.5em;
-    }
-
-    .fa-facebook-official,
-    .fa-linkedin-square,
-    .fa-youtube-play,
-    .fa-twitter-square {
-        font-size: 1.5em !important;
-    }
-
-    thead, tbody {
-       font-size: 0.6em;
     }
 
     .p_dark {
