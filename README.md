@@ -47,7 +47,7 @@ ____________________________________________________________
 -------------------------------------------------------------------------------------------------
 # Create design UX for the Art Gallery site
 
-*  The RZ Collection website showcases stunning and seamless layout transitions that have inspired me during my exploration. The user experience (UX) on this site is truly remarkable, prompting me to develop my own UX concept. However, creating a design UX requires a significant amount of time, which unfortunately poses a challenge.
+*  [The RZ Collection](https://rzcollection.com/artists/ilgvars-zalans) website showcases stunning and seamless layout transitions that have inspired me during my exploration. The user experience (UX) on this site is truly remarkable, prompting me to develop my own UX concept. However, creating a design UX requires a significant amount of time, which unfortunately poses a challenge.
 
 # Wireframe 
 
@@ -103,7 +103,7 @@ Existing Features
 
 * Introducing our user-friendly header menu, a convenient navigation tool for our website. This menu consists of 7 pages, including Home, About, Category Painting, My Account (which includes register and login options), and Contact. With this menu, you can easily explore our website and find the information you need. For a visual representation of the website's structure, please refer to the attached [Flowchart](#flowchart).
 
-* Additionally, our header menu offers CRUD functionality, allowing the site owner to modify it according to their preferences. This feature is especially beneficial for artists who are selling their artwork while using the website for their creative endeavors.
+* Additionally, our header menu offers functionality, allowing the site owner to modify it according to their preferences. This feature is especially beneficial for artists who are selling their artwork while using the website for their creative endeavors.
 
 
 ### Navbar
@@ -373,7 +373,7 @@ then click on Verify button.
 * Prompts active on the screen until the completed
 * Click on the "View" button to open the page
 
-### The deployed site is now live [Art Galeery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
+### The deployed site is now live [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
 
 ## Resource & tutorial
 * ### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
