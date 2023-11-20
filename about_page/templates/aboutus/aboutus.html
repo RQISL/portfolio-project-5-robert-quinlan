@@ -20,7 +20,7 @@
                <h1>{{ about_us.title }}</h1>
                <br>
                <div class="p_dark">
-                  <p> {{ about_us.bio|linebreaks }} </p>
+                  {{ about_us.bio|linebreaks }}
                </div>
                <small>
                <a class="btn rounded-0 my-3" href="{% url 'contact' %}"> visit contact page</a>
