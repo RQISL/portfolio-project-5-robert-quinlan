@@ -326,14 +326,14 @@ Existing Features
 ## Validation testing
 
 ### HTML
-* Run testing used [The 3WC HTML Validator](https://validator.w3.org/) for Home, Order food menu, About Us, Profile, Login, Sign-up, Logout, Response "Thank you" and Contact pages have been meticulously reviewed and corrected to ensure optimal functionality. Our overlay model login and signup buttons remain unchanged. All passed!
+* Run testing used [The 3WC HTML Validator](https://validator.w3.org/) for Home, About Us, Category Painting, Shop, Search Product, The product Management, Profile, Login, Sign-up, Logout, and Contact pages have been meticulously reviewed and corrected to ensure optimal functionality. Our overlay model login and signup buttons remain unchanged. All passed!
 
 ### CSS
 * Run testing used [the official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/) for CSS. It was all passed and no errors.
 
 ### Python
 
-* [The CI Python Linter](https://pep8ci.herokuapp.com/#) had been running testing and there are lots of errors and fixing the bugs. It was all no errors.
+* [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool designed to identify and fix errors in Python code. With its extensive testing capabilities, it thoroughly scans your code and provides detailed feedback on any issues it finds. While it successfully resolves most errors, there may be a few instances where it is unable to make the necessary corrections. Additionally, there have been occasional issues with the tool causing errors when running the site. However, despite these minor setbacks, the CI Python Linter remains a reliable and effective solution for ensuring the quality and correctness of your Python code.
 
 ### The devices
 
