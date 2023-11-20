@@ -310,16 +310,21 @@ Existing Features
 
 ## The lighthouse runs testing and results.
 
-* Introducing our innovative product that enhances website performance with ease. The solution includes the addition of Alt tags, the removal of unnecessary HTML tags, and the incorporation of Meta keywords for SEO optimisation. 
+* This [Page Speed Insights](https://pagespeed.web.dev/analysis/https-art-gallery-elena-d4d9090ab15b-herokuapp-com/3fwzmsh2yy?form_factor=desktop). is a test tool that analyzes the performance of a website on both desktop and mobile devices. It provides insights and recommendations based on the results obtained from running the test.
 
-* It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
+* The test results indicate that the mobile performance of the analyzed website is relatively low, suggesting potential areas for improvement. It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
 
 * ### See attached result both Desktop & Mobile:
 
-   <details>
-        <summary>Click here to see both desktop and mobile performance results</summary>
-        <img src="media/images_readme/Site_pages/Desktop_and_Mobile_results.png"
-        alt=“Display two images desktop and mobile results of performance”>
+1. 
+     <details>
+        <summary>Click here to see the result of Desktop preformance</summary>
+        <img src="media/ReadMe/Test_browser_responsive/Desktop_test.png" alt=“Display the result of Desktop preformance”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the result of mobile preformancee</summary>
+        <img src="media/ReadMe/Test_browser_responsive/Mobile_test.png" alt=“Display the result of mobile preformance”>
     </details>
 
 
@@ -341,20 +346,11 @@ Existing Features
 
 ## Credits
 
-* The Django CRUD tutorial is designed to help new users navigate the complexities of creating, reading, updating, and deleting data in Django. Our tutorial is designed to provide a comprehensive overview of CRUD, with a focus on troubleshooting common errors. With step-by-step guidance, you'll learn how to identify and resolve errors and become familiar with the process of working with Django. 
+*  Our concept art gallery site, designed specifically for art enthusiasts and collectors, we offer a unique consulting experience tailored to her needs. Whether you're a first-time client or a close friend, our personalized approach ensures a seamless collaboration. With a focus on showcasing timeless art pieces, our gallery offers a diverse collection of old masterpieces. However, we understand the importance of staying current, and we are committed to updating and enhancing the site to meet her evolving preferences. When the time is right, we look forward to assisting you in showcasing your own artwork after she busy schedule with your child.
 
-* Our experienced tutors are on hand to provide support and advice, ensuring that you have all the tools you need to succeed. Whether you're a beginner or an experienced developer, our Django CRUD tutorial is an essential resource for mastering this critical aspect of Django development.
+* Please find Agile management [Consult with a client](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues/7) as you can see when we were consulted up to date. 
 
-* Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complications than you expected.  
-
-## Two things issues
-* The common issues faced with Favicon and Prettier Formatter. Our easy-to-use tool ensures seamless coding and eliminates errors but I decided not to fix due to time constraints.
-
-* 
-    <details>
-            <summary>Click here to see the red box error</summary>
-            <img src="media/images_readme/Site_pages/Error_favion.png" alt=“Display red box hight to show error of favicon”>
-    </details>
+* Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complications than you expected. Also He was exellent tutorial with me a few sessions. 
 
 # Deployment
 
@@ -368,38 +364,31 @@ then click on Verify button.
 * Type in the box “project-4-order-foods”
 * Select Europe
 * Click on the "Create app" button
-* To click "project-4-order-foods" to open
+* To click "art-gallery-elena" to open
 * Click on "Deploy" on the top menu
-* On RQISL next to the box copy from GitHub <https://github.com/RQISL/portfolio-project-4-robert-quinlan> to paste onto the box then click on to "search" button 
+* On RQISL next to the box copy from GitHub <https://github.com/RQISL/portfolio-project-5-robert-quinlan> to paste onto the box then click on to "search" button 
 * prompt shows the link active then click on the "connect" button
 * Make sure to check the "Enable Automatic" button is on
 * click on the "Deploy Branch" button
 * Prompts active on the screen until the completed
 * Click on the "View" button to open the page
 
-### The deployed site is now live [Order Foods & Delivery](https://project-4-order-foods-65605ab1b9f2.herokuapp.com/)
+### The deployed site is now live [Art Galeery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
 
 ## Resource & tutorial
 * ### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
 
 ### Resources and tutorials:
 
-1) [How to Highlight Active Links in your Django Website](https://valerymelou.com/blog/2020-05-04-how-to-highlight-active-links-in-your-django-website) 
-2) [Django Login](https://valerymelou.com/blog/2020-05-04-how-to-highlight-active-links-in-your-django-website) 
-3) [Building a Food Delivery Web App With Django and Python 1 to 7 parts](https://www.youtube.com/watch?v=msmtduZfAHo&list=PLPSM8rIid1a0qiCpbfujex5lZoXr2SRFC) 
-4) [Django - User Profile](https://dev.to/earthcomfy/django-user-profile-3hik) 
-5) [Django - CRUD](https://dev.to/earthcomfy/django-user-profile-3hik) 
-6) [Django - Cart](https://www.youtube.com/watch?v=54Op2veKDps&list=PL59NjN2r8ZIxVBiURygpQ0-Rft3VPYKAo&index=10) 
-
-7) [Django-widget-tweaks](https://pypi.org/project/django-widget-tweaks/)
+* Most of time I learned walkthrough at Aoutique Ado as it follows on my project 5 but mostly, all I made modified the way of site I created. I had quite improved familar with Django and I enjoyed but it needs further experiance improve my skills in the feild of Django. 
 
 ## Technologies Used
 
-1)  [Code Anywhere](https://app.codeanywhere.com/) - Active development in Python had been issues and delayed. I decided to move to [Gitpod](https://gitpod.io) and continue working on further projects.
-2) [The CI Python Linter](https://pep8ci.herokuapp.com/#) - Run testing any errors to be fix the bugs
-3) [Heroku app](https://www.heroku.com/) - The deployed to active the browser.
+1) [Gitpod](https://gitpod.io/workspaces) 
 
-4) [Canvas Moodboard](https://www.canva.com/) - Create moodboard with colour palette. [Colour Palette](#colour-palette)
+2) The [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
+
+3) [Heroku app](https://www.heroku.com/) - The deployed to active the browser.
 
 5) [3WC HTML Validator](https://validator.w3.org/) - Run testing any errors to be fix the bugs
 
@@ -409,13 +398,15 @@ then click on Verify button.
 
 8) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used bootstrap 5.
 
+9) Adobe Illustrator - I use for design logo.
 
-9) Adobe Illustrator
-10) Adobe Photoshop
+10) Adobe Photoshop - I use for edit images.
 
 ## Concluded 
 
-* This product is a website that has limited functionality for user login and profile management, including the admin page. Additionally, the CRUD feature is not fully operational due to time constraints.
+*  Our site is the perfect place for me to learn and grow in my skills. With a user-friendly interface and a wide range of resources, I'll find everything I need to succeed.
 
-* Order Foods & Delivery, a concept project brought to life. Visit the site [Order Foods & Delivery](https://project-4-order-foods-65605ab1b9f2.herokuapp.com/).
+*  Unlike Project 4, our site is designed to make learning easy and enjoyable. I'll have access to expert instructors, engaging content, and a supportive community of learners.
+
+* Art Gallery, a concept project brought to life. Visit the site [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/).
 
