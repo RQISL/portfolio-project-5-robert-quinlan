@@ -70,7 +70,7 @@ ____________________________________________________________
 
 * Please note that the logo was conceptualized and created separately, and you can find a link to it here. The moodboard was created using the Adobe Illustrator app. Please refer to the image below for a visual representation.
 
-* * ![Wireframe Mobile](media/ReadMe/moodboard/Moddboard%20for%20desgin%20UX.png)
+![Wireframe Mobile](media/ReadMe/moodboard/Moddboard%20for%20desgin%20UX.png)
 
 ## Colour Palette
 
@@ -111,11 +111,11 @@ Existing Features
 
 * Head navbar
 
-* * ![](media/ReadMe/Feature%20page/head_navbar.png)
+![](media/ReadMe/Feature%20page/head_navbar.png)
 
 * Open from left to right menu
 
-* * ![](media/ReadMe/Feature%20page/Left_to_rigth_menu.png)
+![](media/ReadMe/Feature%20page/Left_to_rigth_menu.png)
 
 ## The picture below:
 
@@ -251,7 +251,7 @@ Existing Features
 1. 
     <details>
         <summary>Click here to see footer page at the bottom of the button</summary>
-        <img src="media/ReadMe/Feature page/button_bottom.png" alt=“Display footer page at the bottom of the button”>
+        <img src="media/ReadMe/Feature page/button_bottom_1.png" alt=“Display footer page at the bottom of the button”>
     </details>
 1. 
      <details>
@@ -384,7 +384,7 @@ then click on Verify button.
 
 ## Technologies Used
 
-1) [Gitpod](https://gitpod.io/workspaces) 
+1) [Gitpod](https://gitpod.io) I have used it since the beginning of the project 5
 
 2) The [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
 
