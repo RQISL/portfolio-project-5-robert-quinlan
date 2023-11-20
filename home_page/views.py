@@ -47,10 +47,12 @@ def edit_home_page(request):
         form = HomePageForm(request.POST, request.FILES, instance=home)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Successfully updated your home personal page!')
+            messages.success(request, 'Successfully updated your home'
+                                      'personal page!')
             return redirect(reverse('home'))
         else:
-            messages.error(request, 'Failed to update your personal page. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update your personal page.',
+                                    'Please ensure the form is valid.')
     else:
         form = HomePageForm(instance=home)
         messages.info(request, f'You are editing {home.head}')
@@ -78,7 +80,8 @@ def add_exhibation(request):
             messages.success(request, 'Successfully added exhibation!')
             return redirect(reverse('exhibations'))
         else:
-            messages.error(request, 'Failed to add exhibation. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add exhibation. Please ensure',
+                                    'the form is valid.')
     else:
         form = ExhibationViewForm()
 
@@ -89,6 +92,7 @@ def add_exhibation(request):
 
     return render(request, template, context)
 
+
 @login_required
 def edit_exhibation(request):
     """ Edit a hoe personal page in the store """
@@ -98,13 +102,16 @@ def edit_exhibation(request):
 
     exhibation_view = get_object_or_404(ExhibationView)
     if request.method == 'POST':
-        form = ExhibationView(request.POST, request.FILES, instance=exhibation_view)
+        form = ExhibationView(request.POST, request.FILES,
+                              instance=exhibation_view)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Successfully updated your exhibation page!')
+            messages.success(request, 'Successfully updated your exhibation',
+                                      'page!')
             return redirect(reverse('edit_exhibations'))
         else:
-            messages.error(request, 'Failed to update your exhibations page. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update your exhibations page.',
+                                    'Please ensure the form is valid.')
     else:
         form = ExhibationView(instance=exhibation_view)
         messages.info(request, f'You are editing {exhibation.name}')

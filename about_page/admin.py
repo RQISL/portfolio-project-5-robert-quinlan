@@ -4,6 +4,7 @@ from .models import AboutUs
 
 # Register your models here.
 
+
 class ImageSildeAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -13,10 +14,12 @@ class ImageSildeAdmin(admin.ModelAdmin):
 
     ordering = ('sku',)
 
+
 class BioPageAdmin(admin.ModelAdmin):
-    list_display =(
+    list_display = (
         'title',
         'bio',
     )
+
 
 admin.site.register(AboutUs, BioPageAdmin)

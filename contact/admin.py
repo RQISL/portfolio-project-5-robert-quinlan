@@ -3,6 +3,7 @@ from .models import ContactUs
 
 # Register your models here.
 
+
 class ContactUsAdmin(admin.ModelAdmin):
     list_display = (
         'sku',

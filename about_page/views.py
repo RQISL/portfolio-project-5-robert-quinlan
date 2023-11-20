@@ -5,6 +5,8 @@ from django.contrib.auth.decorators import login_required
 from .forms import AboutPageForm
 
 # Create your views here.
+
+
 def aboutus(request):
     """ A view to return the about us page """
     about_us = AboutUs.objects.get()
@@ -14,8 +16,9 @@ def aboutus(request):
     context = {
         'about_us': about_us,
     }
-    
+
     return render(request, template, context)
+
 
 @login_required
 def edit_about_page(request):
@@ -29,10 +32,12 @@ def edit_about_page(request):
         form = AboutPageForm(request.POST, request.FILES, instance=about_page)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Successfully updated your home personal page!')
+            messages.success(request, 'Successfully updated your home',
+                             'personal page!')
             return redirect(reverse('aboutus'))
         else:
-            messages.error(request, 'Failed to update your personal page. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update your personal page.',
+                           'Please ensure the form is valid.')
     else:
         form = AboutPageForm(instance=about_page)
         messages.info(request, f'You are editing {about_page.title}')

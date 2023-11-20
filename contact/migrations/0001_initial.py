@@ -9,22 +9,43 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='ContactUs',
+            name="ContactUs",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sku', models.CharField(blank=True, max_length=254, null=True)),
-                ('image', cloudinary.models.CloudinaryField(max_length=255, verbose_name='image')),
-                ('name', models.CharField(max_length=254)),
-                ('description', models.TextField()),
-                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='contact.contactus')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("sku", models.CharField(blank=True,
+                                         max_length=254, null=True)),
+                (
+                    "image",
+                    cloudinary.models.CloudinaryField(
+                        max_length=255, verbose_name="image"
+                    ),
+                ),
+                ("name", models.CharField(max_length=254)),
+                ("description", models.TextField()),
+                (
+                    "category",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        to="contact.contactus",
+                    ),
+                ),
             ],
             options={
-                'verbose_name_plural': 'Contact Categories',
+                "verbose_name_plural": "Contact Categories",
             },
         ),
     ]

@@ -15,12 +15,17 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='AboutUs',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sku', models.CharField(blank=True, max_length=254, null=True)),
+                ('id',
+                    models.BigAutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
+                ('sku', models.CharField(blank=True, max_length=254,
+                                         null=True)),
                 ('name', models.CharField(max_length=254)),
                 ('title', models.CharField(max_length=254)),
                 ('bio', models.TextField()),
-                ('image', cloudinary.models.CloudinaryField(max_length=255, verbose_name='image')),
+                ('image',
+                    cloudinary.models.CloudinaryField(max_length=255,
+                                                      verbose_name='image')),
             ],
         ),
     ]

@@ -1,8 +1,9 @@
 from django.db import models
-import cloudinary
 from cloudinary.models import CloudinaryField
 
 # Create your models here.
+
+
 class AboutUs(models.Model):
 
     class Meta:
@@ -13,9 +14,9 @@ class AboutUs(models.Model):
     title = models.CharField(max_length=254)
     bio = models.TextField()
     image = CloudinaryField('image')
-    
+
     def __str__(self):
         return self.name
-    
+
     def get_title(self):
         return self.title
