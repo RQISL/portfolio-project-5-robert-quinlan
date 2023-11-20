@@ -1,7 +1,11 @@
 {% load static %}
+
 <!doctype html>
-<html lang="en">
+
+<html>
+
    <head>
+      <title>Art Gallery {% block extra_title %}{% endblock %}</title>
       {% block meta %}
       <!-- Required meta tags -->
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -49,7 +53,6 @@
       {% endblock %}
       {% block extra_js %}
       {% endblock %}
-      <title>Art Gallery {% block extra_title %}{% endblock %}</title>
    </head>
    <body>
       <header>
@@ -156,10 +159,9 @@
                                     <div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
                                     <div id="mce-responses" class="clear foot">
                                        <div class="response" id="mce-error-response" style="display: none;"></div>
-                                       <div class="response" id="mce-success-response" style="display: none;"></div>
+                                       <div class="response" id="mce-success-response" style="display:none;"></div>
                                     </div>
                                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                                       /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                        <input type="text" name="b_0d2af02fbd1b1aefa3e252b36_baa27c78ce" tabindex="-1" value="">
                                     </div>
                                     <div class="optionalParent">
@@ -185,16 +187,14 @@
       </div>
       </div>
       <footer>
-         <button class="btn footer_btn fixed-bottom border border-4 border-white" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Click here for more
-         information</button>
+         <button class="btn footer_btn fixed-bottom border border-4 border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Click here for more information</button>
       </footer>
       {% block page_header %}
       {% endblock %}
       {% block content %}
       {% endblock %}
       {% block postloadjs %}
-      <script type="text/javascript">
+      <script>
          var toastElList = [].slice.call(document.querySelectorAll('.toast'))
          var toastList = toastElList.map(function (toastEl) {
              return new bootstrap.Toast(toastEl)
@@ -235,7 +235,7 @@
              footer();
          });
       </script>
-      <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       {% endblock %}
    </body>
 </html>
