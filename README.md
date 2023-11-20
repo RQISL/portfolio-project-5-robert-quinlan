@@ -115,7 +115,7 @@ Existing Features
 
 * Open from left to right menu
 
-* * ![](media/ReadMe/Feature%20page/Left_to_Right.png)
+* * ![](media/ReadMe/Feature%20page/Left_to_rigth_menu.png)
 
 ## The picture below:
 
@@ -161,211 +161,150 @@ Existing Features
 ## Search art gallery
 *  The search page, the users can looking for type of art gallery.
 
-    <details>
+1. 
+     <details>
         <summary>Click here to see Search page</summary>
         <img src="media/ReadMe/Feature page/searchpage.png" alt=“Search page for art gallery who want to look for their own prefers”>
     </details>
-    <details>
+1. 
+     <details>
         <summary>Click here to see type in search page</summary>
         <img src="media/ReadMe/Feature page/type_in_search.png" alt=“type to look for landscape”>
     </details>
+1. 
     <details>
         <summary>Click here to see result page</summary>
         <img src="media/ReadMe/Feature page/option_sort.png" alt=“result the page of art landscape gallery page”>
     </details>
-
+1. 
     <details>
         <summary>Click here to see option low to high prices sort page</summary>
         <img src="media/ReadMe/Feature page/Result_of_sort.png" alt=“option low to high prices sort art gallery page”>
     </details>
 
 
-## Order Foods > Order Menu page
-* The user-friendly food ordering system. Simply click to order, clickable Collapse, select the menu, fill in your address details, Once satisfied, click "order place" and receive a redirect to confirm the list price and total. Check out our attached screenshots for a preview. 
+## My Account page
+* This product offers a user-friendly interface where customers can easily access their account by clicking on the "My Account" option. They will be presented with the choice to either register or login. Once logged in, customers will have access to their profile and the option to logout for added security.
 
-### Order Menu
-* 
+* On the owner's side, the "My Account" section provides comprehensive product management capabilities along with profile settings and logout functionality. Admin users will have the ability to perform CRUD operations, including creating, reading/editing, updating, and deleting products. These actions will be seamlessly displayed on the site through intuitive buttons, ensuring efficient management of the site's content.
+
+* The profile can only be updated by the user or owner, with the exception of the address field which can be changed by either party. Our product ensures efficient and secure account management for all users.
+1. 
     <details>
-        <summary>Click here to see order menu page</summary>
-        <img src="media/images_readme/Site_pages/Menu_page_desktop.png" alt=“Display menu list selects”>
+        <summary>Click here to see from left to right menu</summary>
+        <img src="media/ReadMe/Feature page/Left_to_rigth_menu.png" alt=“Display menu list selects”>
     </details>
-
-
-### Order Menu > Menu Collapse
-* 
+1. 
     <details>
-        <summary>Click here to see menu collapse</summary>
-        <img src="media/images_readme/Site_pages/Select_menu_list_foods_page.png" alt=“Display clickable collapse of the menu lists”>
+        <summary>Click here to see Sign Up page menu</summary>
+        <img src="media/ReadMe/Feature page/Signup.png" alt=“Display sign up page”>
     </details>
-
-### Order Menu > Order Place button or Go Home page
-* 
+1. 
     <details>
-        <summary>Click here to see overlay prompt order place or go to home button</summary>
-        <img src="media/images_readme/Site_pages/Order_place_button.png" alt=“Display overlay prompt order place or go to home button”>
+        <summary>Click here to see verify_email page</summary>
+        <img src="media/ReadMe/Feature page/Verify_email.png" alt=“Display verify_email page”>
     </details>
-
-
-### Order Menu > order confirmed
-* 
+1. 
     <details>
-        <summary>Click here to see order confirm price in total page > Sign-up page</summary>
-        <img src="media/images_readme/Site_pages/Order_confirm_page.png" alt=“Display order confirm price in total page”>
+        <summary>Click here to see disposable email temporary</summary>
+        <img src="media/ReadMe/Feature page/received_dispoble_email.png" alt=“Display disposable email temporary”>
     </details>
-
-
-## Profile page
-* A profile page with CRUD functionality. Users can easily create, read, update, and delete their profiles with the click of a button. With the ability to edit and delete images and biographies, users have complete control over their profiles. If a user decides to delete their profile, an empty page will be displayed with an option to create a new profile using the "Add" button. 
-
-* Please note that this is a basic implementation of CRUD functionality. Check out the attached screenshots for a preview.
-
-## Profile page
-* 
+1. 
     <details>
-        <summary>Click here to see profile page</summary>
-        <img src="media/images_readme/Site_pages/Profile_page.png" alt=“profile page“>
+        <summary>Click here to see confirm email page</summary>
+        <img src="media/ReadMe/Feature page/Confirm_email.png" alt=“Display confirm email page”>
     </details>
-
-## Profile page > Profile editing page
-* 
+1. 
     <details>
-        <summary>Click here to see profile editing</summary>
-        <img src="media/images_readme/Site_pages/Profile_edit_page.png" alt=“Display profile editing page”>
+        <summary>Click here to see confirm email with success message</summary>
+        <img src="media/ReadMe/Feature page/Success_message.png" alt=“Display confirm email with success page”>
     </details>
-
-## Profile page > Profile create page
-* 
+1. 
     <details>
-        <summary>Click here to see Add profile> Sign-up page</summary>
-        <img src="media/images_readme/Site_pages/Create_profile_page.png" alt=“Display add to create profile page”>
+        <summary>Click here to see login with success page</summary>
+        <img src="media/ReadMe/Feature page/Login_success_user.png" alt=“Display login and success message”>
     </details>
-
-
-## Logout page
-The user-friendly website with a convenient logout feature is located on the nav bar. Upon clicking, a prompt will appear to confirm the user's intention to sign out. Once confirmed, the user will be redirected to the Home page and the nav bar will disappear from the profile and logout. Additionally, our website includes a helpful reminder to order food, prompting users to login or sign up again. 
-
-### Please refer to the attached screenshots for a visual representation.
-* 
-    <details>
-        <summary>Click here to see logout page</summary>
-         <img src="media/images_readme/Site_pages/Logut_page.png" alt=“Display logout page”>
+1. 
+     <details>
+        <summary>Click here to see menu My account include profile & Logout page</summary>
+        <img src="media/ReadMe/Feature page/User_my_account.png" alt=“Display display menu to show my account include profile and logout”>
     </details>
-
-
-
 
 ## Contact page
-* Professional contact form with redirect to thank you page. Guaranteed response within 3 business days.
-* 
+* Our product provides customers with a wide range of categories to choose from, including "hire me," "general request," "photo to painting," and "design for sign language."
+* With our user-friendly site, Ower's side have the flexibility to modify, create, edit, or delete their desired content.
+* Our product empowers customers to personalise their requests and transform their photos into beautiful paintings, providing a customised experience to suit their needs.
+1. 
+    <details>
+        <summary>Click here to see category contact page</summary>
+        <img src="media/ReadMe/Feature page/category_contact.png" alt=“Display category contact page”>
+    </details>
+1. 
     <details>
         <summary>Click here to see contact form page</summary>
-        <img src="media/images_readme/Site_pages/contact_page.png" alt=“Display contact page”>
+        <img src="media/ReadMe/Feature page/Fill _form_contact.png" alt=“Display contact page”>
     </details>
-
-## Contact page > Response "Thank you message"
-* 
-    <details>
-        <summary>Click here to see response “thank you” message page</summary>
-        <img src="media/images_readme/Site_pages/Response_Thankyou_page.png" alt=“Display response message page”>
-    </details>
-
 
 ## Footer 
 
-* "Order Foods & Delivery" title display with a copyright symbol. Simple design and development. Screenshot attached.
-
-* 
+* Enhance user experience with our innovative product featuring a "Click here for more information" button at the bottom. As users scroll up, a seamless fade-in effect captures their attention, inviting them to click. Once clicked, the content smoothly slides up to occupy the full screen, providing a comprehensive view. Additionally, users can conveniently access Facebook or subscribe to our newsletter, ensuring they stay connected and up-to-date with the latest updates and promotions.
+1. 
     <details>
-        <summary>Click here to see footer page</summary>
-        <img src="media/images_readme/Site_pages/Footer_page.png" alt=“Display footer bottom page”>
+        <summary>Click here to see footer page at the bottom of the button</summary>
+        <img src="media/ReadMe/Feature page/button_bottom.png" alt=“Display footer page at the bottom of the button”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see footer page full slide up</summary>
+        <img src="media/ReadMe/Feature page/full_screen_footer.png" alt=“Display footer page full slide up”>
     </details>
 
 
 # Site Administration
 
-* You would need access administration page at [Order Foods & Delivery](https://project-4-order-foods-65605ab1b9f2.herokuapp.com/admin/) site. I hope you will receive for the username and password.
+* You will be able to access the administration page at [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/admin/login/?next=/admin/) site. I will give instructions when you receive my submission.
 
-* ### General Admin site
-    * The general admin site offers a range of features including email address management, user and group management, category organisation, contact views, menu item customisation, order models, profile views, social account integration, social application tokens, and social applications. Ideal for staffs and chefs efficient online presence management.
-    * 
-        <details>
-            <summary>Click here to see a general admin site</summary>
-            <img src="media/images_readme/Admin_page/General_admin_site.png" alt=“Display general admin page”>
-        </details>
+* This product offers a comprehensive solution for website owners, providing both a user-friendly site and an administration site for easy management. Only owners have access to the administration site, where they can make edits to the website if desired. By logging into the administration site and selecting "view site on the top right," users will find a range of buttons such as "add," "edit," or "delete." 
 
-* ### Group & User
-    * An enables group name addition for staff, granting access to the administration page. Easily identify users without admin access through the red spot list.
-    * 
-        <details>
-            <summary> Click here to see Group & User</summary>
-            <img src="media/images_readme/Admin_page/User_info_admin_page.png" alt=“Display group & user list of page”>
-        </details>
+* These buttons allow owners to make changes to various sections of the website, including Home, About, Category Painting, Shop, My Account - Product Management, and Contact.
 
-
-* ### Catageroy list foods
-    * A comprehensive solution for staff and chefs to manage their menu items with ease. With added categories such as Starter, Soup, Main, Dessert, and Drink, to allows for administration on your site.
-    * 
-        <details>
-            <summary>Click here to see lists of menu</summary>
-            <img src="media/images_readme/Admin_page/List_meun_admin_page.png" alt=“Display catageroy list of foods page”>
-        </details>
-    * 
-        <details>
-            <summary>Click here to see add menu with description</summary>
-            <img src="media/images_readme/Admin_page/add meun_list_admin_page.png" alt=“Display input form for name meal and desripatigon page”>
-        </details>
-
-* ### Customers information
-    * The ordering system, derived from customer order menus. This system allows for easy viewing of order details, streamlining the ordering process.
-    * 
-        <details>
-            <summary> Click here to see order list customers</summary>
-            <img src="media/images_readme/Admin_page/order_food_info_admin_page.png" alt=“Display customers' order lists view page”>
-        </details>
-    * 
-        <details>
-            <summary> Click here to see view customers information</summary>
-            <img src="media/images_readme/Admin_page/customer_info_order_foods_admin_page.png" alt=“Display customers' order foods detail view page”>
-        </details>
-
-* ### Profile view
-     * The profile system, accessible by clicking on a user's name to view their information. While users cannot modify staff admin profiles, creating a clear distinction between staff and users can be challenging. With ample time, you would strive to perfect this feature for seamless user experience.
-    * 
-        <details>
-            <summary> Click here to see profile view</summary>
-            <img src="media/images_readme/Admin_page/Profile_admin_page.png" alt=“Display profile view page”>
-        </details>
-    * 
-        <details>
-            <summary> Click here to see profile's information view</summary>
-            <img src="media/images_readme/Admin_page/Profile_edit_admin_page.png" alt=“Display profile's detail view page”>
-        </details>
-
-* ### customers' contact view
-     * The contact system, easily accessible by clicking on a user's name to view their contact information. Our staff is readily available to respond to any enquiries you may have.
-    * 
-        <details>
-            <summary>Click here to see contact lists</summary>
-            <img src="media/images_readme/Admin_page/contact_info_admin_page.png" alt=“Display customers' list of message view page”>
-        </details>
-    * 
-        <details>
-            <summary>Contact's information view</summary>
-            <img src="media/images_readme/Admin_page/contact_view.png" alt=“Display customers' message detail view page”>
-        </details>
-
-## Testing
-* Our comprehensive testing service ensures browser compatibility across a range of popular browsers including Safari, Google Chrome, Opera, Microsoft Edge, and Firefox. 
-
-* I conduct thorough tests on desktop 24”, MacBook Pro laptop 21”, and iPhone 6” to ensure responsive design on screens of varying aspect ratios. While I have identified some issues with Safari's navbar responsiveness.
-
-* I have decided not to pursue further fixes due to time constraints. However, I plan to conduct more thorough testing on Safari in the future, as I have found its developer tools to be superior to those of Chrome, which we typically use.
-
-* #### See compare screen on Safari and Google Chrome responsive Screenshot attached
-* 
+1. 
     <details>
-        <summary>Click here to see compared between Chrome & Safari</summary>
-        <img src="media/images_readme/Site_pages/Chrome_and_Safari.png" alt=“Display compared between Chrome & Safari of images”>
+        <summary>Click here to see example button add, edit or delete page</summary>
+        <img src="media/ReadMe/Feature page/add_edit_delete.png" alt=“Display example button add, edit or delete page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see example home page edit</summary>
+        <img src="media/ReadMe/Feature page/Personal_edit.png" alt=“Display home page edit”>
+    </details>
+
+
+## Testing browser compatibility
+
+* Our comprehensive testing service guarantees browser compatibility across a wide range of popular browsers, such as Safari, Google Chrome, Opera, and Firefox. With our rigorous testing process, you can be confident that your website or application will function seamlessly across these platforms.
+
+* Microsoft Edge, 2. Unfortunately, if you are experiencing issues with Microsoft Edge on your laptop, it may be due to compatibility problems with older versions.
+
+* To fully enjoy the benefits of Microsoft Edge, we recommend using it on a more up-to-date laptop that meets the system requirements. Upgrade your device to unlock the full potential of this innovative web browser and enjoy a faster, safer, and more efficient browsing experience.
+
+* As an example, we have conducted extensive testing using the Safari browser, ensuring that your website is fully responsive and optimized for this specific platform. You can refer to the attached screenshot to see the exemplary results of our testing.
+
+* While we thoroughly test for compatibility on various browsers, it is important to note that there may be slight variations in the appearance or functionality of certain elements. In the case of a minor discrepancy, such as a button placement in the bottom footer, we have made a conscious decision to maintain the original style without making any changes. Rest assured, this will not affect the overall user experience or functionality of your website.
+1. 
+    <details>
+        <summary>Click here to see Safari for Desktop</summary>
+        <img src="media/ReadMe/Test_browser_responsive/Desktop.png" alt=“Display Safari for Desktop”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see Safari for tablet</summary>
+        <img src="media/ReadMe/Test_browser_responsive/Tablet.png" alt=“Display Safari for tablet”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see Safari mobile</summary>
+        <img src="media/ReadMe/Test_browser_responsive/mobile.png" alt=“Display Safari mobile”>
     </details>
 
 
