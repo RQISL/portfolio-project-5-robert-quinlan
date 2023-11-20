@@ -1,24 +1,21 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
 <div class="container pb-5">
-    <h3 class="display-4 logo-font py-3 d-flex justify-content-center">
-        Elena's Exhibations
-    </h3>
-    <hr>         
-            <div class="grid-container">
-                {% for exhibation in exhibations %}
-                {% if exhibation.image %}
-               
-                    <div class="text-center">    
-                        <img class="images" src="{{ exhibation.image.url }}" alt="{{ exhibation.name }}">
-                    </div>
-                
-                {% else %}
-                {% endif %}
-                {% endfor %}
-            </div>
+   <h3 class="display-4 logo-font py-3 d-flex justify-content-center">
+      Elena's Exhibations
+   </h3>
+   <hr>
+   <div class="grid-container">
+      {% for exhibation in exhibations %}
+      {% if exhibation.image %}
+      <div class="text-center">    
+         <img class="images" src="{{ exhibation.image.url }}" alt="{{ exhibation.name }}">
+      </div>
+      {% else %}
+      {% endif %}
+      {% endfor %}
+   </div>
 </div>
 <footer></footer>
 {% endblock %}

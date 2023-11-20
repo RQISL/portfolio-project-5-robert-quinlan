@@ -1,67 +1,66 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
 <div class="container px-2">
-    <div class="row">
-        <div class="col text-center">
-            <h2 class="display-4 logo-font">Contact Us</h2>
-            <hr class="w-100 mb-3">
-        </div>
-        {% if request.user.is_superuser %}
-        <div class="col-12 text-white text-right">
-            <form method="POST" action="{% url 'add_contact_category' %}" class="form mb-2" enctype="multipart/form-data">
-                {% csrf_token %}
-                {% for field in form %}
-                {% if field.name != 'image' %}
-                {{ field | as_crispy_field }}
-                {% else %}
-                {{ field }}
-                {% endif %}
-                {% endfor %}
-                <div class="text-right mt-3">
-                    <button class="btn btn-black rounded-0" type="submit">Add contact category</button>
-                </div>
-            </form>
-        </div>
-        {% endif %}
-    </div>
-    <div class="row">
-        <div class="product-container col-10 offset-1">
-            <div class="row mt-1 mb-2"></div>
-            <div class="row">
-                {% for contact in contactus %}
-                <div class="col-xl-6 mb-3">
-                    <div class="card h-100 border-0">
-                        {% if contact.image %}
-                        <img class="card-img-top img-fluid" src="{{ contact.image.url }}" alt="{{ contact.name }}">
-                        {% else %}
-                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ contact.name }}">
-                        </a>
-                        {% endif %}
-                        <div class="card-body p-4">
-                            <h5 class="card-title p_white">{{ contact.name }}</h5>
-                            <p class="card-text p_white">{{ contact.description }}</p>
-                            {% if contact.name %}
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn_ligth rounded-0 mt-1" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
-                            </div>
-                            {% endif %}
-                        </div>
-                        {% if request.user.is_superuser %}
-                        <small class="ml-3">
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn_ligth rounded-0 m-2" href="{% url 'edit_contact_category' contact.id %}">Edit</a>
-                                <a class="btn btn_ligth rounded-0 m-2" href="{% url 'delete_contact_category' contact.id %}">Delete</a>
-                            </div>
-                        </small>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endfor %}
+   <div class="row">
+      <div class="col text-center">
+         <h2 class="display-4 logo-font">Contact Us</h2>
+         <hr class="w-100 mb-3">
+      </div>
+      {% if request.user.is_superuser %}
+      <div class="col-12 text-white text-right">
+         <form method="POST" action="{% url 'add_contact_category' %}" class="form mb-2" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% for field in form %}
+            {% if field.name != 'image' %}
+            {{ field | as_crispy_field }}
+            {% else %}
+            {{ field }}
+            {% endif %}
+            {% endfor %}
+            <div class="text-right mt-3">
+               <button class="btn btn-black rounded-0" type="submit">Add contact category</button>
             </div>
-        </div>
-    </div>
+         </form>
+      </div>
+      {% endif %}
+   </div>
+   <div class="row">
+      <div class="product-container col-10 offset-1">
+         <div class="row mt-1 mb-2"></div>
+         <div class="row">
+            {% for contact in contactus %}
+            <div class="col-xl-6 mb-3">
+               <div class="card h-100 border-0">
+                  {% if contact.image %}
+                  <img class="card-img-top img-fluid" src="{{ contact.image.url }}" alt="{{ contact.name }}">
+                  {% else %}
+                  <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ contact.name }}">
+                  </a>
+                  {% endif %}
+                  <div class="card-body p-4">
+                     <h5 class="card-title p_white">{{ contact.name }}</h5>
+                     <p class="card-text p_white">{{ contact.description }}</p>
+                     {% if contact.name %}
+                     <div class="d-flex justify-content-center">
+                        <a class="btn btn_ligth rounded-0 mt-1" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
+                     </div>
+                     {% endif %}
+                  </div>
+                  {% if request.user.is_superuser %}
+                  <small class="ml-3">
+                     <div class="d-flex justify-content-between">
+                        <a class="btn btn_ligth rounded-0 m-2" href="{% url 'edit_contact_category' contact.id %}">Edit</a>
+                        <a class="btn btn_ligth rounded-0 m-2" href="{% url 'delete_contact_category' contact.id %}">Delete</a>
+                     </div>
+                  </small>
+                  {% endif %}
+               </div>
+            </div>
+            {% endfor %}
+         </div>
+      </div>
+   </div>
 </div>
 <footer></footer>
 {% endblock %}

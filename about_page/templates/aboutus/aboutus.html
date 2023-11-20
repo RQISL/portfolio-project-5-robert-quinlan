@@ -1,41 +1,39 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
 <div class="container px-4">
-    <h3 class="display-4 logo-font py-3 d-flex justify-content-center">
-        About Us
-    </h3>
-    <hr>
-    <div class="row cols-md-2">
-        <div class="col-xl-6 text-center mt-2">
-                    {% if about_us.image %}
-                        <img class="d-block w-100 img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ about_us.image.url }}" alt="{{ about_us.name }}">
-                    
-                    {% else %}
-                        <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ MEDIA_URL }}noimage.png" alt="No image on the display as mute photo image">
-                    {% endif %}
-        </div>
-        <div class="col-xl-6">
-            <div>
-                <div class="col mt-3 p-3 border border-white">
-                    <h1>{{ about_us.title }}</h1>
-                    <br>
-                    <div class="p_dark">
-                        <p> {{ about_us.bio|linebreaks }} </p>
-                    </div>
-                    <small>
-                        <a class="btn rounded-0 my-3" href="{% url 'contact' %}"> visit contact page</a>
-                    </small>
-                </div>
-                {% if request.user.is_superuser %}
-                <small>
-                    <a class="btn rounded-0 my-3" href="{% url 'edit_about_page' %}">Edit about us page</a>
-                </small>
-                {% endif %}
+   <h3 class="display-4 logo-font py-3 d-flex justify-content-center">
+      About Us
+   </h3>
+   <hr>
+   <div class="row cols-md-2">
+      <div class="col-xl-6 text-center mt-2">
+         {% if about_us.image %}
+         <img class="d-block w-100 img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ about_us.image.url }}" alt="{{ about_us.name }}">
+         {% else %}
+         <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="{{ MEDIA_URL }}noimage.png" alt="No image on the display as mute photo image">
+         {% endif %}
+      </div>
+      <div class="col-xl-6">
+         <div>
+            <div class="col mt-3 p-3 border border-white">
+               <h1>{{ about_us.title }}</h1>
+               <br>
+               <div class="p_dark">
+                  <p> {{ about_us.bio|linebreaks }} </p>
+               </div>
+               <small>
+               <a class="btn rounded-0 my-3" href="{% url 'contact' %}"> visit contact page</a>
+               </small>
             </div>
-        </div>
-    </div>
+            {% if request.user.is_superuser %}
+            <small>
+            <a class="btn rounded-0 my-3" href="{% url 'edit_about_page' %}">Edit about us page</a>
+            </small>
+            {% endif %}
+         </div>
+      </div>
+   </div>
 </div>
 <footer></footer>
 {% endblock %}
