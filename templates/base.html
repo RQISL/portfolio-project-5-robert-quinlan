@@ -53,7 +53,7 @@
       <header>
          <nav class="navbar fixed-top">
             <button class="ms-3 py-2 px-3 btn-bg rounded-0" aria-label="slideToggle left to right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class='fas fa-bars'></i></button>
-            <div><img class="img-fluid img-logo" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1700247726/Elena_Logo_1_zzz7aq.png" alt="Art painting logo with her name is Elena Sawczenko"></div>
+            <div><a href="{% url 'home' %}"><img class="img-fluid img-logo" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1700247726/Elena_Logo_1_zzz7aq.png" alt="Art painting logo with her name is Elena Sawczenko"></a></div>
             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %}nav-link"
                href="{% url 'gallery_view_bag' %}">
                <div class="text-center bg-bag position-absolute top-0 end-0 mt-4 me-3 py-2 px-3 rounded-0">
