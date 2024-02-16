@@ -52,9 +52,7 @@ class StripeWH_Handler:
         save_info = intent.metadata.save_info
 
         # Get the Charge object
-        stripe_charge = stripe.Charge.retrieve
-        (
-            intent.latest_charge
+        stripe_charge = stripe.Charge.retrieve(intent.latest_charge
         )
 
         billing_details = stripe_charge.billing_details  # updated
