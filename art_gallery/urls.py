@@ -30,5 +30,3 @@ urlpatterns = [
     path('profiles/', include('profiles.urls')),
     path('contact/', include('contact.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-handler404 = 'home_page.views.error_404'

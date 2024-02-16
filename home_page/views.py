@@ -6,11 +6,6 @@ from .models import HomePage, ExhibationView
 from .forms import HomePageForm, ExhibationViewForm
 
 
-def error_404(request, exception):
-    data = {}
-    return render(request, 'home_page/404.html', data)
-
-
 def index(request):
     """ A view to return the index page """
     home_personal = HomePage.objects.get()
