@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-rqisl-portfolioproject-v66rodeu55s.ws-eu108.gitpod.io', 'art-gallery-elena-d4d9090ab15b.herokuapp.com']
 
@@ -187,11 +187,11 @@ MEDIA_URL = '/media/'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
-# cloudinary.config(
-#     cloud_name='dhl4uxgix',
-#     api_key='542128783568786',
-#     api_secret='qHbreO3XcIhdcquy9YUtCVCQ4OM'
-# )
+cloudinary.config(
+    cloud_name='dhl4uxgix',
+    api_key='542128783568786',
+    api_secret='qHbreO3XcIhdcquy9YUtCVCQ4OM'
+)
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
