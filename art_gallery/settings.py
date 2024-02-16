@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'django.contrib.sites',
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
     'cloudinary',
     'allauth',
     'allauth.account',
@@ -183,15 +184,14 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
-cloudinary.config(
-    cloud_name='dhl4uxgix',
-    api_key='542128783568786',
-    api_secret='qHbreO3XcIhdcquy9YUtCVCQ4OM'
-)
+# cloudinary.config(
+#     cloud_name='dhl4uxgix',
+#     api_key='542128783568786',
+#     api_secret='qHbreO3XcIhdcquy9YUtCVCQ4OM'
+# )
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
