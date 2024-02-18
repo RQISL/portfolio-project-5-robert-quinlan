@@ -141,7 +141,7 @@ def edit_category(request, categoriesgroup_id):
         'form': form,
         'category': category,
     }
-    print(category)
+
     return render(request, template, context)
 
 
