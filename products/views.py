@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category, CategoriesGroups 
+from .models import Product, Category, CategoriesGroups
 from .forms import ProductForm, CategoryForm
 
 # Create your views here.
@@ -33,7 +33,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-            
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -42,10 +42,11 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request,
+                               "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = Q(name__icontains=query) | Q(description__icontains=query) # noqa
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -70,14 +71,14 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
-    
+
 
 def category_paintings(request):
     """ A view to return the category painting page """
     categoriesgroups = CategoriesGroups.objects.all()
 
     context = {
-        "categoriesgroups": categoriesgroups, 
+        "categoriesgroups": categoriesgroups,
     }
 
     return render(request, 'products/category_paintings.html', context)
@@ -99,7 +100,9 @@ def add_category(request):
             messages.success(request, 'Successfully added category!')
             return redirect(reverse('category_paintings'))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add product.',
+                           'Please ensure the form is valid.')
     else:
         form = CategoryForm()
 
@@ -126,7 +129,9 @@ def edit_category(request, categoriesgroup_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('edit_category', args=[category.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update product.',
+                           'Please ensure the form is valid.')
     else:
         form = CategoryForm(instance=category)
         messages.info(request, f'You are editing {category.name}')
@@ -168,10 +173,12 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add product.',
+                           'Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -195,7 +202,9 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update product.',
+                           'Please ensure the form is valid.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
