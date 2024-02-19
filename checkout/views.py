@@ -4,7 +4,8 @@ from django.shortcuts import (
     reverse,
     get_object_or_404,
     HttpResponse,
-)  # noqa
+)
+
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
