@@ -93,8 +93,8 @@ def checkout(request):
                     messages.error(
                         request,
                         (
-                            "One of the products in your bag wasn't found in"
-                            "our database."
+                            "One of the products in your bag wasn't found in \
+                            our database."
                             "Please call us for assistance!"
                         ),
                     )
