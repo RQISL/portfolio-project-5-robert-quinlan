@@ -5,7 +5,11 @@
 <html lang="en">
 
    <head>
+      
       <title>Art Gallery {% block extra_title %}{% endblock %}</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" type="image/ico" href="{% static 'favicon/favicon.ico' %}" >
+
       {% block meta %}
       <!-- Required meta tags -->
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -35,8 +39,10 @@
       <!-- Mailchimp -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
       {% endblock %}
+   
       {% block extra_css %}
       {% endblock %}
+
       {% block corejs %}
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -46,6 +52,7 @@
       <!-- Stripe -->
       <script src="https://js.stripe.com/v3/"></script>
       {% endblock %}
+
       {% block extra_js %}
       {% endblock %}
    </head>
