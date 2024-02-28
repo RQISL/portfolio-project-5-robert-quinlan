@@ -1,7 +1,8 @@
 
 ------------------------------------------------------------------------------------
 ### Please note: I am first language is ISL (Irish Sign Language). Despite writing in English as a second language.
-____________________________________________________________
+------------------------------------------------------------------------------------
+
 * Introducing the [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator), a powerful tool designed to assist non-native English speakers in crafting professional and polished product descriptions. While subscriptions to this tool can be costly, it has proven to be an invaluable resource for those seeking to improve their English writing skills. With the ability to write and translate English clearly and concisely, users can confidently create product descriptions that are both informative and engaging. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is a must-have tool for anyone looking to enhance their English writing abilities.
 
 * Above I used that one for a site development project for Art Gallery.
@@ -189,6 +190,8 @@ Existing Features
 * On the owner's side, the "My Account" section provides comprehensive product management capabilities along with profile settings and logout functionality. Admin users will have the ability to perform CRUD operations, including creating, reading/editing, updating, and deleting products. These actions will be seamlessly displayed on the site through intuitive buttons, ensuring efficient management of the site's content.
 
 * The profile can only be updated by the user or owner, with the exception of the address field which can be changed by either party. Our product ensures efficient and secure account management for all users.
+
+* Exciting news! We now offer the option to order an art gallery without signing up. We understand that some users prefer not to use their profile, so we've made it hassle-free for you. Simply place your order and we'll send all the details directly to your email. No signup required! Enjoy our art gallery experience effortlessly.
 1. 
     <details>
         <summary>Click here to see from left to right menu</summary>
@@ -278,6 +281,22 @@ Existing Features
         <summary>Click here to see example home page edit</summary>
         <img src="media/ReadMe/Feature page/Personal_edit.png" alt=“Display home page edit”>
     </details>
+
+# Manual Testing
+
+* Our product is a comprehensive project management tool that incorporates Agile management principles into its 18-stage board system.
+
+* With a focus on continuous improvement, our platform allows for the seamless addition of new features based on user feedback and evolving project requirements.
+
+* In addition, our product comes with a detailed manual testing process to ensure the highest level of quality and reliability for our users.
+
+### 1. Navigation Bar
+
+As **HTML, Django, and Bootstrap**  I can **create menu from vertical** So that **the user clicks onto the toggle button to open on the vertical to right**
+
+|Feature|Action|Expected Result|Actual Results|
+|-------|-----------|----------|--------------|
+|Navigation Bar|Click three option dash toggle, logo and basket on the navigation bar|User can click to Dash toggle, logo and basket|User can either option those navigation bar|Works as expected|
 
 
 ## Testing browser compatibility
@@ -394,13 +413,11 @@ then click on Verify button.
 
 6) [3WC CSS Validator](https://jigsaw.w3.org/css-validator/)  - Run testing any errors to be fix the bugs
 
-7) [Free Licence download images](https://www.vecteezy.com/free-photos/meal?page=2 )  - I used download for free licence images.
+7) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used bootstrap 5.
 
-8) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used bootstrap 5.
+8) Adobe Illustrator - I use for design logo.
 
-9) Adobe Illustrator - I use for design logo.
-
-10) Adobe Photoshop - I use for edit images.
+9) Adobe Photoshop - I use for edit images.
 
 ## Concluded 
 
