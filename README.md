@@ -22,13 +22,13 @@
 * 
     <details>
         <summary>Click here to see the board:</summary>
-        <img src="media/ReadMe/Aigle/Screen Shot 2023-11-07 at 11.21.20.png" alt="display the Aigle board">
+        <img src="media/ReadMe/Agile/Screen Shot 2023-11-07 at 11.21.20.png" alt="display the Agile board">
     </details>
 
 * 
     <details>
         <summary>Click here to see the from start, middle and finish on the milestones:</summary>
-        <img src="media/ReadMe/Aigle/first_middle_last.png" alt="Three milestones from start, middle & finish">
+        <img src="media/ReadMe/Agile/first_middle_last.png" alt="Three milestones from start, middle & finish">
     </details>
 
 ## Concept Project
@@ -292,12 +292,38 @@ Existing Features
 
 ### 1. Navigation Bar
 
-As **HTML, Django, and Bootstrap**  I can **create menu from vertical** So that **the user clicks onto the toggle button to open on the vertical to right**
+* As **<u>HTML, Django, and Bootstrap</u>**  I can **<u>create menu for the vertical</u>** So that **<u>the user clicks onto the toggle button to open on the vertical to right,</u>**
 
-|Feature|Action|Expected Result|Actual Results|
-|-------|-----------|----------|--------------|
-|Navigation Bar|Click three option dash toggle, logo and basket on the navigation bar|User can click to Dash toggle, logo and basket|User can either option those navigation bar|Works as expected|
+| Feature | Action | Expected Result | Actual Results |
+|---------|--------|-----------------|----------------|
+| Navigation Bar| <ol> <li>Dash button</li> <li>Click to Logo</li> <li>Click to basket</li> <li>In checkout page</li> </ol> | <ol> <li>User click to open the vertial on leftside to right</li> <li>User click to logo to get back to home page</li> <li>User click to basket and to checkout page as empty basket, which the user does not any order yet</li> <li>User click to 'Keep Shopping' button, which the user can contuine purchases</li></ol> |<ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> </ol> |
 
+* See images order of the number as above
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Dash button</summary>
+        <img src="media/ReadMe/Manual testing/dash-button.png" alt=“Display to show where the Dash button on the navigation”>
+        <img src="media/ReadMe/Manual testing/Vertical-to-right.png" alt=“Display to show where the Dash button to open vertical to right”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see the logo</summary>
+        <img src="media/ReadMe/Manual testing/click-logo-page.png" alt=“Display to show where the logo on the navigation bar”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see the basket & empty the basket to checkout page</summary>
+        <img src="media/ReadMe/Manual testing/click-to-basket.png" alt=“Display to show where the basket on the navigation bar”>
+        <img src="media/ReadMe/Manual testing/empty-basket.png" alt=“Display to show the empty the basket to the checkout page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see screenshot and see the 'keep shopping' of the button & to category painting page</summary>
+        <img src="media/ReadMe/Manual testing/keep-shopping-button.png" alt=“Display to show where the 'keep shopping' on the button”>
+        <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchases”>
+    </details>
 
 ## Testing browser compatibility
 
