@@ -1,15 +1,12 @@
 
 ------------------------------------------------------------------------------------
-### Please note: I am first language is ISL (Irish Sign Language). Despite writing in English as a second language.
+## Please note: My first language is Irish Sign Language, and English is my second language.
 ------------------------------------------------------------------------------------
 
-* Introducing the [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator), a powerful tool designed to assist non-native English speakers in crafting professional and polished product descriptions. While subscriptions to this tool can be costly, it has proven to be an invaluable resource for those seeking to improve their English writing skills. With the ability to write and translate English clearly and concisely, users can confidently create product descriptions that are both informative and engaging. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is a must-have tool for anyone looking to enhance their English writing abilities.
-
-* Above I used that one for a site development project for Art Gallery.
-
-* Unfortunately, It is not perfect to write because it did not meet of my demonstration for Readme. I had to write in my second English language and copy and paste in the AI generator then make editing instead. 
-
-* I hope you read and understand the ReadMe.
+* The [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator) is a powerful tool specifically designed to assist non-native English speakers in creating professional and polished product descriptions. It has proven to be an invaluable resource for individuals looking to improve their English writing skills, despite the cost of subscriptions. With its ability to write and translate English clearly and concisely, users can confidently produce informative and engaging product descriptions. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is an essential tool for enhancing your English writing abilities.
+* This particular tool was utilized in a site development project for an Art Gallery, showcasing its versatility and applicability across various industries.
+* Although the tool did not meet the requirements for my demonstration in the ReadMe, I was able to work around it by writing in my second language and then editing the generated content from the AI generator.
+* I sincerely hope that you have taken the time to read and understand the ReadMe document.
 ------------------------------------------------------------------------------------
 ## Agile management
 
@@ -298,7 +295,7 @@ Existing Features
 |---------|--------|-----------------|----------------|
 | Navigation Bar| <ol> <li>Dash button</li> <li>Click to Logo</li> <li>Click to basket</li> <li>In checkout page</li> </ol> | <ol> <li>User click to open the vertial on leftside to right</li> <li>User click to logo to get back to home page</li> <li>User click to basket and to checkout page as empty basket, which the user does not any order yet</li> <li>User click to 'Keep Shopping' button, which the user can contuine purchases</li></ol> |<ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> </ol> |
 
-* See images order of the number as above
+### Please refer to the numbers in the order shown above the table in the images.
 
 1. 
     <details>
@@ -323,6 +320,105 @@ Existing Features
         <summary>Click here to see screenshot and see the 'keep shopping' of the button & to category painting page</summary>
         <img src="media/ReadMe/Manual testing/keep-shopping-button.png" alt=“Display to show where the 'keep shopping' on the button”>
         <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchases”>
+    </details>
+
+### 2. Home Page 
+
+* As **<u>HTML</u>** I can create **<u>an image of the client portrait photo and text & translate ISL video</u>** So that **<u>amount the client information of her talent Fine Art</u>**
+* As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
+
+| Feature | Action | Expected Result | Actual Results |
+|---------|--------|-----------------|----------------|
+| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Home' and activate to Home page </li> <li>User click 'visit her exhibition' on the button and activate to 'visit her exhibition' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Dash button and activate home page</summary>
+        <img src="media/ReadMe/Manual testing/vertical-home.png" alt=“Display to show where the Dash button to click to Home link”>
+        <img src="media/ReadMe/Manual testing/home-page.png" alt=“Display to show Home page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see 'visit her exhibation button' & activate Elena's Exhibation page</summary>
+        <img src="media/ReadMe/Manual testing/visit-her-exhibations-button.png" alt=“Display to show the 'visit her exhibation' button”>
+        <img src="media/ReadMe/Manual testing/visit-her-exhib-page.png" alt=“Display to show the Elena's exhibation page”>
+    </details>
+
+### 3. About Page 
+
+* As **<u>HTML</u>** I can create **<u>the about page of the client's talent Fine Art with portrait and text & translate ISL video</u>** So that **<u>show previous the client work varies art</u>**
+
+* As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
+
+| Feature | Action | Expected Result | Actual Results |
+|---------|--------|-----------------|----------------|
+| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'About' and activate to About page </li> <li>User click 'visit contact page' on the button and activate to 'Contact' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Dash button and activate about page</summary>
+        <img src="media/ReadMe/Manual testing/about-link.png" alt=“Display to show where the Dash button to click to About link”>
+        <img src="media/ReadMe/Manual testing/about-page.png" alt=“Display to show About page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see 'visit contact button' & activate contact page</summary>
+        <img src="media/ReadMe/Manual testing/about-button.png" alt=“Display to show the 'visit contact page' button”>
+        <img src="media/ReadMe/Manual testing/contact-page.png" alt=“Display to show the contact page”>
+    </details>
+
+### 4. Category Painting Page 
+
+* As **<u>HTML, Python, Django, and Allauth</u>** I can create **<u>buy the art gallery included Allaut</u>** So that **<u>the user or company can buy a fine art gallery</u>**
+
+1) There are four categories in the art group: Water Paint, Texture Paint, Oil Paint and Pencil Drawing. 
+1) Each art gallery allows you to select and rollover to display the relevant information.
+1) Additionally, you can add items to your basket and display them on the checkout page. 
+1) On the checkout page, you'll need to fill in your address and indicate whether you would like to add a profile or not.
+
+As **<u>Please note as above mention No.1:**</u> Please note that before consulting with my client, I revised my concept project for the painting category. I changed it to include landscapes, nudes, and other themes. This was done while I collected her previous paintings from galleries through her photography.
+
+
+| Feature | Action | Expected Result | Actual Results |
+|---------|--------|-----------------|----------------|
+| 1. Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Category Painting' and activate to category painting page </li> <li>User click any button on category painting page and activate to Art Gallery page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+| 2. Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout'</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
+| 3. Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate category painting page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Complete Order' button and activate thank you page</li> <li>If User click to 'Adjust Bag' button and activate checkout page</li></ul> <li>Alert box pop up</li> <ul><li>User click to 'Secure Checkout' and activate checkout page</li></ul> </ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <ul><li>Works as expected</li></ul></ol> |
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+#### 1. Dash Button
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Dash button and activate Category Painting page</summary>
+        <img src="media/ReadMe/Manual testing/category-painting-link.png" alt=“Display to show where the Dash button to click to category painting link”>
+        <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see any buttons on category painting page & activate Art Gallery page</summary>
+        <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
+        <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
+    </details>
+
+#### 2. Art Gallery Page
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Dash button and activate Category Painting page</summary>
+        <img src="media/ReadMe/Manual testing/category-painting-link.png" alt=“Display to show where the Dash button to click to category painting link”>
+        <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see any buttons on category painting page & activate Art Gallery page</summary>
+        <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
+        <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
     </details>
 
 ## Testing browser compatibility
