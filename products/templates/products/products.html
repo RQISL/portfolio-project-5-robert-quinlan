@@ -58,8 +58,7 @@
                         </a>
                         {% else %}
                         <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                                alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699216440/noimage_v16ou9.png" alt="No image on the display as mute photo image">
                         </a>
                         {% endif %}
                         <div class="card-body pb-0 p_white">
