@@ -19,4 +19,4 @@ class AboutUs(models.Model):
         return self.name
 
     def get_name(self):
-        return self.title
+        return self.name
