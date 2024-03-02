@@ -385,9 +385,9 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 | Feature | Action | Expected Result | Actual Results |
 |---------|--------|-----------------|----------------|
-| 1. Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Category Painting' and activate to category painting page </li> <li>User click any button on category painting page and activate to Art Gallery page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
-| 2. Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout'</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
-| 3. Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate category painting page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Complete Order' button and activate thank you page</li> <li>If User click to 'Adjust Bag' button and activate checkout page</li></ul> <li>Alert box pop up</li> <ul><li>User click to 'Secure Checkout' and activate checkout page</li></ul> </ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <ul><li>Works as expected</li></ul></ol> |
+| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Category Painting' and activate to category painting page </li> <li>User click any button on category painting page and activate to Art Gallery page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+| Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout' on the alert box</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
+| Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate category painting page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Adjust Bag' button and activate checkout page</li> <li>If User click to 'Complete Order' button and activate thank you page</li> </ul> <li>Alert box pop up after the complete order</li></ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> </ol> |
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -410,16 +410,149 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see Dash button and activate Category Painting page</summary>
-        <img src="media/ReadMe/Manual testing/category-painting-link.png" alt=“Display to show where the Dash button to click to category painting link”>
-        <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+        <summary>Click here to see screenshot and see 'View Frame' button and activate add to bag page</summary>
+        <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show where is 'View Frame' the button to click to activate add to bag page”>
+        <img src="media/ReadMe/Manual testing/category-add-bag-page.png" alt=“Display to show Add to Bag page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see any buttons on category painting page & activate Art Gallery page</summary>
-        <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
-        <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
+        <summary>Click here to see screenshot and see 'Add to Bag' buttons</summary>
+        <img src="media/ReadMe/Manual testing/category-add-bag-page-add-button.png" alt=“Display to show the 'Add to bag' button”>
     </details>
+1. 
+    <details>
+        <summary>Click here to see screenshot and see Alert pop up</summary>
+        <img src="media/ReadMe/Manual testing/category-alert-box.png" alt=“Display to show the alert box”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see 'Sercure Checkout' button </summary>
+        <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Sercure Checkout' button on the alert box”>
+    </details>
+
+
+
+#### 3. Checkout Page
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see 'Keep Shopping' and 'Sercure Checkout' button</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-page.png" alt=“Display to show where is the two 'Keep Shopping' and 'Secure Checkout' button”>
+    </details>
+
+    *   <details>
+                <summary>Click here to see screenshot and see activate checkout form page</summary>
+                <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show Checkout Form page”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see activate category painting page</summary>
+                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+        </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see checkout form page</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show the checkout form button”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see make payment</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-card.png" alt=“Display to show the make payment page">
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see 'Adjust Bag' and 'Complete Order' buttons</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-card-1.png" alt=“Display to show the make payment page">
+    </details>
+
+    *   <details>
+                <summary>Click here to see screenshot and see activate checkout page to adjust bag, if user's wish</summary>
+                <img src="media/ReadMe/Manual testing/category-checkout-page-1.png" alt=“Display to show Checkout Form page”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see activate thank you page after complete order</summary>
+                <img src="media/ReadMe/Manual testing/category-thankyou-page.png" alt=“Display to show thank you page”>
+        </details>
+1. 
+     <details>
+        <summary>Click here to see screenshot and see the alert box after complete order</summary>
+        <img src="media/ReadMe/Manual testing/category-thankyou-page-after-order.png" alt=“Display to show the alert box after the complete order”>
+    </details>
+
+### 5. User's Editable
+
+* As **<u>Additional feature for 'user's editable':**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
+
+* As **<u>HTML</u>** I can create **<u>an editable checkout page, allowing users to update or remove items as needed</u>** So that **<u>while completing their purchase.</u>**
+
+
+| Feature | Action | Expected Result | Actual Results |
+|---------|--------|-----------------|----------------|
+| User's editable | <ol> <li>Checkout page</li> </ol> | <ol> <li>User click 'Update' and 'Remove' buttons </li> <ul><li>User click 'Update' on the button and activate alert box</li> <li>User click 'Remove' on the button and activate alert box</li> <li>User click 'Remove' on the button and activate checkout page, it is empty the basket</li><li>User click 'Keep Shopping' on the button and activate category painting page</li></ul> </ol> | <ol> <li>Works as expected</li> <ul><li>Works as expected</li><li>Works as expected</li><li>Works as expected</li><li>Works as expected</li></ul> </ol> |
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see 'Update' and 'Remove' button</summary>
+        <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where is the two 'Update' and 'Remove' button”>
+    </details>
+
+    *   <details>
+                <summary>Click here to see screenshot and see update button and activate alert box</summary>
+                <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see remove button and activate alert box</summary>
+                <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
+        </details>
+     *  <details>
+                <summary>Click here to see screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
+                <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see 'Keeping Shopping' button to activate category painting page</summary>
+                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+        </details>
+
+### 5. Owner's Editable
+
+* As **<u>Additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
+
+* As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
+
+| Feature | Action | Expected Result | Actual Results |
+| ------- | ----------- | ---------- | -------------- |
+|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The home pages and click to ‘Edit your personal page’ button </li> <li> Alert ‘information’ box </li> <li>The home personal management page and click to checked box ‘Remove’ image </li><ul><li>Click to ‘Update personal home page’ button</li<li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> </ul></ol>|
+
+
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+1. 
+    <details>
+        <summary>Click here to see screenshot and see 'Update' and 'Remove' button</summary>
+        <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where is the two 'Update' and 'Remove' button”>
+    </details>
+
+    *   <details>
+                <summary>Click here to see screenshot and see update button and activate alert box</summary>
+                <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see remove button and activate alert box</summary>
+                <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
+        </details>
+     *  <details>
+                <summary>Click here to see screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
+                <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
+        </details>
+    *   <details>
+                <summary>Click here to see screenshot and see 'Keeping Shopping' button to activate category painting page</summary>
+                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+        </details>
 
 ## Testing browser compatibility
 
