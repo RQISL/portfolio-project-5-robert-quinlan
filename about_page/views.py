@@ -22,7 +22,7 @@ def aboutus(request):
 
 @login_required
 def edit_about_page(request):
-    """ Edit a hoe personal page in the store """
+    """ Edit a home personal page in the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('aboutus'))
@@ -42,7 +42,7 @@ def edit_about_page(request):
         form = AboutPageForm(instance=about_page)
         messages.info(request, f'You are editing {about_page.title}')
 
-    template = 'aboutus/edit_about_page.html'
+    template = 'about_us/edit_about_page.html'
     context = {
         'form': form,
         'about_page': about_page,
