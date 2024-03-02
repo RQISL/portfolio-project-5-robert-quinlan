@@ -32,15 +32,15 @@ def edit_about_page(request):
         form = AboutPageForm(request.POST, request.FILES, instance=about_page)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Successfully updated your about us'
-                                      'in the page')
+            messages.success(request, 'Successfully updated your about'
+                                      'us in the page')
             return redirect(reverse('aboutus'))
         else:
-            messages.error(request, 'Failed to update your personal page.',
+            messages.error(request, 'Failed to update your personal page'
                                     'Please ensure the form is valid.')
     else:
         form = AboutPageForm(instance=about_page)
-        messages.info(request, f'You are editing {about_page.title}')
+        messages.info(request, f'You are editing {about_page.name}')
 
     template = 'aboutus/edit_about_page.html'
     context = {
