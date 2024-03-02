@@ -17,8 +17,11 @@ class ImageSildeAdmin(admin.ModelAdmin):
 
 class BioPageAdmin(admin.ModelAdmin):
     list_display = (
+        'sku',
+        'name',
         'title',
         'bio',
+        'image',
     )
 
 
