@@ -18,5 +18,5 @@ class AboutUs(models.Model):
     def __str__(self):
         return self.name
 
-    def get_title(self):
+    def get_name(self):
         return self.title
