@@ -523,9 +523,17 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
+| Cell1| Cell2 | Cell3 |
+|------|-------|-------|
+| merge right ||       |
+| merge|       |       |
+| below|^      |^      |
+| merge both  || value1|
+|^            || value2|
+
 | Feature | Action | Expected Result | Actual Results |
 | ------- | ----------- | ---------- | -------------- |
-| Home Page |
+||  Home Page                                    |||
 |Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>To edit your page, go to the home page and click on the ‘Edit your personal page’ button.</li> <li>An alert box will appear with important information.</li> <li>You will then be taken to the personal management page where you can modify your name, head, info, and image.</li><ul><li>Owner can modify on 'name', 'head', 'info' and 'image' to modify to update </li> <li>To update your page, select the image and click on the 'Remove' box if you want to remove it. Then, click on the 'update' button. </li> <li>This will replace the image with a 'No image' icon on your page.</li><li>If you want to change the image, click on the 'Select Image' button and choose a new image.</li><li>After 'select image' button to change image on the page</li><li>If you want to cancel the changes, click on the 'Cancel' button to go back to the home page without saving.</li><li>Finally, click on the ‘Update personal home page’ button to save your changes.</li><li> You will receive an alert box confirming that your changes were successful.</li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
 | About Page |
 |Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The about pages and click to ‘Edit about us page’ button </li> <li> Alert ‘information’ box </li> <li>The about us management page</li><ul><li>Owner can modify on 'name', 'title', 'bio' and 'image' to modify to update </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Update about us page’ button to back about page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
