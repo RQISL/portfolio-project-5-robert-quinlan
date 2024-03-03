@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------
 ## Agile management
 
-* The concept introduced for the Art Gallery project, is a comprehensive solution for selling fine art frame. Developed through a 18-stages process utilising Agile management, this project was completed. 
+* The concept introduced for the Art Gallery project is a comprehensive solution for selling fine art frames. Developed through an 18-stage process utilising Agile management, this project was completed. 
 
 * The Agile management can find the link at [Robert’s Github](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues?q=is%3Aissue+is%3Aclosed) and [Github milestone](https://github.com/RQISL/portfolio-project-5-robert-quinlan/milestones) and milestone showcases the screenshots of progress made from start to finish below:
 
@@ -24,7 +24,7 @@
 
 * 
     <details>
-        <summary>Click here to see the from start, middle and finish on the milestones:</summary>
+        <summary>Click here to see them from start, middle and finish on the milestones:</summary>
         <img src="media/ReadMe/Agile/first_middle_last.png" alt="Three milestones from start, middle & finish">
     </details>
 
@@ -64,7 +64,7 @@
 
 
 ## Moodboard
-* The moodboard is a visual arrangement of images, materials, and text that aims to evoke a specific style or concept. It serves as a helpful tool to clearly visualize the design direction for the website. In this particular moodboard, I have included labeled images for the hero cover background, color palettes, and the font choice of Roboto for all the text, while using Agbalumo for the head title and logo. 
+* The moodboard is a visual arrangement of images, materials, and text that aims to evoke a specific style or concept. It serves as a helpful tool to visualise the design direction for the website. In this particular moodboard, I have included labeled images for the hero cover background, color palettes, and the font choice of Roboto for all the text, while using Agbalumo for the head title and logo. 
 
 * Please note that the logo was conceptualized and created separately, and you can find a link to it here. The moodboard was created using the Adobe Illustrator app. Please refer to the image below for a visual representation.
 
@@ -72,7 +72,7 @@
 
 ## Colour Palette
 
-* This moodboard features a visually appealing background cover image with a combination of dark grey, pink, and blue color palettes. However, to enhance the contrast, we have made a modification by replacing the colors with bright green and dark green. The new color scheme creates a pleasant and friendly aesthetic, making it more visually appealing. Please refer to the attached image for a better understanding.
+* This moodboard features a visually appealing background cover image with a combination of dark grey, pink, and blue color palettes. However, to enhance the contrast, we have modified it by replacing the colors with bright green and dark green. The new color scheme creates a pleasant and friendly aesthetic, making it more visually appealing. Please refer to the attached image for a better understanding.
 
 * 
     <details>
@@ -81,7 +81,7 @@
     </details>
 
 -------------------------------------------------------------------------------------------------------      
-# Design and development the Art Gallery for desktop & mobile devices
+# Design and development of the Art Gallery for desktop & mobile devices
 
 * This logo is a unique art painting that features spot color and brush strokes. The painting is designed with the full name of the artist, who is known for her talent in fine art.
 
@@ -89,7 +89,7 @@
 
 Features
 -------------
-* The Art Gallery is a platform dedicated to showcasing and selling fine art paintings. The owner, a talented painter herself, operates a studio where she creates her own artwork. In addition to selling her pieces on the website, she also offers her services to customers who are interested in commissioning personalized artwork. This includes working with individuals with intellectual disabilities, children, and anyone else who may benefit from her artistic expertise.
+* The Art Gallery is a platform dedicated to showcasing and selling fine art paintings. The owner, a talented painter herself, operates a studio where she creates her artwork. In addition to selling her pieces on the website, she also offers her services to customers who are interested in commissioning personalized artwork. This includes working with individuals with intellectual disabilities, children, and anyone else who may benefit from her artistic expertise.
 
 ### Mock-up Responsive Screens as seen attached here:
 
@@ -105,7 +105,7 @@ Existing Features
 
 
 ### Navbar
-*  This product features a convenient clickable toggle bar located at the top left corner. With a simple click, the toggle bar smoothly slides from left to right, providing easy access to various sections such as Home, About, Category Painting, Shop, Search, My Account (including register and login), and contact. Take a look at the accompanying screenshot for a visual representation of this user-friendly navigation system.
+*  This product features a convenient clickable toggle bar located at the top left corner. With a simple click, the toggle bar smoothly slides from left to right, providing easy access to various sections such as Home, About, Category Painting, Shop, Search, My Account (including register and login), and Contact. Take a look at the accompanying screenshot for a visual representation of this user-friendly navigation system.
 
 * Head navbar
 
@@ -137,18 +137,18 @@ Existing Features
 
 ## Category Painting page
 
-* This product offers a wide range of fine art categories for users to choose from, including nude, landscape, and cutie paintings such as Christmas, animal, display of collections, and patches. Additionally, the painter owner has the flexibility to create their own categories based on their preferences. With this product, customers can explore and enjoy a diverse selection of artistic styles and themes.
+* This product offers a wide range of fine art categories for users to choose from, including nude, landscape, and cutie paintings such as Christmas, animal, display of collections, and patches. Additionally, the painter owner has the flexibility to create their categories based on their preferences. With this product, customers can explore and enjoy a diverse selection of artistic styles and themes.
 
     <details>
-        <summary>Click here to see category painting page</summary>
+        <summary>Click here to see the category painting page</summary>
         <img src="media/ReadMe/Feature page/CategoryPaintings.png" alt=“Category painting page”>
     </details>
 
 ## Shop
 
-* Our online shop offers a convenient way for art enthusiasts to browse through all our art galleries in one page.
+* Our online shop offers a convenient way for art enthusiasts to browse through all our art galleries on one page.
 * Customers can easily sort the galleries based on their preferred price range, with the option to choose from low to high prices.
-* Additionally, customers can also sort the galleries alphabetically from Z to A or choose other sorting options that suit their preference.
+* Additionally, customers can also sort the galleries alphabetically from Z to A or choose other sorting options that suit their preferences.
 * With our user-friendly shop page, customers can easily find the perfect artwork that fits their budget and taste.
 
     <details>
@@ -157,7 +157,7 @@ Existing Features
     </details>
 
 ## Search art gallery
-*  The search page, the users can looking for type of art gallery.
+*  The search page, the users can be looking for the type of art gallery.
 
 1. 
      <details>
@@ -176,19 +176,19 @@ Existing Features
     </details>
 1. 
     <details>
-        <summary>Click here to see option low to high prices sort page</summary>
+        <summary>Click here to see the option low to high prices sort page</summary>
         <img src="media/ReadMe/Feature page/Result_of_sort.png" alt=“option low to high prices sort art gallery page”>
     </details>
 
 
 ## My Account page
-* This product offers a user-friendly interface where customers can easily access their account by clicking on the "My Account" option. They will be presented with the choice to either register or login. Once logged in, customers will have access to their profile and the option to logout for added security.
+* This product offers a user-friendly interface where customers can easily access their accounts by clicking on the "My Account" option. They will be presented with the choice to either register or login. Once logged in, customers will have access to their profile and the option to logout for added security.
 
 * On the owner's side, the "My Account" section provides comprehensive product management capabilities along with profile settings and logout functionality. Admin users will have the ability to perform CRUD operations, including creating, reading/editing, updating, and deleting products. These actions will be seamlessly displayed on the site through intuitive buttons, ensuring efficient management of the site's content.
 
-* The profile can only be updated by the user or owner, with the exception of the address field which can be changed by either party. Our product ensures efficient and secure account management for all users.
+* The profile can only be updated by the user or owner, except for the address field which can be changed by either party. Our product ensures efficient and secure account management for all users.
 
-* Exciting news! We now offer the option to order an art gallery without signing up. We understand that some users prefer not to use their profile, so we've made it hassle-free for you. Simply place your order and we'll send all the details directly to your email. No signup required! Enjoy our art gallery experience effortlessly.
+* Exciting news! We now offer the option to order an art gallery without signing up. We understand that some users prefer not to use their profiles, so we've made it hassle-free for you. Simply place your order and we'll send all the details directly to your email. No sign-up is required! Enjoy our art gallery experience effortlessly.
 1. 
     <details>
         <summary>Click here to see from left to right menu</summary>
@@ -196,7 +196,7 @@ Existing Features
     </details>
 1. 
     <details>
-        <summary>Click here to see Sign Up page menu</summary>
+        <summary>Click here to see the Sign Up page menu</summary>
         <img src="media/ReadMe/Feature page/Signup.png" alt=“Display sign up page”>
     </details>
 1. 
@@ -232,11 +232,11 @@ Existing Features
 
 ## Contact page
 * Our product provides customers with a wide range of categories to choose from, including "hire me," "general request," "photo to painting," and "design for sign language."
-* With our user-friendly site, Ower's side have the flexibility to modify, create, edit, or delete their desired content.
+* With our user-friendly site, Ower's side has the flexibility to modify, create, edit, or delete their desired content.
 * Our product empowers customers to personalise their requests and transform their photos into beautiful paintings, providing a customised experience to suit their needs.
 1. 
     <details>
-        <summary>Click here to see category contact page</summary>
+        <summary>Click here to see the category contact page</summary>
         <img src="media/ReadMe/Feature page/category_contact.png" alt=“Display category contact page”>
     </details>
 1. 
@@ -250,19 +250,19 @@ Existing Features
 * Enhance user experience with our innovative product featuring a "Click here for more information" button at the bottom. As users scroll up, a seamless fade-in effect captures their attention, inviting them to click. Once clicked, the content smoothly slides up to occupy the full screen, providing a comprehensive view. Additionally, users can conveniently access Facebook or subscribe to our newsletter, ensuring they stay connected and up-to-date with the latest updates and promotions.
 1. 
     <details>
-        <summary>Click here to see footer page at the bottom of the button</summary>
+        <summary>Click here to see the footer page at the bottom of the button</summary>
         <img src="media/ReadMe/Feature page/button_bottom_1.png" alt=“Display footer page at the bottom of the button”>
     </details>
 1. 
      <details>
-        <summary>Click here to see footer page full slide up</summary>
+        <summary>Click here to see the footer page full slide up</summary>
         <img src="media/ReadMe/Feature page/full_screen_footer.png" alt=“Display footer page full slide up”>
     </details>
 
 
 # Site Administration
 
-* You will be able to access the administration page at [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/admin/login/?next=/admin/) site. I will give instructions when you receive my submission.
+* You will be able to access the administration page at [The Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/admin/login/?next=/admin/) site. I will give instructions when you receive my submission.
 
 * This product offers a comprehensive solution for website owners, providing both a user-friendly site and an administration site for easy management. Only owners have access to the administration site, where they can make edits to the website if desired. By logging into the administration site and selecting "view site on the top right," users will find a range of buttons such as "add," "edit," or "delete." 
 
@@ -270,12 +270,12 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see example button add, edit or delete page</summary>
+        <summary>Click here to see an example button to add, edit or delete page</summary>
         <img src="media/ReadMe/Feature page/add_edit_delete.png" alt=“Display example button add, edit or delete page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see example home page edit</summary>
+        <summary>Click here to see an example home page edit</summary>
         <img src="media/ReadMe/Feature page/Personal_edit.png" alt=“Display home page edit”>
     </details>
 
@@ -289,7 +289,7 @@ Existing Features
 
 ### 1. Navigation Bar
 
-* As **<u>HTML, Django, and Bootstrap</u>**  I can **<u>create menu for the vertical</u>** So that **<u>the user clicks onto the toggle button to open on the vertical to right,</u>**
+* As **<u>HTML, Django, and Bootstrap</u>**  I can **create **the **menu**** for the** vertical</u>** So that **<u>the **user clicks on the toggle** button to open on the vertical to right,</u>**
 
 | Feature | Action | Expected Result | Actual Results |
 |---------|--------|-----------------|----------------|
@@ -299,32 +299,32 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see Dash button</summary>
-        <img src="media/ReadMe/Manual testing/dash-button.png" alt=“Display to show where the Dash button on the navigation”>
-        <img src="media/ReadMe/Manual testing/Vertical-to-right.png" alt=“Display to show where the Dash button to open vertical to right”>
+        <summary>Click here to see the screenshot and see the Dash button</summary>
+        <img src="media/ReadMe/Manual testing/dash-button.png" alt=“Display to show where the Dash button is on the navigation”>
+        <img src="media/ReadMe/Manual testing/Vertical-to-right.png" alt=“Display to show where the Dash button opens vertical to right”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see the logo</summary>
-        <img src="media/ReadMe/Manual testing/click-logo-page.png" alt=“Display to show where the logo on the navigation bar”>
+        <summary>Click here to see the screenshot and see the logo</summary>
+        <img src="media/ReadMe/Manual testing/click-logo-page.png" alt=“Display to show where the logo is on the navigation bar”>
     </details>
 1. 
      <details>
         <summary>Click here to see screenshot and see the basket & empty the basket to checkout page</summary>
-        <img src="media/ReadMe/Manual testing/click-to-basket.png" alt=“Display to show where the basket on the navigation bar”>
-        <img src="media/ReadMe/Manual testing/empty-basket.png" alt=“Display to show the empty the basket to the checkout page”>
+        <img src="media/ReadMe/Manual testing/click-to-basket.png" alt=“Display to show where the basket is on the navigation bar”>
+        <img src="media/ReadMe/Manual testing/empty-basket.png" alt=“Display to show the empty basket to the checkout page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see screenshot and see the 'keep shopping' of the button & to category painting page</summary>
+        <summary>Click here to see the screenshot and see the 'keep shopping' button & to the category painting page</summary>
         <img src="media/ReadMe/Manual testing/keep-shopping-button.png" alt=“Display to show where the 'keep shopping' on the button”>
-        <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchases”>
+        <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchase”>
     </details>
 
 ### 2. Home Page 
 
-* As **<u>HTML</u>** I can create **<u>an image of the client portrait photo and text & translate ISL video</u>** So that **<u>amount the client information of her talent Fine Art</u>**
+* As **<u>HTML</u>** I can create **<u>an image **of the client's portrait photo** and text & translate ISL video</u>** So that **<u>amount the **client information about her talent Fine Art</u>**
 * As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
 
 | Feature | Action | Expected Result | Actual Results |
@@ -335,20 +335,20 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see Dash button and activate home page</summary>
-        <img src="media/ReadMe/Manual testing/vertical-home.png" alt=“Display to show where the Dash button to click to Home link”>
+        <summary>Click here to see the screenshot and see the Dash button and activate the home page</summary>
+        <img src="media/ReadMe/Manual testing/vertical-home.png" alt=“Display to show where the Dash button to click to the Home link”>
         <img src="media/ReadMe/Manual testing/home-page.png" alt=“Display to show Home page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see 'visit her exhibation button' & activate Elena's Exhibation page</summary>
-        <img src="media/ReadMe/Manual testing/visit-her-exhibations-button.png" alt=“Display to show the 'visit her exhibation' button”>
+        <summary>Click here to see the screenshot and see the 'visit her exhibition button' & activate Elena's Exhibition page</summary>
+        <img src="media/ReadMe/Manual testing/visit-her-exhibations-button.png" alt=“Display to show the 'visit her exhibition' button”>
         <img src="media/ReadMe/Manual testing/visit-her-exhib-page.png" alt=“Display to show the Elena's exhibation page”>
     </details>
 
 ### 3. About Page 
 
-* As **<u>HTML</u>** I can create **<u>the about page of the client's talent Fine Art with portrait and text & translate ISL video</u>** So that **<u>show previous the client work varies art</u>**
+* As **<u>HTML</u>** I can create **<u>the about page of the client's talent Fine Art with portrait and text & translate ISL video</u>** So that **<u>shows the client's former work varies** art</u>**
 
 * As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
 
@@ -360,23 +360,23 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see Dash button and activate about page</summary>
+        <summary>Click here to see the screenshot and see the Dash button and activate the About page</summary>
         <img src="media/ReadMe/Manual testing/about-link.png" alt=“Display to show where the Dash button to click to About link”>
         <img src="media/ReadMe/Manual testing/about-page.png" alt=“Display to show About page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see 'visit contact button' & activate contact page</summary>
+        <summary>Click here to see the screenshot and see the 'visit contact button' & activate contact page</summary>
         <img src="media/ReadMe/Manual testing/about-button.png" alt=“Display to show the 'visit contact page' button”>
         <img src="media/ReadMe/Manual testing/contact-page.png" alt=“Display to show the contact page”>
     </details>
 
 ### 4. Category Painting Page 
 
-* As **<u>HTML, Python, Django, and Allauth</u>** I can create **<u>buy the art gallery included Allaut</u>** So that **<u>the user or company can buy a fine art gallery</u>**
+* As **<u>HTML, Python, Django, and Allauth</u>** I can create **buy an **art gallery including Allaut** So that **<u>the user or company can buy a fine art gallery</u>**
 
 1) There are four categories in the art group: Water Paint, Texture Paint, Oil Paint and Pencil Drawing. 
-1) Each art gallery allows you to select and rollover to display the relevant information.
+1) Each art gallery allows you to select and roll over to display the relevant information.
 1) Additionally, you can add items to your basket and display them on the checkout page. 
 1) On the checkout page, you'll need to fill in your address and indicate whether you would like to add a profile or not.
 
@@ -395,13 +395,13 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see Dash button and activate Category Painting page</summary>
+        <summary>Click here to see the screenshot and see the Dash button and activate the Category Painting page</summary>
         <img src="media/ReadMe/Manual testing/category-painting-link.png" alt=“Display to show where the Dash button to click to category painting link”>
         <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see any buttons on category painting page & activate Art Gallery page</summary>
+        <summary>Click here to see the screenshot and see any buttons on the category painting page & activate the Art Gallery page</summary>
         <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
     </details>
@@ -410,25 +410,25 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'View Frame' button and activate add to bag page</summary>
+        <summary>Click here to see the screenshot and see the 'View Frame' button and activate add to bag page</summary>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show where is 'View Frame' the button to click to activate add to bag page”>
         <img src="media/ReadMe/Manual testing/category-add-bag-page.png" alt=“Display to show Add to Bag page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see 'Add to Bag' buttons</summary>
+        <summary>Click here to see the screenshot and see the 'Add to Bag' buttons</summary>
         <img src="media/ReadMe/Manual testing/category-add-bag-page-add-button.png" alt=“Display to show the 'Add to bag' button”>
     </details>
 1. 
     <details>
-        <summary>Click here to see screenshot and see Alert pop up</summary>
+        <summary>Click here to see the screenshot and see the Alert pop-up </summary>
         <img src="media/ReadMe/Manual testing/category-alert-box.png" alt=“Display to show the alert box”>
     </details>
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'Sercure Checkout' button </summary>
-        <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Sercure Checkout' button on the alert box”>
+        <summary>Click here to see the screenshot and see the 'Secure Checkout' button </summary>
+        <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Secure Checkout' button on the alert box”>
     </details>
 
 
@@ -437,53 +437,53 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'Keep Shopping' and 'Sercure Checkout' button</summary>
-        <img src="media/ReadMe/Manual testing/category-checkout-page.png" alt=“Display to show where is the two 'Keep Shopping' and 'Secure Checkout' button”>
+        <summary>Click here to see the screenshot and see the 'Keep Shopping' and 'Secure Checkout' buttons</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-page.png" alt=“Display to show where are the two 'Keep Shopping' and 'Secure Checkout' buttons”>
     </details>
 
     *   <details>
-                <summary>Click here to see screenshot and see activate checkout form page</summary>
+                <summary>Click here to see the screenshot and see the activated checkout form page</summary>
                 <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show Checkout Form page”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see activate category painting page</summary>
+                <summary>Click here to see the screenshot and see the activated category painting page</summary>
                 <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
         </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see checkout form page</summary>
+        <summary>Click here to see the screenshot and see the checkout form page</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show the checkout form button”>
     </details>
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see make payment</summary>
+        <summary>Click here to see the screenshot and see make payment</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-card.png" alt=“Display to show the make payment page">
     </details>
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'Adjust Bag' and 'Complete Order' buttons</summary>
+        <summary>Click here to see the screenshot and see the 'Adjust Bag' and 'Complete Order' buttons</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-card-1.png" alt=“Display to show the make payment page">
     </details>
 
     *   <details>
-                <summary>Click here to see screenshot and see activate checkout page to adjust bag, if user's wish</summary>
+                <summary>Click here to see the screenshot and see the activate checkout page to adjust the bag, if the user wishes </summary>
                 <img src="media/ReadMe/Manual testing/category-checkout-page-1.png" alt=“Display to show Checkout Form page”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see activate thank you page after complete order</summary>
+                <summary>Click here to see the screenshot and see the activated thank you page after completing order</summary>
                 <img src="media/ReadMe/Manual testing/category-thankyou-page.png" alt=“Display to show thank you page”>
         </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see the alert box after complete order</summary>
+        <summary>Click here to see the screenshot and see the alert box after completing order</summary>
         <img src="media/ReadMe/Manual testing/category-thankyou-page-after-order.png" alt=“Display to show the alert box after the complete order”>
     </details>
 
 ### 5. User's Editable
 
-* As **<u>Additional feature for 'user's editable':**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
+* As **<u> An additional feature for 'user's editable':**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
 * As **<u>HTML</u>** I can create **<u>an editable checkout page, allowing users to update or remove items as needed</u>** So that **<u>while completing their purchase.</u>**
 
@@ -496,62 +496,148 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'Update' and 'Remove' button</summary>
-        <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where is the two 'Update' and 'Remove' button”>
+        <summary>Click here to see the screenshot and see the 'Update' and 'Remove' buttons </summary>
+        <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where are the two 'Update' and 'Remove' buttons”>
     </details>
 
     *   <details>
-                <summary>Click here to see screenshot and see update button and activate alert box</summary>
+                <summary>Click here to see the screenshot and see the update button and activate the alert box</summary>
                 <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see remove button and activate alert box</summary>
+                <summary>Click here to see the screenshot and see the remove button and activate alert box</summary>
                 <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
         </details>
      *  <details>
-                <summary>Click here to see screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
+                <summary>Click here to see the screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
                 <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see 'Keeping Shopping' button to activate category painting page</summary>
+                <summary>Click here to see the screenshot and see the 'Keeping Shopping' button to activate the category painting page</summary>
                 <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
         </details>
 
 ### 5. Owner's Editable
 
-* As **<u>Additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
+* As **<u> An additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
 | Feature | Action | Expected Result | Actual Results |
 | ------- | ----------- | ---------- | -------------- |
-|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The home pages and click to ‘Edit your personal page’ button </li> <li> Alert ‘information’ box </li> <li>The home personal management page and click to checked box ‘Remove’ image </li><ul><li>Click to ‘Update personal home page’ button</li<li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> </ul></ol>|
+| Home Page |
+|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>To edit your page, go to the home page and click on the ‘Edit your personal page’ button.</li> <li>An alert box will appear with important information.</li> <li>You will then be taken to the personal management page where you can modify your name, head, info, and image.</li><ul><li>Owner can modify on 'name', 'head', 'info' and 'image' to modify to update </li> <li>To update your page, select the image and click on the 'Remove' box if you want to remove it. Then, click on the 'update' button. </li> <li>This will replace the image with a 'No image' icon on your page.</li><li>If you want to change the image, click on the 'Select Image' button and choose a new image.</li><li>After 'select image' button to change image on the page</li><li>If you want to cancel the changes, click on the 'Cancel' button to go back to the home page without saving.</li><li>Finally, click on the ‘Update personal home page’ button to save your changes.</li><li> You will receive an alert box confirming that your changes were successful.</li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
+| About Page |
+|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The about pages and click to ‘Edit about us page’ button </li> <li> Alert ‘information’ box </li> <li>The about us management page</li><ul><li>Owner can modify on 'name', 'title', 'bio' and 'image' to modify to update </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Update about us page’ button to back about page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
+| Category Painting Page |
+|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The category painting pages and click to ‘Add category’ button </li> <li> Alert ‘Errors’ box, it shows error therefore in the form does not filled and the owner can see it. </li> <li>The add category management page</li><ul><li>Owner can filling on 'Category', it is selet list of the categories to fill details then click to 'update' button </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Add Category’ button to back category painting page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
 
 
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
+#### Home Page
 1. 
     <details>
-        <summary>Click here to see screenshot and see 'Update' and 'Remove' button</summary>
-        <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where is the two 'Update' and 'Remove' button”>
+        <summary>Click on the link to view the screenshot and locate the 'Edit your personal page' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-edit-button-page.png" alt=“Display to show where is 'Edit your personal page' button ”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and locate the 'information' alert box.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-After-click-edit-alert.png" alt=“Display to show where the alert 'information' box”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and locate the home personal management page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-page.png" alt=“Display to show to the home personal management page”>
     </details>
 
     *   <details>
-                <summary>Click here to see screenshot and see update button and activate alert box</summary>
-                <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
+                <summary>Click here to see the screenshot and see the owner can modify 'name', 'head', 'info' and 'image' to modify to update</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-edit-page.png" alt=“Display to show where the owner can modify on 'name', 'head', 'info' and 'image' to modify to update”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see remove button and activate alert box</summary>
-                <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
+                <summary>Click on the link to view the screenshot and check the 'Remove' box to delete the image.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-check-removed.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and verify that the removed image has been replaced by the 'No image' image on the page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-no-image-page.png" alt=“Display to show the remove image to 'No image' image on page”>
         </details>
      *  <details>
-                <summary>Click here to see screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
-                <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
+                <summary>Click on the link to view the screenshot and choose 'Select Image' to upload a new image.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
         </details>
     *   <details>
-                <summary>Click here to see screenshot and see 'Keeping Shopping' button to activate category painting page</summary>
-                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+                <summary>Click on the link to view the screenshot and check that the 'Select Image' button has been replaced by the new image on the page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-after-select-image.png" alt=“Display to show after 'select image' button to change an image on the page”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and choose 'Cancel' to return to the home page without making any changes.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and choose 'Update personal home page' to save the changes made to the personal page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-update-button.png" alt=“Display to show where the click to ‘Update personal home page’ button to back home page”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and verify that a 'Success' alert box appears on the page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
+        </details>
+
+#### About Page
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and locate the 'Edit about us page' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-edit-button-page.png" alt=“Display to show where is Edit about us page' button”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and find the alert 'information' box.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-alert-info.png" alt=“Display to show where is the alert 'information' box”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and navigate to the About Us management page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-page.png" alt=“Display to show to the about us management page”>
+    </details>
+
+    *   <details>
+                <summary>Click on the link to view the screenshot and verify if the owner can modify 'name', 'title', 'bio', and 'image' to make updates.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-edit-modified-page.png" alt=“Display to show where is the owner can modify on 'name', 'title', 'bio' and 'image' to modify to update”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and select the 'Remove' image checkbox.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-remove-checked.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and observe that the removed image is replaced by the 'No image' image on the page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-no-image-update.png" alt=“Display to show the remove image to 'No image' image on page”>
+        </details>
+     *  <details>
+                <summary>Click on the link to view the screenshot and select the 'Select Image' button to change the image.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and verify that the 'Select Image' button is followed by a field to change the image on the page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-image-update.png" alt=“Display to show after 'select image' button to change an image on the page”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and select the 'Cancel' button to go back to the home page without making any changes.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
+        </details>
+    *   <details>
+                <summary>Click on the link to view the screenshot and click on the 'Update about us page' button to save the changes and go back to the About page.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-update-button.png" alt=“Display to show where is the click to ‘Update about us page’ button to back about page”>
+        </details>
+    *   <details>
+                <summary>Finally, click on the link to view the screenshot and observe the Alert 'Success' box to confirm that the changes were successfully saved.</summary>
+                <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
         </details>
 
 ## Testing browser compatibility
@@ -588,27 +674,27 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 * The test results indicate that the mobile performance of the analyzed website is relatively low, suggesting potential areas for improvement. It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
 
-* ### See attached result both Desktop & Mobile:
+* ### See attached results for both Desktop & Mobile:
 
 1. 
      <details>
-        <summary>Click here to see the result of Desktop preformance</summary>
-        <img src="media/ReadMe/Test_browser_responsive/Desktop_test.png" alt=“Display the result of Desktop preformance”>
+        <summary>Click here to see the result of Desktop performance </summary>
+        <img src="media/ReadMe/Test_browser_responsive/Desktop_test.png" alt=“Display the result of Desktop performance”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the result of mobile preformancee</summary>
-        <img src="media/ReadMe/Test_browser_responsive/Mobile_test.png" alt=“Display the result of mobile preformance”>
+        <summary>Click here to see the result of mobile performance </summary>
+        <img src="media/ReadMe/Test_browser_responsive/Mobile_test.png" alt=“Display the result of mobile performance”>
     </details>
 
 
 ## Validation testing
 
 ### HTML
-* Run testing used [The 3WC HTML Validator](https://validator.w3.org/) for Home, About Us, Category Painting, Shop, Search Product, The product Management, Profile, Login, Sign-up, Logout, and Contact pages have been meticulously reviewed and corrected to ensure optimal functionality. Our overlay model login and signup buttons remain unchanged. All passed!
+* Run testing using [The 3WC HTML Validator](https://validator.w3.org/) for Home, About Us, Category Painting, Shop, Search Product, The Product Management, Profile, Login, Sign-up, Logout, and Contact pages have been meticulously reviewed and corrected to ensure optimal functionality. Our overlay model login and signup buttons remain unchanged. All passed!
 
 ### CSS
-* Run testing used [the official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/) for CSS. It was all passed and no errors.
+* Run testing using [the official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/) for CSS. It was all passed and no errors.
 
 ### Python
 
@@ -616,15 +702,15 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 ### The devices
 
-* iPhone reviewed and corrected to ensure optimal functionality and it looks good.
+* The iPhone reviewed and corrected to ensure optimal functionality and it looks good.
 
 ## Credits
 
-*  Our concept art gallery site, designed specifically for art enthusiasts and collectors, we offer a unique consulting experience tailored to her needs. Whether you're a first-time client or a close friend, our personalized approach ensures a seamless collaboration. With a focus on showcasing timeless art pieces, our gallery offers a diverse collection of old masterpieces. However, we understand the importance of staying current, and we are committed to updating and enhancing the site to meet her evolving preferences. When the time is right, we look forward to assisting you in showcasing your own artwork after she busy schedule with your child.
+*  Our concept art gallery site, designed specifically for art enthusiasts and collectors, offers a unique consulting experience tailored to their needs. Whether you're a first-time client or a close friend, our personalized approach ensures a seamless collaboration. With a focus on showcasing timeless art pieces, our gallery offers a diverse collection of old masterpieces. However, we understand the importance of staying current, and we are committed to updating and enhancing the site to meet her evolving preferences. When the time is right, we look forward to assisting you in showcasing your artwork after her busy schedule with your child.
 
 * Please find Agile management [Consult with a client](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues/7) as you can see when we were consulted up to date. 
 
-* Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complications than you expected. Also He was exellent tutorial with me a few sessions. 
+* Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complicated than you expected. Also, He was an excellent tutorial with me for a few sessions. 
 
 # Deployment
 
@@ -633,18 +719,18 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 * Login 
 * use the Google Authenticator app and open the screen display of the code number 
 and Verify Your Identity page "Verification Code" and insert the code in the box 
-then click on Verify button. 
+then click on the Verify button. 
 * Click on the button "Create new app" 
 * Type in the box “project-4-order-foods”
 * Select Europe
 * Click on the "Create app" button
-* To click "art-gallery-elena" to open
+* Click "art-gallery-elena" to open
 * Click on "Deploy" on the top menu
 * On RQISL next to the box copy from GitHub <https://github.com/RQISL/portfolio-project-5-robert-quinlan> to paste onto the box then click on to "search" button 
 * prompt shows the link active then click on the "connect" button
 * Make sure to check the "Enable Automatic" button is on
 * click on the "Deploy Branch" button
-* Prompts active on the screen until the completed
+* Prompts are active on the screen until the completed
 * Click on the "View" button to open the page
 
 ### The deployed site is now live [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
@@ -653,26 +739,25 @@ then click on Verify button.
 * ### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
 
 ### Resources and tutorials:
-
-* Most of time I learned walkthrough at Aoutique Ado as it follows on my project 5 but mostly, all I made modified the way of site I created. I had quite improved familar with Django and I enjoyed but it needs further experiance improve my skills in the feild of Django. 
+* Most of the time I learned walkthrough at Aoutique Ado as it follows on my project 5 but mostly, I modified the way of site I created. I had quite an improved familiarity with Django and I enjoyed but it needs further experience to improve my skills in the field of Django. 
 
 ## Technologies Used
 
-1) [Gitpod](https://gitpod.io) I have used it since the beginning of the project 5
+1) [Gitpod](https://gitpod.io) I have used it since the beginning of Project 5
 
-2) The [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
+2) [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
 
-3) [Heroku app](https://www.heroku.com/) - The deployed to active the browser.
+3) [Heroku app](https://www.heroku.com/) - The deployed to activate the browser.
 
-5) [3WC HTML Validator](https://validator.w3.org/) - Run testing any errors to be fix the bugs
+5) [3WC HTML Validator](https://validator.w3.org/) - Run testing for any errors to fix the bugs
 
-6) [3WC CSS Validator](https://jigsaw.w3.org/css-validator/)  - Run testing any errors to be fix the bugs
+6) [3WC CSS Validator](https://jigsaw.w3.org/css-validator/)  - Run testing for any errors to fix the bugs
 
-7) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used bootstrap 5.
+7) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used Bootstrap 5.
 
-8) Adobe Illustrator - I use for design logo.
+8) Adobe Illustrator - I use it to design logos.
 
-9) Adobe Photoshop - I use for edit images.
+9) Adobe Photoshop - I use it to edit images.
 
 ## Concluded 
 
