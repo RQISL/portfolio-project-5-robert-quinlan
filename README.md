@@ -523,37 +523,70 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
-<table>
+<table style="width:100%">
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <th colspan="4">Home Page</th>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td rowspan=11>Owner’s editable</td>
+            <td rowspan=11>Owner can use CRUD</td>
+            <td>1. To edit your page, go to the home page and click on the ‘Edit your personal page’ button.</td>
+            <td>Works as Expected</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td>2. An alert box will appear with important information.</td>
+            <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td>3. You will then be taken to the personal management page where you can modify your name, head, info, and image.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. The owner can modify 'name', 'head', 'info' and 'image' to modify to update </td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>5. To update your page, select the image and click on the 'Remove' box if you want to remove it. Then, click on the 'update' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. This will replace the image with a 'No image' icon on your page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to change the image, click on the 'Select Image' button and choose a new image.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8. After the 'select image' button to change an image on the page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to cancel the changes, click on the 'Cancel' button to go back to the home page without saving.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>10. Finally, click on the ‘Update personal home page’ button to save your changes.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>11. You will receive an alert box confirming that your changes were successful.</td>
+            <td>Works as Expected</td>
         </tr>
     </tbody>
 </table>
 
 | Feature | Action | Expected Result | Actual Results |
 | ------- | ----------- | ---------- | -------------- |
-| Home Page                                           |
-|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>To edit your page, go to the home page and click on the ‘Edit your personal page’ button.</li> <li>An alert box will appear with important information.</li> <li>You will then be taken to the personal management page where you can modify your name, head, info, and image.</li><ul><li>Owner can modify on 'name', 'head', 'info' and 'image' to modify to update </li> <li>To update your page, select the image and click on the 'Remove' box if you want to remove it. Then, click on the 'update' button. </li> <li>This will replace the image with a 'No image' icon on your page.</li><li>If you want to change the image, click on the 'Select Image' button and choose a new image.</li><li>After 'select image' button to change image on the page</li><li>If you want to cancel the changes, click on the 'Cancel' button to go back to the home page without saving.</li><li>Finally, click on the ‘Update personal home page’ button to save your changes.</li><li> You will receive an alert box confirming that your changes were successful.</li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
 | About Page |
 |Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The about pages and click to ‘Edit about us page’ button </li> <li> Alert ‘information’ box </li> <li>The about us management page</li><ul><li>Owner can modify on 'name', 'title', 'bio' and 'image' to modify to update </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Update about us page’ button to back about page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
 | Category Painting Page |
@@ -581,39 +614,47 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
         <summary>Click on the link to view the screenshot and locate the home personal management page.</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-page.png" alt=“Display to show to the home personal management page”>
     </details>
+1. 
+    <details>
+        <summary>Click here to see the screenshot and see the owner can modify 'name', 'head', 'info' and 'image' to modify to update</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-edit-page.png" alt=“Display to show where the owner can modify on 'name', 'head', 'info' and 'image' to modify to update”>
+    </details>
 
-    *   <details>
-                <summary>Click here to see the screenshot and see the owner can modify 'name', 'head', 'info' and 'image' to modify to update</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-edit-page.png" alt=“Display to show where the owner can modify on 'name', 'head', 'info' and 'image' to modify to update”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and check the 'Remove' box to delete the image.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-check-removed.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and verify that the removed image has been replaced by the 'No image' image on the page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-no-image-page.png" alt=“Display to show the remove image to 'No image' image on page”>
-        </details>
-     *  <details>
-                <summary>Click on the link to view the screenshot and choose 'Select Image' to upload a new image.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and check that the 'Select Image' button has been replaced by the new image on the page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-after-select-image.png" alt=“Display to show after 'select image' button to change an image on the page”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and choose 'Cancel' to return to the home page without making any changes.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and choose 'Update personal home page' to save the changes made to the personal page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-update-button.png" alt=“Display to show where the click to ‘Update personal home page’ button to back home page”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and verify that a 'Success' alert box appears on the page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
-        </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and check the 'Remove' box to delete the image.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-check-removed.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and verify that the removed image has been replaced by the 'No image' image on the page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-no-image-page.png" alt=“Display to show the remove image to 'No image' image on page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and choose 'Select Image' to upload a new image.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and check that the 'Select Image' button has been replaced by the new image on the page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-after-select-image.png" alt=“Display to show after 'select image' button to change an image on the page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and choose 'Cancel' to return to the home page without making any changes.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and choose 'Update personal home page' to save the changes made to the personal page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-update-button.png" alt=“Display to show where the click to ‘Update personal home page’ button to back home page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and verify that a 'Success' alert box appears on the page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
+    </details>
 
 #### About Page
 1. 
