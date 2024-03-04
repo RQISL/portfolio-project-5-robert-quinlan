@@ -523,6 +523,7 @@ Existing Features
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
+### To modify the 'Home' page
 <table style="width:100%">
     <thead>
         <tr>
@@ -582,144 +583,8 @@ Existing Features
             <td>11. You will receive an alert box confirming that your changes were successful.</td>
             <td>Works as Expected</td>
         </tr>
-    <tr>
-            <th colspan="4">To modify the 'About Us' page, follow the steps below:</th>
-        </tr>
-        <tr>
-            <td rowspan=11>Owner’s editable</td>
-            <td rowspan=11>Owner can use CRUD</td>
-            <td>1. Click on the 'About' page and then select the 'Edit About Us Page' button.
-            </td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>2. An 'Information' box will appear.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>3. You will be taken to the 'About Us' management page.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>4. The owner can modify the 'Name', 'Title', 'Bio', and 'Image'. Update the details as required.</td>
-            <td>Works as Expected</td>
-        </tr>
-         <tr>
-            <td>5. If you want to remove the image, select the checked box next to 'Remove Image' and click the 'Update' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>6. This will change the image to 'No Image' on the page.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>7. If you want to change the image, click on the 'Select Image' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>8. Select the new image and click the 'Update' button to apply the changes.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>9. If you want to cancel the changes, click on the 'Cancel' button to go back to the home page.</td>
-            <td>Works as Expected</td>
-        </tr>
-         <tr>
-            <td>10. Once you're done, click on the 'Update About Us Page' button to go back to the 'About' page.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>11. A 'Success' box will appear to confirm that the changes have been made.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Add Category' button:</th>
-        </tr>
-        <tr>
-            <td rowspan=9>Owner’s editable</td>
-            <td rowspan=9>Owner can use CRUD</td>
-            <td>1. Go to the painting pages category and click on the 'Add category' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>2. If there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>3. You will be taken to the add category management page.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>4. Here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>5. To change the image, click on the 'Select Image' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>6. Once you have clicked the 'Select Image' button, the image on the page will change.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>7. If you want to cancel the process and go back to the category painting page, click on the 'Cancel' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-         <tr>
-            <td>8. To add the category, click on the 'Add Category' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>9. If the category is added successfully, you will see a 'Success' alert box appear.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Edit' & 'Delete' button:</th>
-        </tr>
-        <tr>
-            <td rowspan=11>Owner’s editable</td>
-            <td rowspan=11>Owner can use CRUD</td>
-            <td>1. Go to the Painting page and select the Category you wish to edit.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>2. Click on the 'Edit' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>3. An 'Information' box will appear.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>4. You will be redirected to the Edit Category Management page.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>5. You can modify the 'Category', 'Name', 'Description', and 'Friendly Name'.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>6.  If you wish to remove the image, check the 'Removed' checkbox. This will display a 'No Image' message for the category.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>7. If you want to change the image, click on the 'Select Image' button and choose a new image.</td>
-            <td>Works as Expected</td>
-        </tr>
-         <tr>
-            <td>8. Once you have made the necessary changes, click on the 'Update Category' button to save the changes.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>9. If you want to go back to the Category Painting page without saving any changes, click on the 'Back to Category Painting' button.</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>10. If you want to delete a category, click on the 'Delete' button. This will permanently remove the category and the alert box 'delete' success appears.</td>
-            <td>Works as Expected</td>
-        </tr>
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -783,6 +648,77 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
+
+### To modify the 'About Us' page
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">To modify the 'About Us' page, follow the steps below:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Owner’s editable</td>
+            <td rowspan=11>Owner can use CRUD</td>
+            <td>1. Click on the 'About' page and then select the 'Edit About Us Page' button.
+            </td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. An 'Information' box will appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. You will be taken to the 'About Us' management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. The owner can modify the 'Name', 'Title', 'Bio', and 'Image'. Update the details as required.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>5. If you want to remove the image, select the checked box next to 'Remove Image' and click the 'Update' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. This will change the image to 'No Image' on the page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to change the image, click on the 'Select Image' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8. Select the new image and click the 'Update' button to apply the changes.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to cancel the changes, click on the 'Cancel' button to go back to the home page.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>10. Once you're done, click on the 'Update About Us Page' button to go back to the 'About' page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>11. A 'Success' box will appear to confirm that the changes have been made.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Add Category' button:</th>
+        </tr>
+    </tbody>
+</table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
 #### About Page
 1. 
     <details>
@@ -844,6 +780,63 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
+### To modify the 'Painting Category' page
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=9>Owner’s editable</td>
+            <td rowspan=9>Owner can use CRUD</td>
+            <td>1. Go to the painting pages category and click on the 'Add category' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. If there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. You will be taken to the add category management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. Here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. To change the image, click on the 'Select Image' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. Once you have clicked the 'Select Image' button, the image on the page will change.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to cancel the process and go back to the category painting page, click on the 'Cancel' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>8. To add the category, click on the 'Add Category' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If the category is added successfully, you will see a 'Success' alert box appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Edit' & 'Delete' button:</th>
+        </tr>
+    <tbody>
+</table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
 #### Category painting Page - Add Category
 1. 
     <details>
@@ -896,6 +889,66 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-alert-success.png" alt=“Display to show where the 'Success' alert box appears.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show where the add category appears.”>
     </details>
+
+
+### To modify the 'Edit & Delete' page
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=11>Owner’s editable</td>
+            <td rowspan=11>Owner can use CRUD</td>
+            <td>1. Go to the Painting page and select the Category you wish to edit.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Click on the 'Edit' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. An 'Information' box will appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. You will be redirected to the Edit Category Management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. You can modify the 'Category', 'Name', 'Description', and 'Friendly Name'.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6.  If you wish to remove the image, check the 'Removed' checkbox. This will display a 'No Image' message for the category.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to change the image, click on the 'Select Image' button and choose a new image.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>8. Once you have made the necessary changes, click on the 'Update Category' button to save the changes.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to go back to the Category Painting page without saving any changes, click on the 'Back to Category Painting' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>10. If you want to delete a category, click on the 'Delete' button. This will permanently remove the category and the alert box 'delete' success appears.</td>
+            <td>Works as Expected</td>
+        </tr>
+    </tbody>
+</table>
+
+### Please refer to the numbers in the order shown above the table in the images.
 
 #### Category painting Page - Edit & Delete Category
 1. 
@@ -958,6 +1011,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete-button.png" alt=“Display to show where the click on the 'Delete' button.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
     </details>
+
+    
 ## Testing browser compatibility
 
 * Our comprehensive testing service guarantees browser compatibility across a wide range of popular browsers, such as Safari, Google Chrome, Opera, and Firefox. With our rigorous testing process, you can be confident that your website or application will function seamlessly across these platforms.
