@@ -523,7 +523,7 @@ Existing Features
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
-### To modify the 'Home' page
+### To the 'Home' page
 <table style="width:100%">
     <thead>
         <tr>
@@ -649,7 +649,7 @@ Existing Features
     </details>
 
 
-### To modify the 'About Us' page
+### To the 'About Us' page
 
 <table style="width:100%">
     <thead>
@@ -710,9 +710,6 @@ Existing Features
         <tr>
             <td>11. A 'Success' box will appear to confirm that the changes have been made.</td>
             <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Add Category' button:</th>
         </tr>
     </tbody>
 </table>
@@ -780,7 +777,7 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
-### To modify the 'Painting Category' page
+### To the 'Painting Category' page
 <table style="width:100%">
     <thead>
         <tr>
@@ -791,6 +788,9 @@ Existing Features
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Add Category' button:</th>
+            </tr>
         <tr>
             <td rowspan=9>Owner’s editable</td>
             <td rowspan=9>Owner can use CRUD</td>
@@ -828,9 +828,6 @@ Existing Features
         <tr>
             <td>9. If the category is added successfully, you will see a 'Success' alert box appear.</td>
             <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Edit' & 'Delete' button:</th>
         </tr>
     <tbody>
 </table>
@@ -891,7 +888,7 @@ Existing Features
     </details>
 
 
-### To modify the 'Edit & Delete' page
+### To the 'Edit & Delete' page
 
 <table style="width:100%">
     <thead>
@@ -903,6 +900,9 @@ Existing Features
         </tr>
     </thead>
     <tbody>
+    <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Edit' & 'Delete' button:</th>
+        </tr>
         <tr>
             <td rowspan=11>Owner’s editable</td>
             <td rowspan=11>Owner can use CRUD</td>
@@ -1012,7 +1012,176 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
     </details>
 
-    
+### To the 'Shop' page
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the clear and corrected steps for adding a new category to the shop pages, editing, and deleting:</th>
+            </tr>
+        <tr>
+            <td rowspan=15>Owner’s editable</td>
+            <td rowspan=15>Owner can use CRUD</td>
+            <td>1. Go to the shop pages category and click on the 'Add category' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. If there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. You will then be taken to the Add Art Gallery management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. Here, you can select a category from the drop-down list and fill in the details under the 'Category' field.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. You can also modify the 'Name', 'Description', and 'Friendly Name', and choose a new image by clicking on the 'Select Image' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. Once you have made the necessary changes, click on the 'Update art gallery' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. An alert 'Add product' successfully appears.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>8. Click on 'Shop' and you will see a new patches category on the Art Gallery page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to modify the category further, click the 'Edit' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>10. You can modify the 'Category', 'Name', 'Description', 'Has sizes' to yes or no and 'Price', or change the image by clicking on the 'Update art gallery' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>11. Once you have made the changes, the art gallery category will be updated.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>12. If you want to cancel the process and go back to the shop page, click on the 'Cancel' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>13. If you want to edit the process and go to the Add Bag page, click on the 'View Frame' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>14. If you want to make further changes, click on the 'Edit' button and repeat steps 10 and 11.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>15.  If you want to delete the category, click on the 'Delete' button. The category will disappear and an alert 'deleted' success box will appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+    <tbody>
+</table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+#### Shop Page - Add, Editing & Deleting Category
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot, go to the shop pages category and click on the 'Add category' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-button.png" alt=“Display to show where is click on the 'Add category' button”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-error.png" alt=“Display to show where the alert 'error' box appears.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and you will then be taken to the Add Art Gallery management page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-page.png" alt=“Display to show to the add category management page”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-select-list.png" alt=“Display to show where is the drop-down list and fill in the details.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and you can also modify the 'Name', 'Description', and 'Friendly Name', and choose a new image by clicking on the 'Select Image' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-modify-1.png" alt=“Display to show with red highlight to modify in the area”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-modfy-2.png" alt=“Display to show with red highlight to modify in the area”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-open-file.png" alt=“Display to show where 'Select Image' opens your file.”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-after-select-image.png" alt=“Display to show where the image has uploaded”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and Once you have made the necessary changes, click on the 'Update art gallery' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-button-1.png" alt=“Display to show clicked the 'Update art gallery' button”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and an alert 'Add product' successfully appears.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-add-success.png" alt=“Display to show where the 'Add product' box successfully”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and click on 'Shop' and you will see a new patches category on the Art Gallery page.	</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-new-category-1.png" alt=“Display to show to add a new category in art gallery page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if you want to modify the category further, click the 'Edit' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-new-category-edit-button.png" alt=“Display to show where the click 'edit' button”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and you can modify the 'Category', 'Name', 'Description', 'Has sizes' to yes or no and 'Price', or change the image by clicking on the 'Update art gallery' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-after-edit.png" alt=“Display to show with red highlight to modify in the area”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-after-edit-2.png" alt=“Display to show with red highlight to modify in the area”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-open-file-replace.png" alt=“Display to show open the file to replace image”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-click-update.png" alt=“Display to show where the click is on 'Update art gallery' button”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and once you have made the changes, the art gallery category will be updated and will alert update successfully appear.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-update-success.png" alt=“Display to show where the alert update successfully appears.”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if you want to cancel the process and go back to the shop page, click on the 'Cancel' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-cancel-button.png" alt=“Display to show where the alert update successfully appears.”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-shop-page.png" alt=“Display to show the shop page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and If you want to edit the process and go to the Add Bag page, click on the 'View Frame' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-view-frame-button.png" alt=“Display to show where the 'View Frame' button in Add to Bag page ”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if you want to make further changes, click on the 'Edit' button and repeat steps 10 and 11.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-to-bag-update.png" alt=“Display to show where the 'Edit' button in Add to Bag page ”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if you want to delete the category, click on the 'Delete' button. The category will disappear and an alert 'deleted' success box will appear.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
+    </details>
+
 ## Testing browser compatibility
 
 * Our comprehensive testing service guarantees browser compatibility across a wide range of popular browsers, such as Safari, Google Chrome, Opera, and Firefox. With our rigorous testing process, you can be confident that your website or application will function seamlessly across these platforms.
