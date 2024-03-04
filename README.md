@@ -380,7 +380,7 @@ Existing Features
 1) Additionally, you can add items to your basket and display them on the checkout page. 
 1) On the checkout page, you'll need to fill in your address and indicate whether you would like to add a profile or not.
 
-As **<u>Please note as above mention No.1:**</u> Please note that before consulting with my client, I revised my concept project for the painting category. I changed it to include landscapes, nudes, and other themes. This was done while I collected her previous paintings from galleries through her photography.
+**<u>Please note as above mention No.1:**</u> Please note that before consulting with my client, I revised my concept project for the painting category. I changed it to include landscapes, nudes, and other themes. This was done while I collected her previous paintings from galleries through her photography.
 
 
 | Feature | Action | Expected Result | Actual Results |
@@ -519,7 +519,7 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
 
 ### 5. Owner's Editable
 
-* As **<u> An additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
+* **<u> An additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
@@ -534,7 +534,7 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
     </thead>
     <tbody>
         <tr>
-            <th colspan="4">Home Page</th>
+            <th colspan="4">To modify the 'Home' page, follow the steps below:</th>
         </tr>
         <tr>
             <td rowspan=11>Owner’s editable</td>
@@ -582,17 +582,144 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
             <td>11. You will receive an alert box confirming that your changes were successful.</td>
             <td>Works as Expected</td>
         </tr>
+    <tr>
+            <th colspan="4">To modify the 'About Us' page, follow the steps below:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Owner’s editable</td>
+            <td rowspan=11>Owner can use CRUD</td>
+            <td>1. Click on the 'About' page and then select the 'Edit About Us Page' button.
+            </td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. An 'Information' box will appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. You will be taken to the 'About Us' management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. The owner can modify the 'Name', 'Title', 'Bio', and 'Image'. Update the details as required.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>5. If you want to remove the image, select the checked box next to 'Remove Image' and click the 'Update' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. This will change the image to 'No Image' on the page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to change the image, click on the 'Select Image' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8. Select the new image and click the 'Update' button to apply the changes.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to cancel the changes, click on the 'Cancel' button to go back to the home page.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>10. Once you're done, click on the 'Update About Us Page' button to go back to the 'About' page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>11. A 'Success' box will appear to confirm that the changes have been made.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Add Category' button:</th>
+        </tr>
+        <tr>
+            <td rowspan=9>Owner’s editable</td>
+            <td rowspan=9>Owner can use CRUD</td>
+            <td>1. Go to the painting pages category and click on the 'Add category' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. If there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. You will be taken to the add category management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. Here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. To change the image, click on the 'Select Image' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. Once you have clicked the 'Select Image' button, the image on the page will change.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to cancel the process and go back to the category painting page, click on the 'Cancel' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>8. To add the category, click on the 'Add Category' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If the category is added successfully, you will see a 'Success' alert box appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">To modify the 'Painting Category' page, follow the steps below after clicking the 'Edit' & 'Delete' button:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Owner’s editable</td>
+            <td rowspan=11>Owner can use CRUD</td>
+            <td>1. Go to the Painting page and select the Category you wish to edit.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Click on the 'Edit' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. An 'Information' box will appear.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. You will be redirected to the Edit Category Management page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. You can modify the 'Category', 'Name', 'Description', and 'Friendly Name'.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6.  If you wish to remove the image, check the 'Removed' checkbox. This will display a 'No Image' message for the category.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to change the image, click on the 'Select Image' button and choose a new image.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>8. Once you have made the necessary changes, click on the 'Update Category' button to save the changes.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. If you want to go back to the Category Painting page without saving any changes, click on the 'Back to Category Painting' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>10. If you want to delete a category, click on the 'Delete' button. This will permanently remove the category and the alert box 'delete' success appears.</td>
+            <td>Works as Expected</td>
+        </tr>
     </tbody>
 </table>
-
-| Feature | Action | Expected Result | Actual Results |
-| ------- | ----------- | ---------- | -------------- |
-| About Page |
-|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The about pages and click to ‘Edit about us page’ button </li> <li> Alert ‘information’ box </li> <li>The about us management page</li><ul><li>Owner can modify on 'name', 'title', 'bio' and 'image' to modify to update </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Update about us page’ button to back about page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
-| Category Painting Page |
-|Owner’s editable| <ol><li>Owner can use CRUD</li></ol> | <ol><li>The category painting pages and click to ‘Add category’ button </li> <li> Alert ‘Errors’ box, it shows error therefore in the form does not filled and the owner can see it. </li> <li>The add category management page</li><ul><li>Owner can filling on 'Category', it is selet list of the categories to fill details then click to 'update' button </li> <li>click to checked box ‘Remove’ image then click 'update' button</li> <li>‘Remove’ image to 'No image' image on page</li><li>Click to 'Select Image' to change image</li><li>After 'select image' button to change image on the page</li><li>Click to ‘Cancel’ button to back home page unchanged</li><li>Click to ‘Add Category’ button to back category painting page</li><li> Alert ‘Success’ box </li></ul></ol>  | <ol><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><ul> <li>Works as Expected</li> <li>Works as Expected</li> <li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li><li>Works as Expected</li> </ul></ol>|
-
-
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -675,39 +802,162 @@ As **<u>Please note as above mention No.1:**</u> Please note that before consult
         <img src="media/ReadMe/Manual testing/CRUD-about-page.png" alt=“Display to show to the about us management page”>
     </details>
 
-    *   <details>
-                <summary>Click on the link to view the screenshot and verify if the owner can modify 'name', 'title', 'bio', and 'image' to make updates.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-edit-modified-page.png" alt=“Display to show where is the owner can modify on 'name', 'title', 'bio' and 'image' to modify to update”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and select the 'Remove' image checkbox.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-remove-checked.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and observe that the removed image is replaced by the 'No image' image on the page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-no-image-update.png" alt=“Display to show the remove image to 'No image' image on page”>
-        </details>
-     *  <details>
-                <summary>Click on the link to view the screenshot and select the 'Select Image' button to change the image.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and verify that the 'Select Image' button is followed by a field to change the image on the page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-image-update.png" alt=“Display to show after 'select image' button to change an image on the page”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and select the 'Cancel' button to go back to the home page without making any changes.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
-        </details>
-    *   <details>
-                <summary>Click on the link to view the screenshot and click on the 'Update about us page' button to save the changes and go back to the About page.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-update-button.png" alt=“Display to show where is the click to ‘Update about us page’ button to back about page”>
-        </details>
-    *   <details>
-                <summary>Finally, click on the link to view the screenshot and observe the Alert 'Success' box to confirm that the changes were successfully saved.</summary>
-                <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
-        </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and verify if the owner can modify 'name', 'title', 'bio', and 'image' to make updates.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-edit-modified-page.png" alt=“Display to show where is the owner can modify on 'name', 'title', 'bio' and 'image' to modify to update”>
+    </details>
 
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and select the 'Remove' image checkbox.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-remove-checked.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and observe that the removed image is replaced by the 'No image' image on the page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-no-image-update.png" alt=“Display to show the remove image to 'No image' image on page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and select the 'Select Image' button to change the image.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and verify that the 'Select Image' button is followed by a field to change the image on the page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-image-update.png" alt=“Display to show after 'select image' button to change an image on the page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and select the 'Cancel' button to go back to the home page without making any changes.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and click on the 'Update about us page' button to save the changes and go back to the About page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-update-button.png" alt=“Display to show where is the click to ‘Update about us page’ button to back about page”>
+    </details>
+1. 
+    <details>
+        <summary>Finally, click on the link to view the screenshot and observe the Alert 'Success' box to confirm that the changes were successfully saved.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
+    </details>
+
+#### Category painting Page - Add Category
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and go to the painting pages category and click on the 'Add category' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-button.png" alt=“Display to show where is click on the 'Add category' button”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and if there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-alert-error.png" alt=“Display to show where the alert 'error' box appears.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and you will be taken to the add category management page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page.png" alt=“Display to show to the add category management page”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-list.png" alt=“Display to show where is the drop-down list and fill in the details.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and to change the image, click on the 'Select Image' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-button.png" alt=“Display to show where is click to 'Select Image' button”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-image.png" alt=“Display to show where 'Select Image' opens your file.”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and Once you have clicked the 'Select Image' button, the image on the page will change.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-after-select-image.png" alt=“Display to show clicked the 'Select Image' button, the image on the page will change”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and If you want to cancel the process and go back to the category painting page, click on the 'Cancel' button.</summary>
+        <img src="media/ReadMe/Manual testing/Crud-paint-page-cancel-button.png" alt=“Display to show where the click on the 'Cancel' button”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and To add the category, click on the 'Add Category' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-button-1.png" alt=“Display to show where is click on the 'Add Category' button”>
+    </details>
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot and If the category is added successfully, you will see a 'Success' alert box appear.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-alert-success.png" alt=“Display to show where the 'Success' alert box appears.”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show where the add category appears.”>
+    </details>
+
+#### Category painting Page - Edit & Delete Category
+1. 
+    <details>
+        <summary>Click on the link to view the screenshot, go to the Painting page and select the Category you wish to edit.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show select the Category you wish to edit.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click on the 'Edit' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-button.png" alt=“Display to show where the alert 'Edit' button”>
+    </details>
+
+1. 
+    <details>
+        <summary> An 'Information' box will appear.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-alert-info.png" alt=“Display to show where the alert 'information' box appears.”>
+    </details>
+
+1. 
+    <details>
+        <summary>You will be redirected to the Edit Category Management page.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-page.png" alt=“Display to show the edit category management page.”>
+    </details>
+
+1. 
+    <details>
+        <summary>Here, you can modify the 'Category', 'Name', 'Description', and 'Friendly Name'.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-modify.png" alt=“Display to show modify the 'Category', 'Name', 'Description', and 'Friendly Name'.”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-modify-after.png" alt=“Display to show after the modify the 'Category', 'Name', 'Description', and 'Friendly Name'.”>
+    </details>
+1. 
+    <details>
+        <summary>If you wish to remove the image, check the 'Removed' checkbox. This will display a 'No Image' on the category.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-removed.png" alt=“Display to show where the 'Removed' checkbox”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-no-image.png" alt=“Display to show a 'No Image' on the category.”>
+    </details>
+1. 
+    <details>
+        <summary>If you want to change the image, click on the 'Select Image' button and choose a new image.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-select-image-button.png" alt=“Display to show where the click on the 'Select Image' button”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-open-file.png" alt=“Display to show where the after 'Select Image' button and open the file to select images.”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-after-select-image.png" alt=“Display to show where the after 'Select Image' button and the image is uploaded.”>
+    </details>
+1. 
+    <details>
+        <summary>Once you have made the necessary changes, click on the 'Update Category' button to save the changes.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-update-button.png" alt=“Display to show where is click on the 'Add Category' button”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-change-category.png" alt=“Display to show where the category has been changed”>
+    </details>
+1. 
+    <details>
+        <summary>If you want to go back to the Category Painting page without saving any changes, click on the 'Back to Category Painting' button.</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-back-to-category-button.png" alt=“Display to show where the click on the 'Back to Category Painting' button.”>
+    </details>
+1. 
+    <details>
+        <summary> If you want to delete a category, click on the 'Delete' button. It will disappear category and alert 'Delete' success</summary>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete-button.png" alt=“Display to show where the click on the 'Delete' button.”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
+    </details>
 ## Testing browser compatibility
 
 * Our comprehensive testing service guarantees browser compatibility across a wide range of popular browsers, such as Safari, Google Chrome, Opera, and Firefox. With our rigorous testing process, you can be confident that your website or application will function seamlessly across these platforms.
