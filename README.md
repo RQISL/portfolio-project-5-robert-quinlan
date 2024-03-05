@@ -481,7 +481,305 @@ Existing Features
         <img src="media/ReadMe/Manual testing/category-thankyou-page-after-order.png" alt=“Display to show the alert box after the complete order”>
     </details>
 
-### 5. User's Editable
+### 5. Shop Page 
+
+* As **<u>HTML</u>** I can create **<u>a shop page</u>** So that **<u>for users to browse and purchase art from an art gallery.</u>**
+
+* **<u>Please note:**</u> that I did not include this feature in the user stories on the Agile management board while developing the site, but decided to use shop on the page.
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Below are the steps to complete a shopping transaction on our website. Please note that you can click on the various buttons and links to navigate the website.</th>
+        </tr>
+        <tr>
+            <td rowspan=24>Dash button</td>
+            <td rowspan=24>Open vertical to right</td>
+            <td>1. Start by clicking on the 'Shop' button which will take you to the Shop page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. On the Art gallery page, click on any 'View Frame' button to view the details of the product.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. From there, you can add the product to your cart by clicking on the 'Add to Bag' button on the Add to Bag page. You can then increase or decrease the quantity by clicking on the minus or plus button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. Once you're done, click on the 'Add to bag' button and a pop-up box will appear confirming that the item has been successfully added to your cart.</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>5. To proceed to checkout, click on the 'Secure Checkout' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. If you want to update the quantity of the item, click on the 'Update' button and a pop-up box will appear confirming that the item has been successfully updated.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you want to remove the item from your cart, click on the 'Remove' button and a pop-up box will appear confirming that the item has been successfully removed.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8.  If you want to continue shopping, click on the 'Keep Shopping' button to go back to the Shop page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. To view your cart, click on the 'Basket' button located in the top right corner of the page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>10. To proceed to checkout, click on the 'Secure Checkout' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>11. Fill out the form on the checkout page with your personal</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>12. You can choose to create an account by clicking on the 'Create an account' button and filling out the form. If you already have an account, you can login by clicking on the 'login' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>13. Once you have completed your purchase, you will receive an email confirming your order. You will be prompted to click on a link to confirm your email address and then click the 'Confirm' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>14. Once you have confirmed your email address, you will be redirected to the website, and an alert will appear confirming your successful login.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>15. To view your order history, click on the 'Back to Profile' button and you will be directed to your profile page where you can view your order history and update your address if necessary.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>16. If you want to reorder a previously purchased item, click on the link in the order history and it will take you to a 'Thank you' page with the details of the order.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>17. On the Shop page, users can sort items by selecting a sorting option from the dropdown menu labeled 'Sort by...'</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+#### Shop Page
+1. 
+    <details>
+        <summary>Click here to see the screenshot and start by clicking on the 'Shop' button which will take you to the Shop page.</summary>
+        <img src="media/ReadMe/Manual testing/shop-dash-link-shop.png" alt=“Display to show link 'Shop'">
+        <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show 'Shop' page">
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and on the Art gallery page, click on any 'View Frame' button to view the details of the product.</summary>
+        <img src="media/ReadMe/Manual testing/shop-click-view-frame.png" alt=“Display to show where the 'View Frame' button”>
+        <img src="media/ReadMe/Manual testing/shop-add-to-bag-page.png" alt=“Display to show 'Add to bag' page”>
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot and  From there, you can add the product to your cart by clicking on the 'Add to Bag' button on the Add to Bag page. You can then increase or decrease the quantity by clicking on the minus or plus button.</summary>
+        <img src="media/ReadMe/Manual testing/shop-add-to-bag-button.png" alt=“Display to show where the 'Add to bag' button">
+        <img src="media/ReadMe/Manual testing/shop-add-to-bag-minus-plus.png" alt=“Display to show where the 'Minus' and 'Plus' button">
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot and once you're done, click on the 'Add to bag' button and a pop-up box will appear confirming that the item has been successfully added to your cart.</summary>
+        <img src="media/ReadMe/Manual testing/shop-alert-add-item.png" alt=“Display to show the alert to add items success">
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and to proceed to checkout, click on the 'Secure Checkout' button.</summary>
+        <img src="media/ReadMe/Manual testing/shop-alert-add-item-secure-checkout-button.png" alt=“Display to show the alert box and click on 'Secure Checkout' button”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and if you want to update the quantity of the item, click on the 'Update' button and a pop-up box will appear confirming that the item has been successfully updated.</summary>
+        <img src="media/ReadMe/Manual testing/shop-click-update-button.png" alt=“Display to show the 'Update' button”>
+        <img src="media/ReadMe/Manual testing/shop-after-update-alert-success.png" alt=“Display to show the alert box after update”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and if you want to remove the item from your cart, click on the 'Remove' button and a pop-up box will appear confirming that the item has been successfully removed.</summary>
+        <img src="media/ReadMe/Manual testing/shop-removed-button.png" alt=“Display to show the 'Remove' button”>
+        <img src="media/ReadMe/Manual testing/shop-alert-removed-success.png" alt=“Display to show the 'Remove' alert-success”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and if you want to continue shopping, click on the 'Keep Shopping' button to go back to the Shop page.</summary>
+        <img src="media/ReadMe/Manual testing/shop-keep-shopping-button.png" alt=“Display to show the 'Keep Shopping' button”>
+        <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show the 'Shop' page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and to view your cart, click on the 'Basket' button located in the top right corner of the page.</summary>
+        <img src="media/ReadMe/Manual testing/shop-basket-shop-page.png" alt=“Display to show the 'Basket' red highlight box”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and to proceed to checkout, click on the 'Secure Checkout' button.</summary>
+        <img src="media/ReadMe/Manual testing/shop-click-secure-checkout-button.png" alt=“Display to show the 'Secure Checkout' button”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and fill out the form on the checkout page with your personal.</summary>
+        <img src="media/ReadMe/Manual testing/shop-fill-out-address-page.png" alt=“Display to show the checkout to fill the form on the page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and you can choose to create an account by clicking on the 'Create an account' button and filling out the form. If you already have an account, you can login by clicking on the 'login' button.</summary>
+        <img src="media/ReadMe/Manual testing/shop-sign-up-or-login-button.png" alt=“Display to show the alert box after the complete order”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and once you have completed your purchase, you will receive an email confirming your order. You will be prompted to click on a link to confirm your email address and then click the 'Confirm' button.</summary>
+        <img src="media/ReadMe/Manual testing/shop-alert-email-success.png" alt=“Display to show the alert box after the complete order”>
+        <img src="media/ReadMe/Manual testing/shop-order-email-received.png" alt=“Display to show the temporary email on the page”>
+        <img src="media/ReadMe/Manual testing/shop-received-order-detail-email.png" alt=“Display to show the in temporary message”>
+        <img src="media/ReadMe/Manual testing/shop-received-email-temp.png" alt=“Display to show the received confirm in email temporary”>
+         <img src="media/ReadMe/Manual testing/shop-open-message-confirm-link.png" alt=“Display to show the open the message and link to confirm your email”>
+        <img src="media/ReadMe/Manual testing/shop-confirm-email-address-page.png" alt=“Display to show the confirm email address page”>
+        <img src="media/ReadMe/Manual testing/shop-after-confirm-email-alert-success.png" alt=“Display to show the alert success after confirming your email address”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and once you have confirmed your email address, you will be redirected to the website, and an alert will appear confirming your successful login.</summary>
+        <img src="media/ReadMe/Manual testing/shop-login-page.png" alt=“Display to show the login page and click 'sign-in'”>
+        <img src="media/ReadMe/Manual testing/shop-login-alert-success.png" alt=“Display to show the alert box after the login”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and to view your order history, click on the 'Back to Profile' button and you will be directed to your profile page where you can view your order history and update your address if necessary.</summary>
+        <img src="media/ReadMe/Manual testing/shop-back-to-profile-page.png" alt=“Display to show the 'Back to profile' button”>
+        <img src="media/ReadMe/Manual testing/shop-profile-update-alert-success.png" alt=“Display to show the alert box after the login”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and if you want to reorder a previously purchased item, click on the link in the order history and it will take you to a 'Thank you' page with the details of the order.</summary>
+        <img src="media/ReadMe/Manual testing/shop-click-link-history-order.png" alt=“Display to show the link on the history order”>
+        <img src="media/ReadMe/Manual testing/shop-thank-you-page.png" alt=“Display to show the alert box after the login”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and On the Shop page, users can sort items by selecting a sorting option from the dropdown menu labeled 'Sort by...'</summary>
+        <img src="media/ReadMe/Manual testing/shop-sort-page.png" alt=“Display to show the 'sort by' page”>
+        <img src="media/ReadMe/Manual testing/shop-sort-page-lists.png" alt=“Display to show the 'sort by' list page”>
+        <img src="media/ReadMe/Manual testing/shop-sort-page-low.png" alt=“Display to show the 'sort by' select low price page”>
+        <img src="media/ReadMe/Manual testing/shop-sort-page-high.png" alt=“Display to show the 'sort by' select high price page”>
+        <img src="media/ReadMe/Manual testing/shop-sort-page-z-to-a.png" alt=“Display to show the 'sort by' select name Z to A page”>
+        <img src="media/ReadMe/Manual testing/shop-sort-page-category.png" alt=“Display to show the 'sort by' select category Z to A page”>
+    </details>
+
+### 6. Search Page 
+
+* As **<u>HTML</u>** I can create **<u>a search page</u>** So that **<u>for users to find art galleries.**</u>
+
+* **<u>Please note:**</u> that I did not include this feature in the user stories on the agile management board while developing the site, but decided to use search on the page.
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">To search for a term, follow the steps below:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Dash button</td>
+            <td rowspan=11>Open vertical to right</td>
+            <td>1. The user clicks on the 'Search' button to activate the search page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. The user enters the word they are looking for in the search bar.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. For instance, if the user wants to search for the term 'Nude', they can type it in the search bar and hit enter to get the relevant results.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. Similarly, if the user wants to search for the term 'Dog', they can type it in the search bar and hit enter to get the relevant results.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. If you want to search for a term that doesn't exist in our database, such as 'swimming', you will get no results.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. Likewise, if the user wants to search for the term 'Colourful', they can type it in the search bar and hit enter to get the relevant results.</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Search Page
+1. 
+     <details>
+        <summary>Click here to see the screenshot and Click on the 'Search' button to activate the search page.</summary>
+        <img src="media/ReadMe/Manual testing/shop-search-page-link.png" alt=“Display to show the search link the page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and the user types in the search to choose the word they are looking for.</summary>
+        <img src="media/ReadMe/Manual testing/Shop-search-page.png" alt=“Display to show the search page”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot and for example, to search for the term 'Nude', type it in the search bar and press enter to get the relevant results.</summary>
+        <img src="media/ReadMe/Manual testing/shop-search-nude.png" alt=“Display to show to search for the term 'Nude'”>
+        <img src="media/ReadMe/Manual testing/shop-search-nude-page.png" alt=“Display to show the result nude of the page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and similarly, to search for the term 'Dog', type it in the search bar and press enter to get the relevant results.</summary>
+        <img src="media/ReadMe/Manual testing/shop-search-dog.png" alt=“Display to show to search for the term 'Dog'”>
+        <img src="media/ReadMe/Manual testing/shop-search-dog-page.png" alt=“Display to show the resulting dog of the page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and If you want to search for a term that doesn't exist in our database, such as 'swimming', you will get no results.</summary>
+        <img src="media/ReadMe/Manual testing/shop-search-swimming.png" alt=“Display to show to search for the term 'swimming'”>
+        <img src="media/ReadMe/Manual testing/shop-search-page-empty.png" alt=“Display to show the resulting empty of the page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot and likewise, if you want to search for the term 'Colourful', type it in the search bar and press enter to get the relevant results.</summary>
+        <img src="media/ReadMe/Manual testing/shop-search-page-colourful.png" alt=“Display to show to search for the term 'colourful'”>
+        <img src="media/ReadMe/Manual testing/shop-search-page-colourful-page.png" alt=“Display to show the resulting colourful of the page”>
+    </details>
+
+
+
+
+
+### 6. User's Editable
 
 * As **<u> An additional feature for 'user's editable':**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
@@ -516,6 +814,8 @@ Existing Features
                 <summary>Click here to see the screenshot and see the 'Keeping Shopping' button to activate the category painting page</summary>
                 <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
         </details>
+
+## Manual testing primarily concentrates on testing the owner's CRUD (Create, Read, Update, and Delete) operations.
 
 ### 5. Owner's Editable
 
