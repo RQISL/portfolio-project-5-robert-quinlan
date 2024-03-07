@@ -1,66 +1,60 @@
 {% extends "base.html" %}
 {% load static %}
+{% load widget_tweaks %}
+{% load crispy_forms_tags %}
 {% block content %}
-<div class="container px-2">
+<div class="container ps-4 pb-4">
    <div class="row">
-      <div class="col text-center">
-         <h2 class="display-4 logo-font">Contact Us</h2>
-         <hr class="w-100 mb-3">
+      <div class="col text-center mt-3">
+         <h2 class=" display-4 logo-font p-3">Contact</h2>
+         <hr class="w-100 mb-1 text-white">
       </div>
-      {% if request.user.is_superuser %}
-      <div class="col-12 text-white text-right">
-         <form method="POST" action="{% url 'add_contact_category' %}" class="form mb-2" enctype="multipart/form-data">
-            {% csrf_token %}
-            {% for field in form %}
-            {% if field.name != 'image' %}
-            {{ field | as_crispy_field }}
-            {% else %}
-            {{ field }}
-            {% endif %}
-            {% endfor %}
-            <div class="text-right mt-3">
-               <button class="btn btn-black rounded-0" type="submit">Add contact category</button>
-            </div>
-         </form>
-      </div>
-      {% endif %}
-   </div>
-   <div class="row">
-      <div class="product-container col-10 offset-1">
-         <div class="row mt-1 mb-2"></div>
-         <div class="row">
-            {% for contact in contactus %}
-            <div class="col-xl-6 mb-3">
-               <div class="card h-100 border-0">
-                  {% if contact.image %}
-                  <img class="card-img-top img-fluid" src="{{ contact.image.url }}" alt="{{ contact.name }}">
-                  {% else %}
-                  <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ contact.name }}">
-                  </a>
-                  {% endif %}
-                  <div class="card-body p-4">
-                     <h5 class="card-title p_white">{{ contact.name }}</h5>
-                     <p class="card-text p_white">{{ contact.description }}</p>
-                     {% if contact.name %}
-                     <div class="d-flex justify-content-center">
-                        <a class="btn btn_ligth rounded-0 mt-1" href="hireme/{{ contact.id }}">{{ contact.category.name }}</a>
-                     </div>
-                     {% endif %}
-                  </div>
-                  {% if request.user.is_superuser %}
-                  <small class="ml-3">
-                     <div class="d-flex justify-content-between">
-                        <a class="btn btn_ligth rounded-0 m-2" href="{% url 'edit_contact_category' contact.id %}">Edit</a>
-                        <a class="btn btn_ligth rounded-0 m-2" href="{% url 'delete_contact_category' contact.id %}">Delete</a>
-                     </div>
-                  </small>
-                  {% endif %}
+      <div class="row">
+         <div class="col w-100">
+            <form method="POST" action="{% url 'contact' %}" enctype="multipart/form-data">
+               {% csrf_token %}
+       
+               <div class="form-group p-3">
+                   <div class="row">
+                       <div class="col-xl-6">
+                           <div>First Name:
+                               {% render_field form.first_name placeholder="First Name..." class+="form-control" %}
+                           </div>
+                       </div>
+                       <div class="col-xl-6">
+                           <div>Last Name:
+                               {% render_field form.last_name placeholder="Last Name..." class+="form-control" %}
+                           </div>
+                       </div>
+       
+                           <br>
+                           <div>Email Address:
+                               <div>{% render_field form.email placeholder="Email Address" class+="form-control" %}</div>
+                           </div>
+                           <br>
+                           <div>Message:
+                               <div>{% render_field form.message placeholder="write your message...." class+="form-control" %}</div>
+                           </div>
+                           <br>
+                       <div class="form-group w-100 text-center">
+                           <button class="btn btn-dark container-fluid mt-5 w-75" type="submit">Send Message</button>
+                       </div>
+                   </div>
                </div>
-            </div>
-            {% endfor %}
+           </form>
          </div>
       </div>
    </div>
 </div>
 <footer></footer>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+   $('#new-image').change(function () {
+       var file = $('#new-image')[0].files[0];
+       $('#filename').text(`Image will be set to: ${file.name}`);
+   });
+</script>
 {% endblock %}
