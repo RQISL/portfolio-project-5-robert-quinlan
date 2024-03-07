@@ -80,7 +80,7 @@
             <img src="media/ReadMe/moodboard/Screenshot_Wisr_Website_With_Monochromatic_Green.jpg" alt=" colour palette for design UX">
     </details>
 
--------------------------------------------------------------------------------------------------------      
+----------------------------------------------------------------------------------------------------- 
 # Design and development of the Art Gallery for desktop & mobile devices
 
 * This logo is a unique art painting that features spot color and brush strokes. The painting is designed with the full name of the artist, who is known for her talent in fine art.
@@ -296,28 +296,28 @@ Existing Features
 | Navigation Bar| <ol> <li>Dash button</li> <li>Click to Logo</li> <li>Click to basket</li> <li>In checkout page</li> </ol> | <ol> <li>User click to open the vertial on leftside to right</li> <li>User click to logo to get back to home page</li> <li>User click to basket and to checkout page as empty basket, which the user does not any order yet</li> <li>User click to 'Keep Shopping' button, which the user can contuine purchases</li></ol> |<ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> </ol> |
 
 ### Please refer to the numbers in the order shown above the table in the images.
-
+### Navigation Bar
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the Dash button</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/dash-button.png" alt=“Display to show where the Dash button is on the navigation”>
         <img src="media/ReadMe/Manual testing/Vertical-to-right.png" alt=“Display to show where the Dash button opens vertical to right”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the logo</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/click-logo-page.png" alt=“Display to show where the logo is on the navigation bar”>
     </details>
 1. 
      <details>
-        <summary>Click here to see screenshot and see the basket & empty the basket to checkout page</summary>
+        <summary>Click here to see screenshot</summary>
         <img src="media/ReadMe/Manual testing/click-to-basket.png" alt=“Display to show where the basket is on the navigation bar”>
         <img src="media/ReadMe/Manual testing/empty-basket.png" alt=“Display to show the empty basket to the checkout page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the 'keep shopping' button & to the category painting page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/keep-shopping-button.png" alt=“Display to show where the 'keep shopping' on the button”>
         <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchase”>
     </details>
@@ -335,13 +335,13 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the Dash button and activate the home page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/vertical-home.png" alt=“Display to show where the Dash button to click to the Home link”>
         <img src="media/ReadMe/Manual testing/home-page.png" alt=“Display to show Home page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the 'visit her exhibition button' & activate Elena's Exhibition page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/visit-her-exhibations-button.png" alt=“Display to show the 'visit her exhibition' button”>
         <img src="media/ReadMe/Manual testing/visit-her-exhib-page.png" alt=“Display to show the Elena's exhibation page”>
     </details>
@@ -360,13 +360,13 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the Dash button and activate the About page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/about-link.png" alt=“Display to show where the Dash button to click to About link”>
         <img src="media/ReadMe/Manual testing/about-page.png" alt=“Display to show About page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the 'visit contact button' & activate contact page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/about-button.png" alt=“Display to show the 'visit contact page' button”>
         <img src="media/ReadMe/Manual testing/contact-page.png" alt=“Display to show the contact page”>
     </details>
@@ -395,13 +395,13 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the Dash button and activate the Category Painting page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-painting-link.png" alt=“Display to show where the Dash button to click to category painting link”>
         <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see any buttons on the category painting page & activate the Art Gallery page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
     </details>
@@ -410,24 +410,24 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the 'View Frame' button and activate add to bag page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show where is 'View Frame' the button to click to activate add to bag page”>
         <img src="media/ReadMe/Manual testing/category-add-bag-page.png" alt=“Display to show Add to Bag page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the 'Add to Bag' buttons</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-add-bag-page-add-button.png" alt=“Display to show the 'Add to bag' button”>
     </details>
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the Alert pop-up </summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-alert-box.png" alt=“Display to show the alert box”>
     </details>
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the 'Secure Checkout' button </summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Secure Checkout' button on the alert box”>
     </details>
 
@@ -437,47 +437,47 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the 'Keep Shopping' and 'Secure Checkout' buttons</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-page.png" alt=“Display to show where are the two 'Keep Shopping' and 'Secure Checkout' buttons”>
     </details>
 
     *   <details>
-                <summary>Click here to see the screenshot and see the activated checkout form page</summary>
+                <summary>Click here to see the screenshot</summary>
                 <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show Checkout Form page”>
         </details>
     *   <details>
-                <summary>Click here to see the screenshot and see the activated category painting page</summary>
+                <summary>Click here to see the screenshot</summary>
                 <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
         </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the checkout form page</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show the checkout form button”>
     </details>
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see make payment</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-card.png" alt=“Display to show the make payment page">
     </details>
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the 'Adjust Bag' and 'Complete Order' buttons</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-card-1.png" alt=“Display to show the make payment page">
     </details>
 
     *   <details>
-                <summary>Click here to see the screenshot and see the activate checkout page to adjust the bag, if the user wishes </summary>
+                <summary>Click here to see the screenshot</summary>
                 <img src="media/ReadMe/Manual testing/category-checkout-page-1.png" alt=“Display to show Checkout Form page”>
         </details>
     *   <details>
-                <summary>Click here to see the screenshot and see the activated thank you page after completing order</summary>
+                <summary>Click here to see the screenshot</summary>
                 <img src="media/ReadMe/Manual testing/category-thankyou-page.png" alt=“Display to show thank you page”>
         </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and see the alert box after completing order</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-thankyou-page-after-order.png" alt=“Display to show the alert box after the complete order”>
     </details>
 
@@ -578,77 +578,77 @@ Existing Features
 #### Shop Page
 1. 
     <details>
-        <summary>Click here to see the screenshot and start by clicking on the 'Shop' button which will take you to the Shop page.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-dash-link-shop.png" alt=“Display to show link 'Shop'">
         <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show 'Shop' page">
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and on the Art gallery page, click on any 'View Frame' button to view the details of the product.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-click-view-frame.png" alt=“Display to show where the 'View Frame' button”>
         <img src="media/ReadMe/Manual testing/shop-add-to-bag-page.png" alt=“Display to show 'Add to bag' page”>
     </details>
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and  From there, you can add the product to your cart by clicking on the 'Add to Bag' button on the Add to Bag page. You can then increase or decrease the quantity by clicking on the minus or plus button.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-add-to-bag-button.png" alt=“Display to show where the 'Add to bag' button">
         <img src="media/ReadMe/Manual testing/shop-add-to-bag-minus-plus.png" alt=“Display to show where the 'Minus' and 'Plus' button">
     </details>
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and once you're done, click on the 'Add to bag' button and a pop-up box will appear confirming that the item has been successfully added to your cart.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-alert-add-item.png" alt=“Display to show the alert to add items success">
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and to proceed to checkout, click on the 'Secure Checkout' button.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-alert-add-item-secure-checkout-button.png" alt=“Display to show the alert box and click on 'Secure Checkout' button”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and if you want to update the quantity of the item, click on the 'Update' button and a pop-up box will appear confirming that the item has been successfully updated.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-click-update-button.png" alt=“Display to show the 'Update' button”>
         <img src="media/ReadMe/Manual testing/shop-after-update-alert-success.png" alt=“Display to show the alert box after update”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and if you want to remove the item from your cart, click on the 'Remove' button and a pop-up box will appear confirming that the item has been successfully removed.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-removed-button.png" alt=“Display to show the 'Remove' button”>
         <img src="media/ReadMe/Manual testing/shop-alert-removed-success.png" alt=“Display to show the 'Remove' alert-success”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and if you want to continue shopping, click on the 'Keep Shopping' button to go back to the Shop page.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-keep-shopping-button.png" alt=“Display to show the 'Keep Shopping' button”>
         <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show the 'Shop' page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and to view your cart, click on the 'Basket' button located in the top right corner of the page.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-basket-shop-page.png" alt=“Display to show the 'Basket' red highlight box”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and to proceed to checkout, click on the 'Secure Checkout' button.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-click-secure-checkout-button.png" alt=“Display to show the 'Secure Checkout' button”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and fill out the form on the checkout page with your personal.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-fill-out-address-page.png" alt=“Display to show the checkout to fill the form on the page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and you can choose to create an account by clicking on the 'Create an account' button and filling out the form. If you already have an account, you can login by clicking on the 'login' button.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-sign-up-or-login-button.png" alt=“Display to show the alert box after the complete order”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and once you have completed your purchase, you will receive an email confirming your order. You will be prompted to click on a link to confirm your email address and then click the 'Confirm' button.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-alert-email-success.png" alt=“Display to show the alert box after the complete order”>
         <img src="media/ReadMe/Manual testing/shop-order-email-received.png" alt=“Display to show the temporary email on the page”>
         <img src="media/ReadMe/Manual testing/shop-received-order-detail-email.png" alt=“Display to show the in temporary message”>
@@ -660,25 +660,25 @@ Existing Features
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and once you have confirmed your email address, you will be redirected to the website, and an alert will appear confirming your successful login.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-login-page.png" alt=“Display to show the login page and click 'sign-in'”>
         <img src="media/ReadMe/Manual testing/shop-login-alert-success.png" alt=“Display to show the alert box after the login”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and to view your order history, click on the 'Back to Profile' button and you will be directed to your profile page where you can view your order history and update your address if necessary.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-back-to-profile-page.png" alt=“Display to show the 'Back to profile' button”>
         <img src="media/ReadMe/Manual testing/shop-profile-update-alert-success.png" alt=“Display to show the alert box after the login”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and if you want to reorder a previously purchased item, click on the link in the order history and it will take you to a 'Thank you' page with the details of the order.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-click-link-history-order.png" alt=“Display to show the link on the history order”>
         <img src="media/ReadMe/Manual testing/shop-thank-you-page.png" alt=“Display to show the alert box after the login”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and On the Shop page, users can sort items by selecting a sorting option from the dropdown menu labeled 'Sort by...'</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-sort-page.png" alt=“Display to show the 'sort by' page”>
         <img src="media/ReadMe/Manual testing/shop-sort-page-lists.png" alt=“Display to show the 'sort by' list page”>
         <img src="media/ReadMe/Manual testing/shop-sort-page-low.png" alt=“Display to show the 'sort by' select low price page”>
@@ -735,47 +735,185 @@ Existing Features
         </tbody>
     </table>
 
+### Please refer to the numbers in the order shown above the table in the images.
 ### Search Page
 1. 
      <details>
-        <summary>Click here to see the screenshot and Click on the 'Search' button to activate the search page.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-search-page-link.png" alt=“Display to show the search link the page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and the user types in the search to choose the word they are looking for.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/Shop-search-page.png" alt=“Display to show the search page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see the screenshot and for example, to search for the term 'Nude', type it in the search bar and press enter to get the relevant results.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-search-nude.png" alt=“Display to show to search for the term 'Nude'”>
         <img src="media/ReadMe/Manual testing/shop-search-nude-page.png" alt=“Display to show the result nude of the page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and similarly, to search for the term 'Dog', type it in the search bar and press enter to get the relevant results.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-search-dog.png" alt=“Display to show to search for the term 'Dog'”>
         <img src="media/ReadMe/Manual testing/shop-search-dog-page.png" alt=“Display to show the resulting dog of the page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and If you want to search for a term that doesn't exist in our database, such as 'swimming', you will get no results.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-search-swimming.png" alt=“Display to show to search for the term 'swimming'”>
         <img src="media/ReadMe/Manual testing/shop-search-page-empty.png" alt=“Display to show the resulting empty of the page”>
     </details>
 
 1. 
      <details>
-        <summary>Click here to see the screenshot and likewise, if you want to search for the term 'Colourful', type it in the search bar and press enter to get the relevant results.</summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/shop-search-page-colourful.png" alt=“Display to show to search for the term 'colourful'”>
         <img src="media/ReadMe/Manual testing/shop-search-page-colourful-page.png" alt=“Display to show the resulting colourful of the page”>
     </details>
 
+### 7. My Account Page 
 
+* As **<u>HTML, Django and Allauth</u>** I can create **<u>a login/signup page</u>** So that **<u>either decides to sign up or not as just **a guest and also, asks the user if they want to keep details of the customers' name and address. They can check the box if they don't want to keep their detail unless they would like to use the newsletters.**</u>
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the steps you need to follow to create an account, sign in, update your profile information, and reset your password:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Dash button</td>
+            <td rowspan=11>Open vertical to right</td>
+            <td>1. Click on the 'My Account' dropdown menu which contains the 'Register' and 'Login' links. If you don't have an account yet, click on the 'Register' link to sign up.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Fill out the sign-up form with your information. If you receive an error saying that your email or username has already been taken, change it accordingly.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+        <td>3. Check your email for a verification link. Click on the link to confirm your email address and activate your account.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. To sign in, fill out the login form with your username and password, then click on the 'Sign-in' button. You'll receive an alert confirming that you've signed in successfully.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. Click on the 'My Account' dropdown and select 'My Profile' to update your profile information. Fill out the form with your address details and click on the 'Update Information' button. You'll receive an alert confirming that your information has been updated successfully.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. To sign out, click on the 'Sign-out' button and you'll receive an alert confirming that you've signed out successfully.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If you forget your password, click on the 'Forgot Password' link to activate the Password Reset page. Enter your email address and click on the 'Reset My Password' button. You'll receive an email with instructions on how to reset your password.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8. Check your email for the password reset link. Click on the link to activate the Change Password page. Fill out the form to change your password and click on the 'Change Password' button. You'll receive an alert confirming that your password has been changed successfully.</td>
+            <td>Works as Expected</td>
+        <tr>
+            <td>9. If you've changed your password, make sure to use the new password when you sign in. If you still encounter errors, it may be because you're using an old password. Change it to the new one and click on the 'Sign-In' button. You'll receive an alert confirming that you've signed in successfully.</td>
+            <td>Works as Expected</td>              
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+### My Account Page
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/account-dash-button.png" alt=“Display to show the 'Dash'search button”>
+        <img src="media/ReadMe/Manual testing/account-dropdown-link.png" alt=“Display to show the 'My Account' link”>
+        <img src="media/ReadMe/Manual testing/account-dropdown-register-login-link.png" alt=“Display to show the 'Register' and 'Login' links”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/account-sign-up-page.png" alt=“Display to show the Sign up page”>
+         <img src="media/ReadMe/Manual testing/account-fill-out-sign-up-page.png" alt=“Display to show sign up to the form”>
+          <img src="media/ReadMe/Manual testing/account-already-exists-error-page.png" alt=“Display to show the errors, your email or username has already been taken”>
+          <img src="media/ReadMe/Manual testing/account-already-username-exist-page.png" alt=“Display to show the errors, your username has already been taken”>
+          <img src="media/ReadMe/Manual testing/account-sign-up-completed.png" alt=“Display to show the fill out completed”>
+          <img src="media/ReadMe/Manual testing/account-verify-email-alert-info-page.png" alt=“Display to show the errors, your username has already been taken”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/account-receive-confirm-email.png" alt=“Display to show the received email from temporary page”>
+        <img src="media/ReadMe/Manual testing/account-open-message-link-confirm-email.png" alt=“Display to show the email open message and click to lin for confirm email address in temporary page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/account-fill-login-page.png" alt=“Display to show the login to fill out page”>
+        <img src="media/ReadMe/Manual testing/account-alert-success-sign-in.png" alt=“Display to show the alert appear successfully”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/account-dash-button.png" alt=“Display to show the Dash button”>
+        <img src="media/ReadMe/Manual testing/account-dropdown-link.png" alt=“Display to show the 'My Account' link to be dropdown”>
+        <img src="media/ReadMe/Manual testing/account-link-dropdown.png" alt=“Display to show the link dropdown 'My Profile' and 'Logout' links”>
+        <img src="media/ReadMe/Manual testing/account-link-profile.png" alt=“Display to show the link dropdown to 'My Profile' link to be open page”>
+        <img src="media/ReadMe/Manual testing/account-new-profile-page.png" alt=“Display to show the 'My Profile' page”>
+        <img src="media/ReadMe/Manual testing/account-click-update-info-profile-page.png" alt=“Display to show the link dropdown 'My Profile' and 'Logout' links”>
+         <img src="media/ReadMe/Manual testing/account-alert-success-profile-update.png" alt=“Display to show the alert appear successfully”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+         <img src="media/ReadMe/Manual testing/account-dropdown-link.png" alt=“Display to show the link dropdown 'My Profile' and 'Logout' links”>
+         <img src="media/ReadMe/Manual testing/account-link-dropdown.png" alt=“Display to show the link dropdown 'My Profile' and 'Logout' links”>
+         <img src="media/ReadMe/Manual testing/account-logout-link.png" alt=“Display to show the link to 'Logout'”>
+         <img src="media/ReadMe/Manual testing/account-alert-success-sign-out.png" alt=“Display to show the alert appear successfully”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+         <img src="media/ReadMe/Manual testing/account-sign-in-link-forget-page.png" alt=“Display to show the link 'Forget Password'”>
+         <img src="media/ReadMe/Manual testing/account-password-reset-page.png" alt=“Display to show the Password Reset page”>
+         <img src="media/ReadMe/Manual testing/account-fill-email-password-reset-page.png" alt=“Display to show enter fill the email address”>
+         <img src="media/ReadMe/Manual testing/account-password-reset-after-page.png" alt=“Display to show the Password reset to instruction page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+         <img src="media/ReadMe/Manual testing/account-receive-password-reset.png" alt=“Display to show the email in temporary page”>
+         <img src="media/ReadMe/Manual testing/account-reset-password-link.png" alt=“Display to show the open message for password reset link in the temporary page”>
+         <img src="media/ReadMe/Manual testing/account-change-password-page.png" alt=“Display to show Change Password page”>
+         <img src="media/ReadMe/Manual testing/account-fill-chanage-password-page.png" alt=“Display to show to filling the password form on Change Password page”>
+          <img src="media/ReadMe/Manual testing/account-alert-changed-password-success.png" alt=“Display to show the alert appear change password successfully”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+         <img src="media/ReadMe/Manual testing/account-fill-login-page.png" alt=“Display to show the email in temporary page”>
+         <img src="media/ReadMe/Manual testing/account-error-password.png" alt=“Display to show the open message for password reset link in the temporary page”>
+         <img src="media/ReadMe/Manual testing/account-alert-success-sign-in.png" alt=“Display to show Change Password page”>
+    </details>
 
 
 
