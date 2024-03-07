@@ -10,7 +10,7 @@ from .models import ContactUs
 
 # Create your views here.
 def contact_us(request):
-    """A view to return the category painting page"""
+    """A view contact page"""
     contactus = ContactUs.objects.all()
 
     context = {
@@ -21,7 +21,7 @@ def contact_us(request):
 
 
 def hireme(request, id):
-    """A view to return the category painting page"""
+    """A view to fill the message page"""
     contactus = ContactUs.objects.get(id=id)
     template = loader.get_template("contact/hireme.html")
 
@@ -37,7 +37,7 @@ def hireme(request, id):
                 "image": form.cleaned_data["image"],
             }
             message = "\n".join(body.values())
-
+            print(body, "See the message")
             try:
                 send_mail(subject, message, "admin@example.com",
                           ["admin@example.com"])

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import ContactUs
+from .models import ContactUs, ContactView
 
 # Register your models here.
 
@@ -16,3 +16,4 @@ class ContactUsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(ContactUs, ContactUsAdmin)
+admin.site.register(ContactView)
