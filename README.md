@@ -915,53 +915,212 @@ Existing Features
          <img src="media/ReadMe/Manual testing/account-alert-success-sign-in.png" alt=“Display to show Change Password page”>
     </details>
 
+### 8. Contact Page 
+
+* As **<u>HTML, Django and Allauth</u>** I can create **<u>a contact page using HTML, Django, and Allauth.</u>** So that **<u>The contact page has four patches: Hire Me, Photo to Paint, General Request, and Drawing for sign language.**</u>
+
+* **<u>Please note:**</u> However, I encountered an issue while testing the contact category. Although the category was created successfully, the sender was not receiving it on the administration page. Therefore, I made some changes to the contact page and now it is working better.
 
 
-### 6. User's Editable
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the steps you need to follow step the contact page:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Dash button</td>
+            <td rowspan=11>Open vertical to right</td>
+            <td>1. Click on the 'Contact' button to activate the contact page.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Fill out the message form with your full name, email address, and your message. Then, click the 'Send Message' button. You will see a 'Message Auto Response' page confirming that your message has been sent.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+        <td>3. On the owner's website, they will go to their administration page and log in to their account.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. On the administration page, they can click on 'Contact Views' and then click on the email address to open and read your message.</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+### Contact Page
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/contact-link-contact.png" alt=“Display to show the 'contact button”>
+        <img src="media/ReadMe/Manual testing/contact-page-copy.png" alt=“Display to show the 'Contact' page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/contact-page-fill-out-message.png" alt=“Display to show the message to be filled out”>
+         <img src="media/ReadMe/Manual testing/contact-thank-you-page.png" alt=“Display to show auto response thank you message”>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/contact-admin-login-page.png" alt=“Display to show on administration the login page”>
+        <img src="media/ReadMe/Manual testing/contact-admin-page-click-contact-view.png" alt=“Display to show the click 'Contact view' on the administration page”>
+        <img src="media/ReadMe/Manual testing/contact-admin-received-click-to-open-message.png" alt=“Display to show the click email address to open the message on the administration page”>
+        <img src="media/ReadMe/Manual testing/contact-admin-view-message-page.png" alt=“Display to show the click email address to open the message on the administration page”>
+    </details>
+
+### 8. Footer Page 
+
+* As **<u>HTML</u>** I can create **<u>a footer</u>** So that **<u>clicking the button to slide-up and display the footer information and clicking 'X' will have a slide-down</u>**
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">To activate the Facebook page & Subscribe, please follow the steps below:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>To view the additional information, click on the button labeled 'Click here for more information' at the bottom of the page. </td>
+            <td rowspan=11>Open slide-up to view the page</td>
+            <td>1. To access the Facebook page, click on the link labeled 'Facebook'. </td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. To subscribe, fill out the form with your full name and email address, then click the 'Subscribe' button located under the heading 'Subscribe!'. </td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. Finally, to close the footer, click on the 'X' button and it will slide down to the bottom.</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+### Footer Page
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/footer-appear-fade-in-button.png" alt=“Display to show the 'contact button”>
+        <img src="media/ReadMe/Manual testing/footer-slide-up-page.png" alt=“Display to show the 'Contact' page”>
+    </details>
+
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/footer-fill-form-subscribed.png" alt=“Display to show the link to Facebook page”>
+         <img src="media/ReadMe/Manual testing/footer-sending-received-thank-you.png" alt=“Display to show the Facebook page>
+    </details>
+1. 
+     <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/footer-closed-button.png" alt=“Display to show on administration the login page”>
+        <img src="media/ReadMe/Manual testing/footer-appear-fade-in-button.png" alt=“Display to show the click 'Contact view' on the administration page”>
+    </details>
+
+<br>
+
+# User's Checkout Editable
 
 * As **<u> An additional feature for 'user's editable':**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
 * As **<u>HTML</u>** I can create **<u>an editable checkout page, allowing users to update or remove items as needed</u>** So that **<u>while completing their purchase.</u>**
 
-
-| Feature | Action | Expected Result | Actual Results |
-|---------|--------|-----------------|----------------|
-| User's editable | <ol> <li>Checkout page</li> </ol> | <ol> <li>User click 'Update' and 'Remove' buttons </li> <ul><li>User click 'Update' on the button and activate alert box</li> <li>User click 'Remove' on the button and activate alert box</li> <li>User click 'Remove' on the button and activate checkout page, it is empty the basket</li><li>User click 'Keep Shopping' on the button and activate category painting page</li></ul> </ol> | <ol> <li>Works as expected</li> <ul><li>Works as expected</li><li>Works as expected</li><li>Works as expected</li><li>Works as expected</li></ul> </ol> |
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">To activate the Facebook page & Subscribe, please follow the steps below:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>User's Checkout editable</td>
+            <td rowspan=11>Checkout page</td>
+            <td>1. User clicks 'Update' and 'Remove' buttons </td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. The user clicks 'Update' on the button and activates the alert box</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. The user clicks 'Remove' on the button and activates alert box</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4.click 'Remove' on the button and activate the checkout page, it empties the basket</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. The user clicks 'Keep Shopping' on the button and activates the Shop page</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the 'Update' and 'Remove' buttons </summary>
+        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/editable-update-remove-button.png" alt=“Display to show where are the two 'Update' and 'Remove' buttons”>
     </details>
-
-    *   <details>
-                <summary>Click here to see the screenshot and see the update button and activate the alert box</summary>
-                <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
-        </details>
-    *   <details>
-                <summary>Click here to see the screenshot and see the remove button and activate alert box</summary>
-                <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
-        </details>
-     *  <details>
-                <summary>Click here to see the screenshot and see checkout is empty basket page and 'Keeping Shopping' button</summary>
-                <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
-        </details>
-    *   <details>
-                <summary>Click here to see the screenshot and see the 'Keeping Shopping' button to activate the category painting page</summary>
-                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
-        </details>
+1. 
+    <details>
+            <summary>Click here to see the screenshot</summary>
+            <img src="media/ReadMe/Manual testing/editable-alert-update.png" alt=“Display to show update alert box”>
+    </details>
+1. 
+    <details>
+            <summary>Click here to see the screenshot</summary>
+            <img src="media/ReadMe/Manual testing/editable-remove-alert.png" alt=“Display to show Category Painting page”>
+    </details>
+1. 
+   <details>
+            <summary>Click here to see the screenshot</summary>
+            <img src="media/ReadMe/Manual testing/empty-basket.png" alt=“Display to show Category Painting page”>
+    </details>
+1. 
+    <details>
+            <summary>Click here to see the screenshot</summary>
+            <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
+            <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show Category Painting page”>
+    </details>
 
 ## Manual testing primarily concentrates on testing the owner's CRUD (Create, Read, Update, and Delete) operations.
 
-### 5. Owner's Editable
+### 1. Owner's Editable in Home Page
 
 * **<u> An additional feature for owner's editable:**</u> For my development project 5, I used the Agile management concept to manage the user story. However, I realized that this approach did not sufficiently focus on the user's needs. Through manual testing, I learned the importance of incorporating user stories into the user interface concept in the development process. Moving forward, I will ensure that the user's needs are prioritized in the development site in the future. 
 
 * As **<u>HTML</u>** I can create **<u>website owners can easily edit and update all pages of their website, enabling them</u>** So that **<u>to make adjustments wherever necessary.</u>**
 
-### To the 'Home' page
 <table style="width:100%">
     <thead>
         <tr>
@@ -1087,7 +1246,7 @@ Existing Features
     </details>
 
 
-### To the 'About Us' page
+### 2. Owner's Editable in About Page
 
 <table style="width:100%">
     <thead>
@@ -1215,7 +1374,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
-### To the 'Painting Category' page
+### 3. Owner's Editable in Category Painting - 'Add Category' Page
+
 <table style="width:100%">
     <thead>
         <tr>
@@ -1326,7 +1486,7 @@ Existing Features
     </details>
 
 
-### To the 'Edit & Delete' page
+### 4. Owner's Editable in 'Edit & Delete' Page
 
 <table style="width:100%">
     <thead>
@@ -1450,7 +1610,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
     </details>
 
-### To the 'Shop' page
+### 5. Owner's Editable in 'Shop' page
+
 <table style="width:100%">
     <thead>
         <tr>
@@ -1619,6 +1780,137 @@ Existing Features
         <summary>Click on the link to view the screenshot and if you want to delete the category, click on the 'Delete' button. The category will disappear and an alert 'deleted' success box will appear.</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
     </details>
+
+### 6. Owner's Editable in Product Management
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the steps you need to follow step the Product Management page:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Dash button</td>
+            <td rowspan=11>Open vertical to right</td>
+            <td>1. To access the Art Gallery Management page, click on the 'Product Management' button. Once you're on the page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Go to 'No. 5 Owner's Editable' located in the 'Shop' section and follow the steps listed from 3 to 15. You can find a link to the table below for easy reference.</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+### Product Management Page
+
+1. 
+    <details>
+        <summary>On the Product Management page, click here to see the screenshot.</summary>
+        <img src="media/ReadMe/Manual testing/owner-product-management-click.png" alt=“Display to show the 'Product Management' link">
+    </details>
+
+1.  Follow the same steps as the [Owner's Editable Shop section](#shop-page---add-editing--deleting-category) on the Shop page from steps 3 to 15.
+
+### 6. Owner's Administration to contact view the message
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the steps you need to follow step the contact page:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Administration Login</td>
+            <td rowspan=11>Open Administration page</td>
+            <td>1. Click on the 'Contact View' button.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Click on an email address to open message view</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+### Product Management Page
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/contact-admin-login-page.png" alt=“Display to show the administration page">
+        <img src="media/ReadMe/Manual testing/contact-admin-page-click-contact-view.png" alt=“Display to show the 'contact view' link">
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/contact-admin-received-click-to-open-message.png" alt=“Display to show the click to 'email address' to open message">
+        <img src="media/ReadMe/Manual testing/contact-admin-view-message-page.png" alt=“Display to show the message view">
+    </details>
+
+### 7. Owner's Mailchimp Account
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Here are the steps you need to follow step the Mailchimp page:</th>
+        </tr>
+        <tr>
+            <td rowspan=11>Mailchimp Login</td>
+            <td rowspan=11>Open Mailchimp page</td>
+            <td>1. Click on the 'Audience' link. Then link on 'All Contacts'.</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. The owner can view the list of the subscribers/td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
+
+### Please refer to the numbers in the order shown above the table in the images.
+
+### Mailchimp Page
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/mailchimp-audience-contact.png" alt=“Display to show the mailchimp page">
+    </details>
+
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/footer-receive-subscribed.png" alt=“Display to show the click to 'email address' to open message">
+    </details>
+
 
 ## Testing browser compatibility
 
