@@ -1188,60 +1188,60 @@ Existing Features
 #### Home Page
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and locate the 'Edit your personal page' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-edit-button-page.png" alt=“Display to show where is 'Edit your personal page' button ”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and locate the 'information' alert box.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-After-click-edit-alert.png" alt=“Display to show where the alert 'information' box”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and locate the home personal management page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-page.png" alt=“Display to show to the home personal management page”>
     </details>
 1. 
     <details>
-        <summary>Click here to see the screenshot and see the owner can modify 'name', 'head', 'info' and 'image' to modify to update</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-edit-page.png" alt=“Display to show where the owner can modify on 'name', 'head', 'info' and 'image' to modify to update”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and check the 'Remove' box to delete the image.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-check-removed.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and verify that the removed image has been replaced by the 'No image' image on the page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-no-image-page.png" alt=“Display to show the remove image to 'No image' image on page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and choose 'Select Image' to upload a new image.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and check that the 'Select Image' button has been replaced by the new image on the page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-after-select-image.png" alt=“Display to show after 'select image' button to change an image on the page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and choose 'Cancel' to return to the home page without making any changes.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and choose 'Update personal home page' to save the changes made to the personal page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-update-button.png" alt=“Display to show where the click to ‘Update personal home page’ button to back home page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and verify that a 'Success' alert box appears on the page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
@@ -1316,61 +1316,61 @@ Existing Features
 #### About Page
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and locate the 'Edit about us page' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-edit-button-page.png" alt=“Display to show where is Edit about us page' button”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and find the alert 'information' box.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-info.png" alt=“Display to show where is the alert 'information' box”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and navigate to the About Us management page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-page.png" alt=“Display to show to the about us management page”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and verify if the owner can modify 'name', 'title', 'bio', and 'image' to make updates.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-edit-modified-page.png" alt=“Display to show where is the owner can modify on 'name', 'title', 'bio' and 'image' to modify to update”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and select the 'Remove' image checkbox.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-remove-checked.png" alt=“Display to show where is click to checked box ‘Remove’ image”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and observe that the removed image is replaced by the 'No image' image on the page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-no-image-update.png" alt=“Display to show the remove image to 'No image' image on page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and select the 'Select Image' button to change the image.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-select-image-button.png" alt=“Display to show where is the click to 'Select Image' to change image”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and verify that the 'Select Image' button is followed by a field to change the image on the page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-image-update.png" alt=“Display to show after 'select image' button to change an image on the page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and select the 'Cancel' button to go back to the home page without making any changes.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-cancel-button.png" alt=“Display to show where is the click to ‘Cancel’ button on the page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and click on the 'Update about us page' button to save the changes and go back to the About page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-update-button.png" alt=“Display to show where is the click to ‘Update about us page’ button to back about page”>
     </details>
 1. 
     <details>
-        <summary>Finally, click on the link to view the screenshot and observe the Alert 'Success' box to confirm that the changes were successfully saved.</summary>
+        <summary>Finally, click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
@@ -1435,52 +1435,52 @@ Existing Features
 #### Category painting Page - Add Category
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and go to the painting pages category and click on the 'Add category' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-button.png" alt=“Display to show where is click on the 'Add category' button”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-alert-error.png" alt=“Display to show where the alert 'error' box appears.”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and you will be taken to the add category management page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page.png" alt=“Display to show to the add category management page”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-list.png" alt=“Display to show where is the drop-down list and fill in the details.”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and to change the image, click on the 'Select Image' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-button.png" alt=“Display to show where is click to 'Select Image' button”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-select-image.png" alt=“Display to show where 'Select Image' opens your file.”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and Once you have clicked the 'Select Image' button, the image on the page will change.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-after-select-image.png" alt=“Display to show clicked the 'Select Image' button, the image on the page will change”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and If you want to cancel the process and go back to the category painting page, click on the 'Cancel' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/Crud-paint-page-cancel-button.png" alt=“Display to show where the click on the 'Cancel' button”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and To add the category, click on the 'Add Category' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-button-1.png" alt=“Display to show where is click on the 'Add Category' button”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and If the category is added successfully, you will see a 'Success' alert box appear.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-alert-success.png" alt=“Display to show where the 'Success' alert box appears.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show where the add category appears.”>
     </details>
@@ -1551,61 +1551,61 @@ Existing Features
 #### Category painting Page - Edit & Delete Category
 1. 
     <details>
-        <summary>Click on the link to view the screenshot, go to the Painting page and select the Category you wish to edit.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show select the Category you wish to edit.”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the 'Edit' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-button.png" alt=“Display to show where the alert 'Edit' button”>
     </details>
 
 1. 
     <details>
-        <summary> An 'Information' box will appear.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-alert-info.png" alt=“Display to show where the alert 'information' box appears.”>
     </details>
 
 1. 
     <details>
-        <summary>You will be redirected to the Edit Category Management page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-page.png" alt=“Display to show the edit category management page.”>
     </details>
 
 1. 
     <details>
-        <summary>Here, you can modify the 'Category', 'Name', 'Description', and 'Friendly Name'.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-modify.png" alt=“Display to show modify the 'Category', 'Name', 'Description', and 'Friendly Name'.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-modify-after.png" alt=“Display to show after the modify the 'Category', 'Name', 'Description', and 'Friendly Name'.”>
     </details>
 1. 
     <details>
-        <summary>If you wish to remove the image, check the 'Removed' checkbox. This will display a 'No Image' on the category.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-removed.png" alt=“Display to show where the 'Removed' checkbox”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-no-image.png" alt=“Display to show a 'No Image' on the category.”>
     </details>
 1. 
     <details>
-        <summary>If you want to change the image, click on the 'Select Image' button and choose a new image.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-select-image-button.png" alt=“Display to show where the click on the 'Select Image' button”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-open-file.png" alt=“Display to show where the after 'Select Image' button and open the file to select images.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-after-select-image.png" alt=“Display to show where the after 'Select Image' button and the image is uploaded.”>
     </details>
 1. 
     <details>
-        <summary>Once you have made the necessary changes, click on the 'Update Category' button to save the changes.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-update-button.png" alt=“Display to show where is click on the 'Add Category' button”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-change-category.png" alt=“Display to show where the category has been changed”>
     </details>
 1. 
     <details>
-        <summary>If you want to go back to the Category Painting page without saving any changes, click on the 'Back to Category Painting' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-back-to-category-button.png" alt=“Display to show where the click on the 'Back to Category Painting' button.”>
     </details>
 1. 
     <details>
-        <summary> If you want to delete a category, click on the 'Delete' button. It will disappear category and alert 'Delete' success</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete-button.png" alt=“Display to show where the click on the 'Delete' button.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
     </details>
@@ -1695,31 +1695,31 @@ Existing Features
 #### Shop Page - Add, Editing & Deleting Category
 1. 
     <details>
-        <summary>Click on the link to view the screenshot, go to the shop pages category and click on the 'Add category' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-button.png" alt=“Display to show where is click on the 'Add category' button”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if there is an error, an 'Errors' alert box will pop up, and the form will not be submitted until the error is fixed.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-error.png" alt=“Display to show where the alert 'error' box appears.”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and you will then be taken to the Add Art Gallery management page.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-page.png" alt=“Display to show to the add category management page”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and here, you can fill in the 'Category' field by selecting a category from the drop-down list and filling in the details.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-select-list.png" alt=“Display to show where is the drop-down list and fill in the details.”>
     </details>
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and you can also modify the 'Name', 'Description', and 'Friendly Name', and choose a new image by clicking on the 'Select Image' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-modify-1.png" alt=“Display to show with red highlight to modify in the area”>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-modfy-2.png" alt=“Display to show with red highlight to modify in the area”>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-open-file.png" alt=“Display to show where 'Select Image' opens your file.”>
@@ -1727,27 +1727,27 @@ Existing Features
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and Once you have made the necessary changes, click on the 'Update art gallery' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-button-1.png" alt=“Display to show clicked the 'Update art gallery' button”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and an alert 'Add product' successfully appears.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-add-success.png" alt=“Display to show where the 'Add product' box successfully”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and click on 'Shop' and you will see a new patches category on the Art Gallery page.	</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-new-category-1.png" alt=“Display to show to add a new category in art gallery page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if you want to modify the category further, click the 'Edit' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-new-category-edit-button.png" alt=“Display to show where the click 'edit' button”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and you can modify the 'Category', 'Name', 'Description', 'Has sizes' to yes or no and 'Price', or change the image by clicking on the 'Update art gallery' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-after-edit.png" alt=“Display to show with red highlight to modify in the area”>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-after-edit-2.png" alt=“Display to show with red highlight to modify in the area”>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-open-file-replace.png" alt=“Display to show open the file to replace image”>
@@ -1756,28 +1756,28 @@ Existing Features
 
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and once you have made the changes, the art gallery category will be updated and will alert update successfully appear.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-alert-update-success.png" alt=“Display to show where the alert update successfully appears.”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if you want to cancel the process and go back to the shop page, click on the 'Cancel' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-cancel-button.png" alt=“Display to show where the alert update successfully appears.”>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-shop-page.png" alt=“Display to show the shop page”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and If you want to edit the process and go to the Add Bag page, click on the 'View Frame' button.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-view-frame-button.png" alt=“Display to show where the 'View Frame' button in Add to Bag page ”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if you want to make further changes, click on the 'Edit' button and repeat steps 10 and 11.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-add-to-bag-update.png" alt=“Display to show where the 'Edit' button in Add to Bag page ”>
     </details>
 1. 
     <details>
-        <summary>Click on the link to view the screenshot and if you want to delete the category, click on the 'Delete' button. The category will disappear and an alert 'deleted' success box will appear.</summary>
+        <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
     </details>
 
