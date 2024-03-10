@@ -1,20 +1,57 @@
+## Mock-up Responsive Screens as seen attached here:
 
-------------------------------------------------------------------------------------
-## Please note: My first language is Irish Sign Language, and English is my second language.
-------------------------------------------------------------------------------------
+![](media/ReadMe/mockup/Responsive_screen.png)
+
+# Table of Contents 
+1. **<u>[ISL Language](#please-note-my-first-language-is-irish-sign-language-isl-and-english-written-is-my-second-language)</u>**
+
+2. **<u>[Agile Management](#agile-management)</u>** <ul><li> Image:  [Agile Management](#agile-management-1)</li></ul>
+
+3. **<u>[Concept Project](#concept-project)</u>** <ul><li>[Flowchart](#flowchart)</li><ul><li>Image: [Flowchart](#design-of-the-navbar-links-flowchart)</li></ul></ul><ul><li>[Wireframe](#wireframe)</li><li>[Moodboard](#moodboard)</li><li>[Colour Palette](#colour-palette)</li></ul>
+
+ 4. **<u>[Design Logo](#design-logo)</u>**
+
+ 5. **<u>[Features](#features)</u>** <ul><li>[Existing Features](#existing-features)</li><ul><li>[Narbar](#navbar)</li><li>[Open page from left to right side](#open-from-left-to-right-menu)</li> <li>[Home Page](#home-page)</li><li>[About Page](#about-page)</li><li>[Category Painting Page](#category-painting-page)</li><li>[Shop Page](#shop-page)</li><li>[Search Page](#search-page)</li><li>[My Account Page](#my-account-page)</li><li>[Contact Page](#contact-page)</li><li>[Footer Page](#footer)</li></ul></ul>
+
+ 6. **<u>[Administration Page](#administration-page)</u>**
+
+ 7. **<u>[Testing](#testing)</u>** <ul><li>[Manual Testing](#manual-testing)</li><ul><li>[Navigation Bar](#navigation-bar)</li><li>[Home Page](#2-home-page)</li><li>[About Page](#3-about-page)</li><li>[Category Painting Page](#4-category-painting-page)</li><ul><li>1. Image: [Dash Button](#1-dash-button)</li><li>2. Image: [Art Gallery Page](#2-art-gallery-page)</li><li>3. Image: [Checkout Page](#3-checkout-page)</li></ul><li>[Shop Page](#5-shop-page)</li><ul><li>Image: [Shop](#shop-page-1)</li></ul><li>[Search Page](#6-search-page)</li><ul><li>Image: [Search](#search-page-1)</li></ul><li>[My Account Page](#7-my-account-page)</li><ul><li>Image: [Account](#my-account-page-1)</li></ul><li>[Contact Page](#8-contact-page)</li><ul><li>Image: [Contact](#contact-page-1)</li></ul><li>[Footer Page](#8-footer-page)</li><ul><li>Image: [Footer](#footer-page)</li></ul>
+
+ 8. **<u>[User's Checkout Editable page](#users-checkout-editable)</u>** <ul><li> Image: [User's editable](#the-users-checkout-editable)</li><ul></ul></ul></ul>
+
+ 9. **<u>[Manual testing primarily concentrates on testing the owner's CRUD](#manual-testing-primarily-concentrates-on-testing-the-owners-crud-create-read-update-and-delete-operations)</u>** <ul><li>[Owner's Editable in Home Page](#1-owners-editable-in-home-page)</li><ul><li>Image: [Home page](#home-page-1)</li></ul></ul> <ul><li>[Owner's Editable in About Page](#2-owners-editable-in-about-page)</li><ul><li>Image: [About page](#about-page)</li></ul></ul><ul><li>[Owner's Editable in Category Page](#4-category-painting-page)</li><ul><li>Image: [Category Painting page](#category-painting-page---add-category)</li></ul></ul><ul><li>[Owner's Editable in 'Edit' & 'Delete' Page](#4-owners-editable-in-edit--delete-page)</li><ul><li>Image: ['Edit' & 'Delete' Page](#category-painting-page---edit--delete-category)</li></ul></ul><ul><li>[Owner's Editable in Shop Page](#5-owners-editable-in-shop-page)</li><ul><li>Image: [Shop Page](#shop-page---add-editing--deleting-category)</li></ul></ul><ul><li>[Owner's Editable in Product Management Page](#6-owners-editable-in-product-management)</li><ul><li>Image: [Product Management Page](#product-management-page-1)</li></ul></ul><ul><li>[Owner's Administration - Contact View Page](#7-owners-administration-to-contact-view-the-message)</li><ul><li>Image: [Admin - Contact View Page](#admin---contact-view-page)</li></ul></ul><ul><li>[Owner's Mailchimp Account Page](#8-owners-mailchimp-account)</li><ul><li>Image: [Mailchimp Account Page](#mailchimp-page)</li></ul></ul>
+ 10. **<u>[Browser Compatibility Testing ](#testing-browser-compatibility)</u>**
+ 11. **<u>[The Lighthouse Testing](#the-lighthouse-runs-testing-and-results)</u>**
+ 12. **<u>[The Validation Testing ](#validation-testing)</u>**<ul><li>[HTML](#html)</li><li>[CSS](#css)</li><li>[Python](#python)</li><li>[Javascript](#)</li></ul></ul>
+
+ 8. **<u>[The Devices](#the-devices)</u>**
+ 9. **<u>[Credits](#credits)</u>**
+ 10. **<u>[Deployment](#deployment)</u>**
+ 11. **<u>[Resource & Tutorial ](#resource--tutorial)</u>**
+ 12. **<u>[Technologies Used](#technologies-used)</u>**
+ 13. **<u>[Concluded](#concluded)</u>**
+ 14. **<u>[Acknowledgement](#)</u>**
+
+
+## Please note: My first language is Irish Sign Language (ISL), and English written is my second language.
+
 
 * The [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator) is a powerful tool specifically designed to assist non-native English speakers in creating professional and polished product descriptions. It has proven to be an invaluable resource for individuals looking to improve their English writing skills, despite the cost of subscriptions. With its ability to write and translate English clearly and concisely, users can confidently produce informative and engaging product descriptions. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is an essential tool for enhancing your English writing abilities.
 * This particular tool was utilized in a site development project for an Art Gallery, showcasing its versatility and applicability across various industries.
 * Although the tool did not meet the requirements for my demonstration in the ReadMe, I was able to work around it by writing in my second language and then editing the generated content from the AI generator.
 * I sincerely hope that you have taken the time to read and understand the ReadMe document.
+
+Back to [Table of Contents](#table-of-contents)
 ------------------------------------------------------------------------------------
-## Agile management
+# Agile management
 
 * The concept introduced for the Art Gallery project is a comprehensive solution for selling fine art frames. Developed through an 18-stage process utilising Agile management, this project was completed. 
 
 * The Agile management can find the link at [Robert’s Github](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues?q=is%3Aissue+is%3Aclosed) and [Github milestone](https://github.com/RQISL/portfolio-project-5-robert-quinlan/milestones) and milestone showcases the screenshots of progress made from start to finish below:
 
-* ### Agile Management:
+Back to [Table of Contents](#table-of-contents)
+
+* ## Agile Management:
 
 * 
     <details>
@@ -28,9 +65,13 @@
         <img src="media/ReadMe/Agile/first_middle_last.png" alt="Three milestones from start, middle & finish">
     </details>
 
-## Concept Project
+Back to [Table of Contents](#table-of-contents)
+
+# Concept Project
 
 * our innovative Art Gallery project, designed to support talented fine artists like my good friend. With a focus on providing a platform for artists to showcase their work, our gallery aims to connect artists with potential clients. As part of our commitment to excellence, we also offer consultation services to clients, allowing them to gain valuable experience in working with artists and selecting artwork that resonates with their preferences. 
+
+Back to [Table of Contents](#table-of-contents)
 
 - The project's development follows below:
 
@@ -42,14 +83,15 @@
     <img src="media/ReadMe/Web Market/Art Gallery Site.png" alt=" design the flowchart for art gallery navbar">
     </details>
 
--------------------------------------------------------------------------------------------------
-# Create design UX for the Art Gallery site
+Back to [Table of Contents](#table-of-contents)
+-------------------------------------------------------------------------------
+## Create design UX for the Art Gallery site
 
 *  [The RZ Collection](https://rzcollection.com/artists/ilgvars-zalans) website showcases stunning and seamless layout transitions that have inspired me during my exploration. The user experience (UX) on this site is truly remarkable, prompting me to develop my own UX concept. However, creating a design UX requires a significant amount of time, which unfortunately poses a challenge.
 
-# Wireframe 
+## Wireframe 
 
-* # Design wireframe UX for Desktop & Mobile
+* ## Design wireframe UX for Desktop & Mobile
 * A design UX that is almost similar to the one developed for the site. Please note that while the design UX may not be exact, it is still of the highest quality and has been developed with utmost care and attention to detail. 
 
 * ## Desktop
@@ -62,13 +104,16 @@
 ![Wireframe Mobile](media/ReadMe/wireframe/Mobile_full.png)
 ![Wireframe Mobile](media/ReadMe/wireframe/Mobile_full_1.png)
 
+Back to [Table of Contents](#table-of-contents)
 
 ## Moodboard
 * The moodboard is a visual arrangement of images, materials, and text that aims to evoke a specific style or concept. It serves as a helpful tool to visualise the design direction for the website. In this particular moodboard, I have included labeled images for the hero cover background, color palettes, and the font choice of Roboto for all the text, while using Agbalumo for the head title and logo. 
 
 * Please note that the logo was conceptualized and created separately, and you can find a link to it here. The moodboard was created using the Adobe Illustrator app. Please refer to the image below for a visual representation.
 
-![Wireframe Mobile](media/ReadMe/moodboard/Moddboard%20for%20desgin%20UX.png)
+![Moodboard](media/ReadMe/moodboard/Moddboard%20for%20desgin%20UX.png)
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Colour Palette
 
@@ -80,20 +125,21 @@
             <img src="media/ReadMe/moodboard/Screenshot_Wisr_Website_With_Monochromatic_Green.jpg" alt=" colour palette for design UX">
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 ----------------------------------------------------------------------------------------------------- 
-# Design and development of the Art Gallery for desktop & mobile devices
+# Design Logo
 
 * This logo is a unique art painting that features spot color and brush strokes. The painting is designed with the full name of the artist, who is known for her talent in fine art.
 
-* ![](media/ReadMe/Logo/Elena_Logo_facebook.png)
+![](media/ReadMe/Logo/Elena_Logo_facebook.png)
+
+Back to [Table of Contents](#table-of-contents)
 
 Features
 -------------
 * The Art Gallery is a platform dedicated to showcasing and selling fine art paintings. The owner, a talented painter herself, operates a studio where she creates her artwork. In addition to selling her pieces on the website, she also offers her services to customers who are interested in commissioning personalized artwork. This includes working with individuals with intellectual disabilities, children, and anyone else who may benefit from her artistic expertise.
 
-### Mock-up Responsive Screens as seen attached here:
-
-![](media/ReadMe/mockup/Responsive_screen.png)
+Back to [Table of Contents](#table-of-contents)
 
 Existing Features
 -----------------------
@@ -103,6 +149,7 @@ Existing Features
 
 * Additionally, our header menu offers functionality, allowing the site owner to modify it according to their preferences. This feature is especially beneficial for artists who are selling their artwork while using the website for their creative endeavors.
 
+Back to [Table of Contents](#table-of-contents)
 
 ### Navbar
 *  This product features a convenient clickable toggle bar located at the top left corner. With a simple click, the toggle bar smoothly slides from left to right, providing easy access to various sections such as Home, About, Category Painting, Shop, Search, My Account (including register and login), and Contact. Take a look at the accompanying screenshot for a visual representation of this user-friendly navigation system.
@@ -111,11 +158,11 @@ Existing Features
 
 ![](media/ReadMe/Feature%20page/head_navbar.png)
 
-* Open from left to right menu
+* #### Open from left to right menu
 
 ![](media/ReadMe/Feature%20page/Left_to_rigth_menu.png)
 
-## The picture below:
+Back to [Table of Contents](#table-of-contents)
 
 ## Home page
  
@@ -126,6 +173,8 @@ Existing Features
         <img src="media/ReadMe/Feature page/HomePage.png" alt="Design Home page on left side image and right text">
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ## About Us page
 
 * The About Us page provides a comprehensive overview of our site, highlighting our focus on selling exquisite fine art pieces. It also delves into the founder's personal experience with artwork, offering a deeper connection to the gallery. To facilitate communication, a convenient clickable button is available, directing customers to the contact page. Whether they wish to hire, request specific artwork, or simply get in touch, this feature ensures a seamless and efficient interaction. Please refer to the attached screenshot for a visual representation.
@@ -134,6 +183,8 @@ Existing Features
             <summary>Click here to see about us page</summary>
             <img src="media/ReadMe/Feature page/AboutUs.png" alt=“This product features a stunning display image of a fine art self-portrait, accompanied by text on the right side of the image.”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Category Painting page
 
@@ -144,7 +195,9 @@ Existing Features
         <img src="media/ReadMe/Feature page/CategoryPaintings.png" alt=“Category painting page”>
     </details>
 
-## Shop
+Back to [Table of Contents](#table-of-contents)
+
+## Shop page
 
 * Our online shop offers a convenient way for art enthusiasts to browse through all our art galleries on one page.
 * Customers can easily sort the galleries based on their preferred price range, with the option to choose from low to high prices.
@@ -156,7 +209,10 @@ Existing Features
         <img src="media/ReadMe/Feature page/Shop.png" alt=“Shop page, it is all art galleries”>
     </details>
 
-## Search art gallery
+Back to [Table of Contents](#table-of-contents)
+
+## Search page
+
 *  The search page, the users can be looking for the type of art gallery.
 
 1. 
@@ -180,6 +236,7 @@ Existing Features
         <img src="media/ReadMe/Feature page/Result_of_sort.png" alt=“option low to high prices sort art gallery page”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ## My Account page
 * This product offers a user-friendly interface where customers can easily access their accounts by clicking on the "My Account" option. They will be presented with the choice to either register or login. Once logged in, customers will have access to their profile and the option to logout for added security.
@@ -230,6 +287,8 @@ Existing Features
         <img src="media/ReadMe/Feature page/User_my_account.png" alt=“Display display menu to show my account include profile and logout”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ## Contact page
 * Our product provides customers with a wide range of categories to choose from, including "hire me," "general request," "photo to painting," and "design for sign language."
 * With our user-friendly site, Ower's side has the flexibility to modify, create, edit, or delete their desired content.
@@ -245,6 +304,8 @@ Existing Features
         <img src="media/ReadMe/Feature page/Fill _form_contact.png" alt=“Display contact page”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ## Footer 
 
 * Enhance user experience with our innovative product featuring a "Click here for more information" button at the bottom. As users scroll up, a seamless fade-in effect captures their attention, inviting them to click. Once clicked, the content smoothly slides up to occupy the full screen, providing a comprehensive view. Additionally, users can conveniently access Facebook or subscribe to our newsletter, ensuring they stay connected and up-to-date with the latest updates and promotions.
@@ -259,8 +320,9 @@ Existing Features
         <img src="media/ReadMe/Feature page/full_screen_footer.png" alt=“Display footer page full slide up”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
-# Site Administration
+# Administration page
 
 * You will be able to access the administration page at [The Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/admin/login/?next=/admin/) site. I will give instructions when you receive my submission.
 
@@ -279,7 +341,11 @@ Existing Features
         <img src="media/ReadMe/Feature page/Personal_edit.png" alt=“Display home page edit”>
     </details>
 
-# Manual Testing
+Back to [Table of Contents](#table-of-contents)
+
+# Testing
+
+## Manual Testing
 
 * Our product is a comprehensive project management tool that incorporates Agile management principles into its 18-stage board system.
 
@@ -294,6 +360,8 @@ Existing Features
 | Feature | Action | Expected Result | Actual Results |
 |---------|--------|-----------------|----------------|
 | Navigation Bar| <ol> <li>Dash button</li> <li>Click to Logo</li> <li>Click to basket</li> <li>In checkout page</li> </ol> | <ol> <li>User click to open the vertial on leftside to right</li> <li>User click to logo to get back to home page</li> <li>User click to basket and to checkout page as empty basket, which the user does not any order yet</li> <li>User click to 'Keep Shopping' button, which the user can contuine purchases</li></ol> |<ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 ### Navigation Bar
@@ -322,6 +390,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchase”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 2. Home Page 
 
 * As **<u>HTML</u>** I can create **<u>an image **of the client's portrait photo** and text & translate ISL video</u>** So that **<u>amount the **client information about her talent Fine Art</u>**
@@ -330,6 +400,8 @@ Existing Features
 | Feature | Action | Expected Result | Actual Results |
 |---------|--------|-----------------|----------------|
 | Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Home' and activate to Home page </li> <li>User click 'visit her exhibition' on the button and activate to 'visit her exhibition' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -346,6 +418,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/visit-her-exhib-page.png" alt=“Display to show the Elena's exhibation page”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 3. About Page 
 
 * As **<u>HTML</u>** I can create **<u>the about page of the client's talent Fine Art with portrait and text & translate ISL video</u>** So that **<u>shows the client's former work varies** art</u>**
@@ -355,6 +429,8 @@ Existing Features
 | Feature | Action | Expected Result | Actual Results |
 |---------|--------|-----------------|----------------|
 | Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'About' and activate to About page </li> <li>User click 'visit contact page' on the button and activate to 'Contact' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -370,6 +446,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/about-button.png" alt=“Display to show the 'visit contact page' button”>
         <img src="media/ReadMe/Manual testing/contact-page.png" alt=“Display to show the contact page”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### 4. Category Painting Page 
 
@@ -389,6 +467,8 @@ Existing Features
 | Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout' on the alert box</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
 | Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate category painting page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Adjust Bag' button and activate checkout page</li> <li>If User click to 'Complete Order' button and activate thank you page</li> </ul> <li>Alert box pop up after the complete order</li></ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> </ol> |
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 #### 1. Dash Button
@@ -405,6 +485,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 #### 2. Art Gallery Page
 
@@ -431,7 +513,7 @@ Existing Features
         <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Secure Checkout' button on the alert box”>
     </details>
 
-
+Back to [Table of Contents](#table-of-contents)
 
 #### 3. Checkout Page
 
@@ -480,6 +562,8 @@ Existing Features
         <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-thankyou-page-after-order.png" alt=“Display to show the alert box after the complete order”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### 5. Shop Page 
 
@@ -572,6 +656,8 @@ Existing Features
         </tr>
         </tbody>
     </table>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -687,6 +773,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/shop-sort-page-category.png" alt=“Display to show the 'sort by' select category Z to A page”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 6. Search Page 
 
 * As **<u>HTML</u>** I can create **<u>a search page</u>** So that **<u>for users to find art galleries.**</u>
@@ -735,6 +823,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 ### Search Page
 1. 
@@ -775,6 +865,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/shop-search-page-colourful.png" alt=“Display to show to search for the term 'colourful'”>
         <img src="media/ReadMe/Manual testing/shop-search-page-colourful-page.png" alt=“Display to show the resulting colourful of the page”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### 7. My Account Page 
 
@@ -832,6 +924,8 @@ Existing Features
         </tr>
         </tbody>
     </table>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 ### My Account Page
@@ -915,6 +1009,8 @@ Existing Features
          <img src="media/ReadMe/Manual testing/account-alert-success-sign-in.png" alt=“Display to show Change Password page”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 8. Contact Page 
 
 * As **<u>HTML, Django and Allauth</u>** I can create **<u>a contact page using HTML, Django, and Allauth.</u>** So that **<u>The contact page has four patches: Hire Me, Photo to Paint, General Request, and Drawing for sign language.**</u>
@@ -956,6 +1052,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 ### Contact Page
@@ -980,6 +1078,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/contact-admin-received-click-to-open-message.png" alt=“Display to show the click email address to open the message on the administration page”>
         <img src="media/ReadMe/Manual testing/contact-admin-view-message-page.png" alt=“Display to show the click email address to open the message on the administration page”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### 8. Footer Page 
 
@@ -1015,6 +1115,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 ### Footer Page
@@ -1039,6 +1141,8 @@ Existing Features
     </details>
 
 <br>
+
+Back to [Table of Contents](#table-of-contents)
 
 # User's Checkout Editable
 
@@ -1084,8 +1188,11 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
+### The user's Checkout Editable 
 1. 
     <details>
         <summary>Click here to see the screenshot</summary>
@@ -1112,6 +1219,8 @@ Existing Features
             <img src="media/ReadMe/Manual testing/editable-keep-shopping-button.png" alt=“Display to show Category Painting page”>
             <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show Category Painting page”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Manual testing primarily concentrates on testing the owner's CRUD (Create, Read, Update, and Delete) operations.
 
@@ -1183,6 +1292,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 #### Home Page
@@ -1245,6 +1356,7 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-home-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ### 2. Owner's Editable in About Page
 
@@ -1311,6 +1423,8 @@ Existing Features
     </tbody>
 </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 #### About Page
@@ -1374,6 +1488,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-about-alert-success.png" alt=“Display to show where the Alert ‘Success’ box”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 3. Owner's Editable in Category Painting - 'Add Category' Page
 
 <table style="width:100%">
@@ -1430,6 +1546,8 @@ Existing Features
     <tbody>
 </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 #### Category painting Page - Add Category
@@ -1485,6 +1603,7 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-page-add-category.png" alt=“Display to show where the add category appears.”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ### 4. Owner's Editable in 'Edit & Delete' Page
 
@@ -1545,6 +1664,8 @@ Existing Features
         </tr>
     </tbody>
 </table>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -1609,6 +1730,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete-button.png" alt=“Display to show where the click on the 'Delete' button.”>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
     </details>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### 5. Owner's Editable in 'Shop' page
 
@@ -1689,6 +1812,8 @@ Existing Features
         </tr>
     <tbody>
 </table>
+
+Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -1781,6 +1906,8 @@ Existing Features
         <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### 6. Owner's Editable in Product Management
 
 <table style="width:100%">
@@ -1809,6 +1936,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 ### Product Management Page
@@ -1821,7 +1950,7 @@ Existing Features
 
 1.  Follow the same steps as the [Owner's Editable Shop section](#shop-page---add-editing--deleting-category) on the Shop page from steps 3 to 15.
 
-### 6. Owner's Administration to contact view the message
+### 7. Owner's Administration to contact view the message
 
 <table style="width:100%">
     <thead>
@@ -1849,9 +1978,11 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
-### Product Management Page
+### Admin - Contact View Page
 
 1. 
     <details>
@@ -1867,7 +1998,9 @@ Existing Features
         <img src="media/ReadMe/Manual testing/contact-admin-view-message-page.png" alt=“Display to show the message view">
     </details>
 
-### 7. Owner's Mailchimp Account
+Back to [Table of Contents](#table-of-contents)
+
+### 8. Owner's Mailchimp Account
 
 <table style="width:100%">
     <thead>
@@ -1895,6 +2028,8 @@ Existing Features
         </tbody>
     </table>
 
+Back to [Table of Contents](#table-of-contents)
+
 ### Please refer to the numbers in the order shown above the table in the images.
 
 ### Mailchimp Page
@@ -1911,6 +2046,7 @@ Existing Features
         <img src="media/ReadMe/Manual testing/footer-receive-subscribed.png" alt=“Display to show the click to 'email address' to open message">
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ## Testing browser compatibility
 
@@ -1923,6 +2059,10 @@ Existing Features
 * As an example, we have conducted extensive testing using the Safari browser, ensuring that your website is fully responsive and optimized for this specific platform. You can refer to the attached screenshot to see the exemplary results of our testing.
 
 * While we thoroughly test for compatibility on various browsers, it is important to note that there may be slight variations in the appearance or functionality of certain elements. In the case of a minor discrepancy, such as a button placement in the bottom footer, we have made a conscious decision to maintain the original style without making any changes. Rest assured, this will not affect the overall user experience or functionality of your website.
+
+Back to [Table of Contents](#table-of-contents)
+
+### Testing browser compatibility
 1. 
     <details>
         <summary>Click here to see Safari for Desktop</summary>
@@ -1939,12 +2079,15 @@ Existing Features
         <img src="media/ReadMe/Test_browser_responsive/mobile.png" alt=“Display Safari mobile”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ## The lighthouse runs testing and results.
 
 * This [Page Speed Insights](https://pagespeed.web.dev/analysis/https-art-gallery-elena-d4d9090ab15b-herokuapp-com/3fwzmsh2yy?form_factor=desktop). is a test tool that analyzes the performance of a website on both desktop and mobile devices. It provides insights and recommendations based on the results obtained from running the test.
 
 * The test results indicate that the mobile performance of the analyzed website is relatively low, suggesting potential areas for improvement. It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
+
+Back to [Table of Contents](#table-of-contents)
 
 * ### See attached results for both Desktop & Mobile:
 
@@ -1959,6 +2102,7 @@ Existing Features
         <img src="media/ReadMe/Test_browser_responsive/Mobile_test.png" alt=“Display the result of mobile performance”>
     </details>
 
+Back to [Table of Contents](#table-of-contents)
 
 ## Validation testing
 
@@ -1972,9 +2116,13 @@ Existing Features
 
 * [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool designed to identify and fix errors in Python code. With its extensive testing capabilities, it thoroughly scans your code and provides detailed feedback on any issues it finds. While it successfully resolves most errors, there may be a few instances where it is unable to make the necessary corrections. Additionally, there have been occasional issues with the tool causing errors when running the site. However, despite these minor setbacks, the CI Python Linter remains a reliable and effective solution for ensuring the quality and correctness of your Python code.
 
+Back to [Table of Contents](#table-of-contents)
+
 ### The devices
 
-* The iPhone reviewed and corrected to ensure optimal functionality and it looks good.
+* The iPhone was reviewed and corrected to ensure optimal functionality and it looks good.
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Credits
 
@@ -1983,6 +2131,8 @@ Existing Features
 * Please find Agile management [Consult with a client](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues/7) as you can see when we were consulted up to date. 
 
 * Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complicated than you expected. Also, He was an excellent tutorial with me for a few sessions. 
+
+Back to [Table of Contents](#table-of-contents)
 
 # Deployment
 
@@ -2005,13 +2155,19 @@ then click on the Verify button.
 * Prompts are active on the screen until the completed
 * Click on the "View" button to open the page
 
+Back to [Table of Contents](#table-of-contents)
+
 ### The deployed site is now live [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Resource & tutorial
 * ### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
 
 ### Resources and tutorials:
 * Most of the time I learned walkthrough at Aoutique Ado as it follows on my project 5 but mostly, I modified the way of site I created. I had quite an improved familiarity with Django and I enjoyed but it needs further experience to improve my skills in the field of Django. 
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Technologies Used
 
@@ -2031,6 +2187,8 @@ then click on the Verify button.
 
 9) Adobe Photoshop - I use it to edit images.
 
+Back to [Table of Contents](#table-of-contents)
+
 ## Concluded 
 
 *  Our site is the perfect place for me to learn and grow in my skills. With a user-friendly interface and a wide range of resources, I'll find everything I need to succeed.
@@ -2039,3 +2197,4 @@ then click on the Verify button.
 
 * Art Gallery, a concept project brought to life. Visit the site [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/).
 
+Back to [Table of Contents](#table-of-contents)
