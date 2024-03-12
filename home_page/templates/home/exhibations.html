@@ -10,7 +10,7 @@
       {% for exhibation in exhibations %}
       {% if exhibation.image %}
       <div class="text-center">    
-         <img class="images" src="{{ exhibation.image.url }}" alt="{{ exhibation.name }}">
+         <img class="images" src="{{ exhibation.image.url }}" loading="lazy"  alt="{{ exhibation.name }}">
       </div>
       {% else %}
       {% endif %}

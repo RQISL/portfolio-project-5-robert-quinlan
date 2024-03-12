@@ -2,6 +2,9 @@
 {% load static %}
 {% block content %}
 <div class="container d-flex justify-content-center">
-   <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699534473/Untitled-1_kowgmo.png" alt="404 error page with graphic image">
+   <img src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699534473/Untitled-1_kowgmo.png" loading="lazy" alt="404 error page with graphic image">
+</div>
+<div class="col text-center">
+   <a class="btn btn-outline-black rounded-0 mb-2" href="{% url 'home' %}">Back to Home</a>
 </div>
 {% endblock %}

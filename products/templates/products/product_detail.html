@@ -15,11 +15,11 @@
             <div class="image-container my-5">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" loading="lazy" alt="{{ product.name }}">
                 </a>
                 {% else %}
                 <a href="">
-                    <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699216440/noimage_v16ou9.png" alt="No image on the display as mute photo image">
+                    <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699216440/noimage_v16ou9.png" loading="lazy" alt="No image on the display as mute photo image">
                 </a>
                 {% endif %}
             </div>

@@ -35,9 +35,9 @@
             <div class="col-xl-4 col-xl-2 mb-3">
                 <div class="card h-100 border-0">
                     {% if categoriesgroup.image %}
-                    <img class="card-img-top img-fluid" src="{{ categoriesgroup.image.url }}" alt="{{ categoriesgroup.name }}">
+                    <img class="card-img-top img-fluid" src="{{ categoriesgroup.image.url }}" loading="lazy" alt="{{ categoriesgroup.name }}">
                     {% else %}
-                    <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699216440/noimage_v16ou9.png" alt="No image on the display as mute photo image">
+                    <img class="card-img-top img-fluid shadow p-2 mb-5 bg-body rounded" src="https://res.cloudinary.com/dhl4uxgix/image/upload/v1699216440/noimage_v16ou9.png" loading="lazy" alt="No image on the display as mute photo image">
                     {% endif %}
                     <div class="card-footer pt-0 border-0 text-left">
                         <div class="row">
