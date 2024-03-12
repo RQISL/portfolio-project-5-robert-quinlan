@@ -3,7 +3,7 @@
 ![](media/ReadMe/mockup/Responsive_screen.png)
 
 # Table of Contents 
-1. **<u>[ISL Language](#please-note-my-first-language-is-irish-sign-language-isl-and-english-written-is-my-second-language)</u>**
+1. **<u>[ISL Language](#please-note-irish-sign-language-isl-is-my-first-language-and-english-is-my-second-language-in-writing)</u>**
 
 2. **<u>[Agile Management](#agile-management)</u>** <ul><li> Image:  [Agile Management](#agile-management-1)</li></ul>
 
@@ -11,30 +11,29 @@
 
  4. **<u>[Design Logo](#design-logo)</u>**
 
- 5. **<u>[Features](#features)</u>** <ul><li>[Existing Features](#existing-features)</li><ul><li>[Narbar](#navbar)</li><li>[Open page from left to right side](#open-from-left-to-right-menu)</li> <li>[Home Page](#home-page)</li><li>[About Page](#about-page)</li><li>[Category Painting Page](#category-painting-page)</li><li>[Shop Page](#shop-page)</li><li>[Search Page](#search-page)</li><li>[My Account Page](#my-account-page)</li><li>[Contact Page](#contact-page)</li><li>[Footer Page](#footer)</li></ul></ul>
+ 5. **<u>[Features](#features)</u>** <ul><li>[Existing Features](#existing-features)</li><ul><li>[Narbar](#navbar)</li><li>[Open page from left to right side](#open-from-left-to-right-menu)</li> <li>[Home Page](#home-page)</li><li>[About Page](#about-us-page)</li><li>[Category Painting Page](#category-painting-page)</li><li>[Shop Page](#shop-page)</li><li>[Search Page](#search-page)</li><li>[My Account Page](#my-account-page)</li><li>[Contact Page](#contact-page)</li><li>[Footer Page](#footer)</li></ul></ul>
 
  6. **<u>[Administration Page](#administration-page)</u>**
 
- 7. **<u>[Testing](#testing)</u>** <ul><li>[Manual Testing](#manual-testing)</li><ul><li>[Navigation Bar](#navigation-bar)</li><li>[Home Page](#2-home-page)</li><li>[About Page](#3-about-page)</li><li>[Category Painting Page](#4-category-painting-page)</li><ul><li>1. Image: [Dash Button](#1-dash-button)</li><li>2. Image: [Art Gallery Page](#2-art-gallery-page)</li><li>3. Image: [Checkout Page](#3-checkout-page)</li></ul><li>[Shop Page](#5-shop-page)</li><ul><li>Image: [Shop](#shop-page-1)</li></ul><li>[Search Page](#6-search-page)</li><ul><li>Image: [Search](#search-page-1)</li></ul><li>[My Account Page](#7-my-account-page)</li><ul><li>Image: [Account](#my-account-page-1)</li></ul><li>[Contact Page](#8-contact-page)</li><ul><li>Image: [Contact](#contact-page-1)</li></ul><li>[Footer Page](#8-footer-page)</li><ul><li>Image: [Footer](#footer-page)</li></ul>
+ 7. **<u>[Testing](#testing)</u>** <ul><li>[Manual Testing](#manual-testing)</li><ul><li>[Navigation Bar](#1-navigation-bar)</li><li>[Home Page](#2-home-page)</li><li>[About Page](#3-about-page)</li><li>[Category Painting Page](#4-category-painting-page)</li><ul><li>1. Image: [Dash Button](#1-dash-button)</li><li>2. Image: [Art Gallery Page](#2-art-gallery-page)</li><li>3. Image: [Checkout Page](#3-checkout-page)</li></ul><li>[Shop Page](#5-shop-page)</li><ul><li>Image: [Shop](#shop-page-1)</li></ul><li>[Search Page](#6-search-page)</li><ul><li>Image: [Search](#search-page-1)</li></ul><li>[My Account Page](#7-my-account-page)</li><ul><li>Image: [Account](#my-account-page-1)</li></ul><li>[Contact Page](#8-contact-page)</li><ul><li>Image: [Contact](#contact-page-1)</li></ul><li>[Footer Page](#8-footer-page)</li><ul><li>Image: [Footer](#footer-page)</li></ul>
 
  8. **<u>[User's Checkout Editable page](#users-checkout-editable)</u>** <ul><li> Image: [User's editable](#the-users-checkout-editable)</li><ul></ul></ul></ul>
 
- 9. **<u>[Manual testing primarily concentrates on testing the owner's CRUD](#manual-testing-primarily-concentrates-on-testing-the-owners-crud-create-read-update-and-delete-operations)</u>** <ul><li>[Owner's Editable in Home Page](#1-owners-editable-in-home-page)</li><ul><li>Image: [Home page](#home-page-1)</li></ul></ul> <ul><li>[Owner's Editable in About Page](#2-owners-editable-in-about-page)</li><ul><li>Image: [About page](#about-page)</li></ul></ul><ul><li>[Owner's Editable in Category Page](#4-category-painting-page)</li><ul><li>Image: [Category Painting page](#category-painting-page---add-category)</li></ul></ul><ul><li>[Owner's Editable in 'Edit' & 'Delete' Page](#4-owners-editable-in-edit--delete-page)</li><ul><li>Image: ['Edit' & 'Delete' Page](#category-painting-page---edit--delete-category)</li></ul></ul><ul><li>[Owner's Editable in Shop Page](#5-owners-editable-in-shop-page)</li><ul><li>Image: [Shop Page](#shop-page---add-editing--deleting-category)</li></ul></ul><ul><li>[Owner's Editable in Product Management Page](#6-owners-editable-in-product-management)</li><ul><li>Image: [Product Management Page](#product-management-page-1)</li></ul></ul><ul><li>[Owner's Administration - Contact View Page](#7-owners-administration-to-contact-view-the-message)</li><ul><li>Image: [Admin - Contact View Page](#admin---contact-view-page)</li></ul></ul><ul><li>[Owner's Mailchimp Account Page](#8-owners-mailchimp-account)</li><ul><li>Image: [Mailchimp Account Page](#mailchimp-page)</li></ul></ul>
+ 9. **<u>[Manual testing primarily concentrates on testing the owner's CRUD](#manual-testing-primarily-concentrates-on-testing-the-owners-crud-create-read-update-and-delete-operations)</u>** <ul><li>[Owner's Editable in Home Page](#1-owners-editable-in-home-page)</li><ul><li>Image: [Home page](#home-page-1)</li></ul></ul> <ul><li>[Owner's Editable in About Page](#2-owners-editable-in-about-page)</li><ul><li>Image: [About page](#about-page)</li></ul></ul><ul><li>[Owner's Editable in Category Page](#4-category-painting-page)</li><ul><li>Image: [Category Painting page](#category-painting-page---add-category)</li></ul></ul><ul><li>[Owner's Editable in 'Edit' & 'Delete' Page](#4-owners-editable-in-edit--delete-page)</li><ul><li>Image: ['Edit' & 'Delete' Page](#category-painting-page---edit--delete-category)</li></ul></ul><ul><li>[Owner's Editable in Shop Page](#5-owners-editable-in-shop-page)</li><ul><li>Image: [Shop Page](#shop-page---add-editing--deleting-category)</li></ul></ul><ul><li>[Owner's Editable in Product Management Page](#6-owners-editable-in-product-management)</li><ul><li>Image: [Product Management Page](#product-management-page)</li></ul></ul><ul><li>[Owner's Administration - Contact View Page](#7-owners-administration-to-contact-view-the-message)</li><ul><li>Image: [Admin - Contact View Page](#admin---contact-view-page)</li></ul></ul><ul><li>[Owner's Mailchimp Account Page](#8-owners-mailchimp-account)</li><ul><li>Image: [Mailchimp Account Page](#mailchimp-page)</li></ul></ul>
  10. **<u>[Browser Compatibility Testing ](#testing-browser-compatibility)</u>**
  11. **<u>[The Lighthouse Testing](#the-lighthouse-runs-testing-and-results)</u>**
- 12. **<u>[The Validation Testing ](#validation-testing)</u>**<ul><li>[HTML](#html)</li><li>[CSS](#css)</li><li>[Python](#python)</li><li>[Javascript](#)</li></ul></ul>
+ 12. **<u>[The Validation Testing ](#validation-testing)</u>**<ul><li>[HTML](#html)</li><li>[CSS](#css)</li><li>[Python](#python)</li></ul></ul>
 
  8. **<u>[The Devices](#the-devices)</u>**
  9. **<u>[Credits](#credits)</u>**
  10. **<u>[Deployment](#deployment)</u>**
  11. **<u>[Resource & Tutorial ](#resource--tutorial)</u>**
  12. **<u>[Technologies Used](#technologies-used)</u>**
- 13. **<u>[Concluded](#concluded)</u>**
- 14. **<u>[Acknowledgement](#)</u>**
+ 13. **<u>[Conclusion](#conclusion)</u>**
+ 14. **<u>[Acknowledgement](#acknowements)</u>**
 
 
-## Please note: My first language is Irish Sign Language (ISL), and English written is my second language.
-
+## Please note: Irish Sign Language (ISL) is my first language, and English is my second language in writing.
 
 * The [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator) is a powerful tool specifically designed to assist non-native English speakers in creating professional and polished product descriptions. It has proven to be an invaluable resource for individuals looking to improve their English writing skills, despite the cost of subscriptions. With its ability to write and translate English clearly and concisely, users can confidently produce informative and engaging product descriptions. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is an essential tool for enhancing your English writing abilities.
 * This particular tool was utilized in a site development project for an Art Gallery, showcasing its versatility and applicability across various industries.
@@ -42,12 +41,12 @@
 * I sincerely hope that you have taken the time to read and understand the ReadMe document.
 
 Back to [Table of Contents](#table-of-contents)
-------------------------------------------------------------------------------------
+
 # Agile management
 
-* The concept introduced for the Art Gallery project is a comprehensive solution for selling fine art frames. Developed through an 18-stage process utilising Agile management, this project was completed. 
+* For the Art Gallery project, a comprehensive solution was introduced for selling fine art frames. This solution was developed using Agile management, which involved an 18-stage process.
 
-* The Agile management can find the link at [Robert’s Github](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues?q=is%3Aissue+is%3Aclosed) and [Github milestone](https://github.com/RQISL/portfolio-project-5-robert-quinlan/milestones) and milestone showcases the screenshots of progress made from start to finish below:
+* The User Story for the project can be found at [User Story]( https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues?q=is%3Aissue+is%3Aclosed) and [Milestone](https://github.com/RQISL/portfolio-project-5-robert-quinlan/milestones). The milestone showcases the progress made from start to finish, including screenshots of each stage.
 
 Back to [Table of Contents](#table-of-contents)
 
@@ -69,11 +68,11 @@ Back to [Table of Contents](#table-of-contents)
 
 # Concept Project
 
-* our innovative Art Gallery project, designed to support talented fine artists like my good friend. With a focus on providing a platform for artists to showcase their work, our gallery aims to connect artists with potential clients. As part of our commitment to excellence, we also offer consultation services to clients, allowing them to gain valuable experience in working with artists and selecting artwork that resonates with their preferences. 
-
-Back to [Table of Contents](#table-of-contents)
+* Our innovative Art Gallery project, designed to support talented fine artists like my good friend. With a focus on providing a platform for artists to showcase their work, our gallery aims to connect artists with potential clients. As part of our commitment to excellence, we also offer consultation services to clients, allowing them to gain valuable experience in working with artists and selecting artwork that resonates with their preferences. 
 
 - The project's development follows below:
+
+Back to [Table of Contents](#table-of-contents)
 
 ## Flowchart 
 * ### Design of the navbar links flowchart:
@@ -84,7 +83,7 @@ Back to [Table of Contents](#table-of-contents)
     </details>
 
 Back to [Table of Contents](#table-of-contents)
--------------------------------------------------------------------------------
+
 ## Create design UX for the Art Gallery site
 
 *  [The RZ Collection](https://rzcollection.com/artists/ilgvars-zalans) website showcases stunning and seamless layout transitions that have inspired me during my exploration. The user experience (UX) on this site is truly remarkable, prompting me to develop my own UX concept. However, creating a design UX requires a significant amount of time, which unfortunately poses a challenge.
@@ -126,7 +125,7 @@ Back to [Table of Contents](#table-of-contents)
     </details>
 
 Back to [Table of Contents](#table-of-contents)
------------------------------------------------------------------------------------------------------ 
+
 # Design Logo
 
 * This logo is a unique art painting that features spot color and brush strokes. The painting is designed with the full name of the artist, who is known for her talent in fine art.
@@ -293,6 +292,8 @@ Back to [Table of Contents](#table-of-contents)
 * Our product provides customers with a wide range of categories to choose from, including "hire me," "general request," "photo to painting," and "design for sign language."
 * With our user-friendly site, Ower's side has the flexibility to modify, create, edit, or delete their desired content.
 * Our product empowers customers to personalise their requests and transform their photos into beautiful paintings, providing a customised experience to suit their needs.
+
+* <u>Please Note:</u> I have updated the contact page, which can be found at [manual testing](#please-note-however-i-encountered-an-issue-while-testing-the-contact-category-although-the-category-was-created-successfully-the-sender-was-not-receiving-it-on-the-administration-page-therefore-i-made-some-changes-to-the-contact-page-and-now-it-is-working-better). During my testing, I discovered issues with the message sender.
 1. 
     <details>
         <summary>Click here to see the category contact page</summary>
@@ -328,17 +329,17 @@ Back to [Table of Contents](#table-of-contents)
 
 * This product offers a comprehensive solution for website owners, providing both a user-friendly site and an administration site for easy management. Only owners have access to the administration site, where they can make edits to the website if desired. By logging into the administration site and selecting "view site on the top right," users will find a range of buttons such as "add," "edit," or "delete." 
 
-* These buttons allow owners to make changes to various sections of the website, including Home, About, Category Painting, Shop, My Account - Product Management, and Contact.
+* These buttons allow owners to make changes to various sections of the website, including Home, About, Category Painting, Shop, and My Account - Product Management.
 
 1. 
     <details>
-        <summary>Click here to see an example button to add, edit or delete page</summary>
-        <img src="media/ReadMe/Feature page/add_edit_delete.png" alt=“Display example button add, edit or delete page”>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/Administration-login.png" alt=“Display the administration login page”>
     </details>
 1. 
      <details>
-        <summary>Click here to see an example home page edit</summary>
-        <img src="media/ReadMe/Feature page/Personal_edit.png" alt=“Display home page edit”>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/Administration-viewpage.png" alt=“Display the Administration view page”>
     </details>
 
 Back to [Table of Contents](#table-of-contents)
@@ -387,7 +388,7 @@ Back to [Table of Contents](#table-of-contents)
      <details>
         <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/keep-shopping-button.png" alt=“Display to show where the 'keep shopping' on the button”>
-        <img src="media/ReadMe/Manual testing/Category-painting.png" alt=“Display to show the category painting who wish to purchase”>
+        <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show the category painting who wish to purchase”>
     </details>
 
 Back to [Table of Contents](#table-of-contents)
@@ -451,7 +452,7 @@ Back to [Table of Contents](#table-of-contents)
 
 ### 4. Category Painting Page 
 
-* As **<u>HTML, Python, Django, and Allauth</u>** I can create **buy an **art gallery including Allaut** So that **<u>the user or company can buy a fine art gallery</u>**
+* As **<u>HTML, Python, Django, and Allauth</u>** I can create **<u>buy an art gallery including Allaut</u>** So that **<u>the user or company can buy a fine art gallery</u>**
 
 1) There are four categories in the art group: Water Paint, Texture Paint, Oil Paint and Pencil Drawing. 
 1) Each art gallery allows you to select and roll over to display the relevant information.
@@ -465,7 +466,7 @@ Back to [Table of Contents](#table-of-contents)
 |---------|--------|-----------------|----------------|
 | Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Category Painting' and activate to category painting page </li> <li>User click any button on category painting page and activate to Art Gallery page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
 | Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout' on the alert box</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
-| Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate category painting page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Adjust Bag' button and activate checkout page</li> <li>If User click to 'Complete Order' button and activate thank you page</li> </ul> <li>Alert box pop up after the complete order</li></ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> </ol> |
+| Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate Shop page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Adjust Bag' button and activate checkout page</li> <li>If User click to 'Complete Order' button and activate thank you page</li> </ul> <li>Alert box pop up after the complete order</li></ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> </ol> |
 
 Back to [Table of Contents](#table-of-contents)
 
@@ -529,7 +530,7 @@ Back to [Table of Contents](#table-of-contents)
         </details>
     *   <details>
                 <summary>Click here to see the screenshot</summary>
-                <img src="media/ReadMe/Manual testing/category-paint-page.png" alt=“Display to show Category Painting page”>
+                <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show Category Painting page”>
         </details>
 1. 
      <details>
@@ -1015,7 +1016,7 @@ Back to [Table of Contents](#table-of-contents)
 
 * As **<u>HTML, Django and Allauth</u>** I can create **<u>a contact page using HTML, Django, and Allauth.</u>** So that **<u>The contact page has four patches: Hire Me, Photo to Paint, General Request, and Drawing for sign language.**</u>
 
-* **<u>Please note:**</u> However, I encountered an issue while testing the contact category. Although the category was created successfully, the sender was not receiving it on the administration page. Therefore, I made some changes to the contact page and now it is working better.
+* #### Please note: However, I encountered an issue while testing the contact category. Although the category was created successfully, the sender was not receiving it on the administration page. Therefore, I made some changes to the contact page and now it is working better.
 
 
 <table style="width:100%">
@@ -1125,6 +1126,8 @@ Back to [Table of Contents](#table-of-contents)
         <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/footer-appear-fade-in-button.png" alt=“Display to show the 'contact button”>
         <img src="media/ReadMe/Manual testing/footer-slide-up-page.png" alt=“Display to show the 'Contact' page”>
+        <img src="media/ReadMe/Manual testing/footer-slide-up-page-click-facebook.png" alt=“Display to show the 'Contact' page”>
+        <img src="media/ReadMe/Manual testing/facebook-page.png" alt=“Display to show the 'Contact' page”>
     </details>
 
 1. 
@@ -1903,7 +1906,8 @@ Back to [Table of Contents](#table-of-contents)
 1. 
     <details>
         <summary>Click on the link to view the screenshot</summary>
-        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-button.png" alt=“Display to show where the 'delete' button in Add to Bag page ”>
+        <img src="media/ReadMe/Manual testing/CRUD-shop-edit-delete-success.png" alt=“Display to show disappear category in Shop page”>
     </details>
 
 Back to [Table of Contents](#table-of-contents)
@@ -1948,7 +1952,7 @@ Back to [Table of Contents](#table-of-contents)
         <img src="media/ReadMe/Manual testing/owner-product-management-click.png" alt=“Display to show the 'Product Management' link">
     </details>
 
-1.  Follow the same steps as the [Owner's Editable Shop section](#shop-page---add-editing--deleting-category) on the Shop page from steps 3 to 15.
+1.  Follow the same steps as the [Owner's Editable Shop section](#5-owners-editable-in-shop-page) on the Shop page from steps 3 to 15.
 
 ### 7. Owner's Administration to contact view the message
 
@@ -2083,13 +2087,19 @@ Back to [Table of Contents](#table-of-contents)
 
 ## The lighthouse runs testing and results.
 
-* This [Page Speed Insights](https://pagespeed.web.dev/analysis/https-art-gallery-elena-d4d9090ab15b-herokuapp-com/3fwzmsh2yy?form_factor=desktop). is a test tool that analyzes the performance of a website on both desktop and mobile devices. It provides insights and recommendations based on the results obtained from running the test.
+* This [Page Speed Insights](https://pagespeed.web.dev). is a test tool that analyzes the performance of a website on both desktop and mobile devices. It provides insights and recommendations based on the results obtained from running the test.
 
 * The test results indicate that the mobile performance of the analyzed website is relatively low, suggesting potential areas for improvement. It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
 
 Back to [Table of Contents](#table-of-contents)
 
 * ### See attached results for both Desktop & Mobile:
+
+1. 
+     <details>
+        <summary>Click here to see the result of Desktop performance </summary>
+        <img src="media/ReadMe/Manual testing/Lighthouse-url.png" alt=“Display the result of Desktop performance”>
+    </details>
 
 1. 
      <details>
@@ -2126,17 +2136,20 @@ Back to [Table of Contents](#table-of-contents)
 
 ## Credits
 
-*  Our concept art gallery site, designed specifically for art enthusiasts and collectors, offers a unique consulting experience tailored to their needs. Whether you're a first-time client or a close friend, our personalized approach ensures a seamless collaboration. With a focus on showcasing timeless art pieces, our gallery offers a diverse collection of old masterpieces. However, we understand the importance of staying current, and we are committed to updating and enhancing the site to meet her evolving preferences. When the time is right, we look forward to assisting you in showcasing your artwork after her busy schedule with your child.
+* Our site is the perfect place for me to learn and grow in my skills. With a user-friendly interface and a wide range of resources, I'll find everything I need to succeed.
+
+* Unlike Project 4, our site is designed to make learning easy and enjoyable. I'll have access to expert instructors, engaging content, and a supportive community of learners.
+
+* Art Gallery, a concept project brought to life. Visit the site Art Gallery.
 
 * Please find Agile management [Consult with a client](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues/7) as you can see when we were consulted up to date. 
 
-* Our mentor advised me where my concept can challenge and learn from mistakes, easily manage projects and avoid unnecessary complications. Take control of the development process and achieve success. It was more complicated than you expected. Also, He was an excellent tutorial with me for a few sessions. 
 
 Back to [Table of Contents](#table-of-contents)
 
 # Deployment
 
-[The Heroku app page](https://www.heroku.com/) where is deployed. How do processing the site deployed as follows:
+[The Heroku app page](https://id.heroku.com/login) where is deployed. How do processing the site deployed as follows:
 
 * Login 
 * use the Google Authenticator app and open the screen display of the code number 
@@ -2162,7 +2175,7 @@ Back to [Table of Contents](#table-of-contents)
 Back to [Table of Contents](#table-of-contents)
 
 ## Resource & tutorial
-* ### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
+* #### I learned as many resources as possible I learned how to use Create for the cart, profile, and CRUD.
 
 ### Resources and tutorials:
 * Most of the time I learned walkthrough at Aoutique Ado as it follows on my project 5 but mostly, I modified the way of site I created. I had quite an improved familiarity with Django and I enjoyed but it needs further experience to improve my skills in the field of Django. 
@@ -2189,12 +2202,22 @@ Back to [Table of Contents](#table-of-contents)
 
 Back to [Table of Contents](#table-of-contents)
 
-## Concluded 
+## Conclusion 
 
-*  Our site is the perfect place for me to learn and grow in my skills. With a user-friendly interface and a wide range of resources, I'll find everything I need to succeed.
-
-*  Unlike Project 4, our site is designed to make learning easy and enjoyable. I'll have access to expert instructors, engaging content, and a supportive community of learners.
+*  Our concept art gallery site, designed specifically for art enthusiasts and collectors, offers a unique consulting experience tailored to their needs. Whether you're a first-time client or a close friend, our personalized approach ensures a seamless collaboration. With a focus on showcasing timeless art pieces, our gallery offers a diverse collection of old masterpieces. However, we understand the importance of staying current, and we are committed to updating and enhancing the site to meet her evolving preferences. When the time is right, we look forward to assisting you in showcasing your artwork after her busy schedule with your child.
 
 * Art Gallery, a concept project brought to life. Visit the site [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/).
+
+Back to [Table of Contents](#table-of-contents)
+
+## Acknowements
+
+### Special thank you to those whose support due throughout the course as follows: 
+
+* I would like to extend a special thank you to those who supported me throughout the course. Our mentor, Rory Sheridan, provided me with valuable advice on how to manage projects efficiently and avoid unnecessary complications. He also helped me understand that mistakes are opportunities to learn and grow and that taking control of the development process is key to achieving success. Additionally, he was an excellent tutor during our sessions together.
+
+* Kamil Wojciechowski, who is the facilitator of our cohort, was very helpful. He sent me an example of a well-structured readme created by one of the students. I found the section on manual testing particularly useful, as it inspired me to create an excellent readme. This helped me to better understand what I needed to include in my manual tests.
+
+* Finally, I would like to express my gratitude to the Code Institute Tutor Support team for their assistance throughout the course.
 
 Back to [Table of Contents](#table-of-contents)
