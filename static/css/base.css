@@ -8,6 +8,11 @@ body {
     margin-top: 100px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .navbar {
     background-color: #A7F2E4;
     height: 130px;
