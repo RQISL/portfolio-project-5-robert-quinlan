@@ -57,9 +57,11 @@
                </div>
             </div>
          </form>
+         <div class="d-flex justify-content-between">
             <a class="update-link btn rounded-0 my-2"><small>Update</small></a>
-            <a class="remove-item btn rounded-0 my-2 me-0 float-end" id="remove_{{ item.item_id }}"
+            <a class="remove-item btn rounded-0 my-2 me-0" id="remove_{{ item.item_id }}"
                data-product_size="{{ item.size }}"><small>Remove</small></a>
+         </div>
          <div class="col-xl-4 w-100 d-flex justify-content-between">
             <p>Subtotal</p>
             <p class="my-0 p_dark">&#8364; {{ item.product.price | calc_subtotal:item.quantity }}</p>
@@ -81,7 +83,7 @@
          {% endif %}
          <div class="row">
             <div class="col">
-               <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+               <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0">
                <span class="icon">
                <i class="fas fa-chevron-left"></i>
                </span>
@@ -89,7 +91,7 @@
                </a>
             </div>
             <div class="col d-flex justify-content-end">
-               <a href="{% url 'checkout' %}" class="btn btn-outline-black rounded-0 btn-lg">
+               <a href="{% url 'checkout' %}" class="btn btn-outline-black rounded-0">
                <span class="text-uppercase">Secure Checkout</span>
                <span class="icon">
                <i class="fas fa-lock"></i>
@@ -118,30 +120,29 @@
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 <script type="text/javascript">
-   var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+   var toastElList = [].slice.call(document.querySelectorAll('.toast'));
    var toastList = toastElList.map(function (toastEl) {
-       return new bootstrap.Toast(toastEl)
-   })
+      return new bootstrap.Toast(toastEl);
+   });
 </script>
 <script type="text/javascript">
    // Update quantity on click
    $('.update-link').click(function (e) {
-       var form = $(this).prev('.update-form');
-       form.submit();
-   })
-   
+      var form = $(this).prev('.update-form');
+      form.submit();
+   });
    // Remove item and reload on click
    $('.remove-item').click(function (e) {
-       var csrfToken = "{{ csrf_token }}";
-       var itemId = $(this).attr('id').split('remove_')[1];
-       var size = $(this).data('product_size');
-       var url = `/gallery_bag/remove/${itemId}/`;
-       var data = { 'csrfmiddlewaretoken': csrfToken, 'product_size': size };
-   
-       $.post(url, data)
-           .done(function () {
+      var csrfToken = "{{ csrf_token }}";
+      var itemId = $(this).attr('id').split('remove_')[1];
+      var size = $(this).data('product_size');
+      var url = `/gallery_bag/remove/${itemId}/`;
+      var data = { 'csrfmiddlewaretoken': csrfToken, 'product_size': size };
+
+      $.post(url, data)
+         .done(function () {
                location.reload();
-           });
-   })
+         });
+   });
 </script>
 {% endblock %}
