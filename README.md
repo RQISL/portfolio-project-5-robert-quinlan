@@ -68,7 +68,7 @@ Back to [Table of Contents](#table-of-contents)
 
 # Concept Project
 
-* Our innovative Art Gallery project, designed to support talented fine artists like my good friend. With a focus on providing a platform for artists to showcase their work, our gallery aims to connect artists with potential clients. As part of our commitment to excellence, we also offer consultation services to clients, allowing them to gain valuable experience in working with artists and selecting artwork that resonates with their preferences. 
+* Our innovative Art Gallery project is designed to support talented fine artists like my good friend. With a focus on providing a platform for artists to showcase their work, our gallery aims to connect artists with potential clients. As part of our commitment to excellence, we also offer consultation services to clients, allowing them to gain valuable experience in working with artists and selecting artwork that resonates with their preferences. 
 
 - The project's development follows below:
 
@@ -212,7 +212,7 @@ Back to [Table of Contents](#table-of-contents)
 
 ## Search page
 
-*  The search page, the users can be looking for the type of art gallery.
+*  On the search page, the users can look for the type of art gallery.
 
 1. 
      <details>
@@ -1084,7 +1084,7 @@ Back to [Table of Contents](#table-of-contents)
 
 ### 8. Footer Page 
 
-* As **<u>HTML</u>** I can create **<u>a footer</u>** So that **<u>clicking the button to slide-up and display the footer information and clicking 'X' will have a slide-down</u>**
+* As **<u>HTML</u>** I can create **<u>a footer</u>** So that **<u>clicking the button to slide up and display the footer information and clicking 'X' will have a slide-down</u>**
 
 <table style="width:100%">
     <thead>
@@ -1731,7 +1731,7 @@ Back to [Table of Contents](#table-of-contents)
     <details>
         <summary>Click on the link to view the screenshot</summary>
         <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete-button.png" alt=“Display to show where the click on the 'Delete' button.”>
-        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert'Delete' appears.”>
+        <img src="media/ReadMe/Manual testing/CRUD-paint-edit-delete.png" alt=“Display to show where the alert 'Delete' appears.”>
     </details>
 
 Back to [Table of Contents](#table-of-contents)
@@ -2041,7 +2041,7 @@ Back to [Table of Contents](#table-of-contents)
 1. 
     <details>
         <summary>Click here to see the screenshot</summary>
-        <img src="media/ReadMe/Manual testing/mailchimp-audience-contact.png" alt=“Display to show the mailchimp page">
+        <img src="media/ReadMe/Manual testing/mailchimp-audience-contact.png" alt=“Display to show the Mailchimp page">
     </details>
 
 1. 
@@ -2104,7 +2104,7 @@ Back to [Table of Contents](#table-of-contents)
 1. 
      <details>
         <summary>Click here to see the result of Desktop performance </summary>
-        <img src="media/ReadMe/Test_browser_responsive/Desktop_test.png" alt=“Display the result of Desktop performance”>
+        <img src="media/ReadMe/Manual testing/lighthouse-testing-desktop.png" alt=“Display the result of Desktop performance”>
     </details>
 1. 
      <details>
