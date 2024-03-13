@@ -438,18 +438,18 @@ Back to [Table of Contents](#table-of-contents)
     </thead>
     <tbody>
         <tr>
-            <th colspan="4">Below are the steps to complete a 'Home' page</th>
+            <th colspan="4">Here are the steps to access the 'Home' page:</th>
         </tr>
         <tr>
             <td rowspan=3>Dash button</td>
-            <td rowspan=3>1. Open vertical to right</td>
+            <td rowspan=3>1. Open the vertical menu on the right</td>
         </tr>
         <tr>
-            <td>1. User click 'Home' and activate to Home page</td>
+            <td>1. Click on 'Home'</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>2. User click 'visit her exhibition' on the button and activate to 'visit her exhibition' page</td>
+            <td>2. Click on 'Visit Her Exhibition' button to go to the corresponding page</td>
             <td>Works as Expected</td>
         </tr>
         </tbody>
@@ -489,24 +489,22 @@ Back to [Table of Contents](#table-of-contents)
     </thead>
     <tbody>
         <tr>
-            <th colspan="4">Below are the steps to complete a 'About' page</th>
+            <th colspan="4">Here are the steps to complete an 'About' page:</th>
         </tr>
         <tr>
             <td rowspan=3>Dash button</td>
-            <td rowspan=3>1. Open vertical to right</td>
+            <td rowspan=3>1. Open the vertical menu on the right</td>
         </tr>
         <tr>
-            <td>1. User click 'About' and activate to About page</td>
+            <td>1. Click on the 'About' option to navigate to the About page</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>2. User click 'visit contact page' on the button and activate to 'Contact' page</td>
+            <td>2. Click on the 'Visit contact page' button to navigate to the Contact page.</td>
             <td>Works as Expected</td>
         </tr>
         </tbody>
     </table>
-
-Back to [Table of Contents](#table-of-contents)
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -547,78 +545,70 @@ Back to [Table of Contents](#table-of-contents)
     </thead>
     <tbody>
         <tr>
-            <th colspan="4">Below are the steps to complete a 'Category Painting' page</th>
+            <th colspan="4">BPlease follow these steps to complete a purchase on our website:</th>
         </tr>
         <tr>
             <td rowspan=2>1. Dash button</td>
             <td rowspan=2>1. Open vertical to right</td>
-            <td>1. User click 'Category Painting' and activate to category painting page</td>
+            <td>1. Click on the "Category Painting" button to go to the category painting page.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>2. User click any button on category painting page and activate to Art Gallery page</td>
+            <td>2. On the category painting page, click on any button to go to the Art Gallery page.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <th colspan="4">Below are the steps to complete a 'Art Gallery' page</th>
+            <th colspan="4">To complete your purchase:</th>
         </tr>
         <tr>
-            <td rowspan=4>2. Art Gallery Page</td>
-            <td rowspan=4>2. Activate to art gallery page</td>
-            <td>1. User click any 'View Frame' on page and activate to add to bag page</td>
+            <td rowspan=3>2. Art Gallery Page</td>
+            <td rowspan=3>2. Activate to art gallery page</td>
+            <td>1. On the Art Gallery page, click on any "View Frame" button to add the item to your shopping bag.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>2. User click 'Add to bag' button</td>
-            <td>Works as Expected</td>
-        </tr>
-         <tr>
-            <td>3. Alert box pop up</td>
+            <td>2. Click on the "Add to Bag" button, and an alert box will pop up.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>4. User click to 'Secure Checkout' on the alert box</td>
+            <td>3. Click on "Secure Checkout" on the alert box.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <th colspan="4">Below are the steps to complete a 'Checkout' page</th>
+            <th colspan="4">To checkout:</th>
         </tr>
         <tr>
-            <td rowspan=9>3. Checkout Page</td>
-            <td rowspan=9>3. Activate to checkout page</td>
-            <td>1. User click either 'Keep Shopping' or 'Secure Checkout' buttons</td>
+            <td rowspan=8>3. Checkout Page</td>
+            <td rowspan=8>3. Activate to checkout page</td>
+            <td>1. On the checkout page, you can choose to either "Keep Shopping" or proceed with "Secure Checkout".</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>2. If User click to 'Secure Checkout' button and activate checkout form page</td>
+            <td>2.If you click on "Secure Checkout", you will be taken to the checkout form page.</td>
             <td>Works as Expected</td>
         </tr>
          <tr>
-            <td>3. If User click to 'Keep Shopping' button and activate Shop page</td>
+            <td>3. If you click on "Keep Shopping", you will be taken to the Shop page.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>4. User fill the form</td>
+            <td>4. Fill in the checkout form and make the payment.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>5. User make payment</td>
+            <td>5. After payment, you can click on either the "Adjust Bag" or the "Complete Order" button.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>6. User click either 'Adjust Bag' or 'Complete Order' buttons</td>
+            <td>6.  If you click on "Adjust Bag", you will be taken back to the checkout page.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>7. If User click to 'Adjust Bag' button and activate checkout page</td>
+            <td>7. If you click on "Complete Order", you will be taken to the thank you page.</td>
             <td>Works as Expected</td>
         </tr>
         <tr>
-            <td>8. If User click to 'Complete Order' button and activate thank you page</td>
-            <td>Works as Expected</td>
-        </tr>
-        <tr>
-            <td>9. Alert box pop up after the complete order</td>
+            <td>8.  An alert box will pop up to confirm that your order has been completed.</td>
             <td>Works as Expected</td>
         </tr>
         </tbody>
@@ -660,11 +650,6 @@ Back to [Table of Contents](#table-of-contents)
     <details>
         <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-alert-box.png" alt=“Display to show the alert box”>
-    </details>
-
-1. 
-    <details>
-        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Secure Checkout' button on the alert box”>
     </details>
 
@@ -690,11 +675,6 @@ Back to [Table of Contents](#table-of-contents)
      <details>
         <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show the checkout form button”>
-    </details>
-
-1. 
-    <details>
-        <summary>Click here to see the screenshot</summary>
         <img src="media/ReadMe/Manual testing/category-checkout-card.png" alt=“Display to show the make payment page">
     </details>
 
