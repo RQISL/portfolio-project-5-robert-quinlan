@@ -1,4 +1,4 @@
-## Mock-up Responsive Screens as seen attached here:
+## The showcase of the Art Gallery website and responsive screens.
 
 ![](media/ReadMe/mockup/Responsive_screen.png)
 
@@ -47,8 +47,6 @@ Back to [Table of Contents](#table-of-contents)
 * For the Art Gallery project, a comprehensive solution was introduced for selling fine art frames. This solution was developed using Agile management, which involved an 18-stage process.
 
 * The User Story for the project can be found at [User Story]( https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues?q=is%3Aissue+is%3Aclosed) and [Milestone](https://github.com/RQISL/portfolio-project-5-robert-quinlan/milestones). The milestone showcases the progress made from start to finish, including screenshots of each stage.
-
-Back to [Table of Contents](#table-of-contents)
 
 * ## Agile Management:
 
@@ -358,11 +356,42 @@ Back to [Table of Contents](#table-of-contents)
 
 * As **<u>HTML, Django, and Bootstrap</u>**  I can **create **the **menu**** for the** vertical</u>** So that **<u>the **user clicks on the toggle** button to open on the vertical to right,</u>**
 
-| Feature | Action | Expected Result | Actual Results |
-|---------|--------|-----------------|----------------|
-| Navigation Bar| <ol> <li>Dash button</li> <li>Click to Logo</li> <li>Click to basket</li> <li>In checkout page</li> </ol> | <ol> <li>User click to open the vertial on leftside to right</li> <li>User click to logo to get back to home page</li> <li>User click to basket and to checkout page as empty basket, which the user does not any order yet</li> <li>User click to 'Keep Shopping' button, which the user can contuine purchases</li></ol> |<ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> </ol> |
-
-Back to [Table of Contents](#table-of-contents)
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Below are the steps to complete a Navigation Bar</th>
+        </tr>
+        <tr>
+            <td rowspan=5>Navigation Bar</td>
+            <td>1. Dash button</td>
+            <td>1. User click to open the vertial on leftside to right</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. Click to Logo</td>
+            <td>2. User click to logo to get back to home page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>3. Click to basket</td>
+            <td>3. User click to basket and to checkout page as empty basket, which the user does not any order yet</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>4. In checkout page</td>
+            <td>4. User click to 'Keep Shopping' button, which the user can contuine purchases</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
 
 ### Please refer to the numbers in the order shown above the table in the images.
 ### Navigation Bar
@@ -398,11 +427,33 @@ Back to [Table of Contents](#table-of-contents)
 * As **<u>HTML</u>** I can create **<u>an image **of the client's portrait photo** and text & translate ISL video</u>** So that **<u>amount the **client information about her talent Fine Art</u>**
 * As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
 
-| Feature | Action | Expected Result | Actual Results |
-|---------|--------|-----------------|----------------|
-| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Home' and activate to Home page </li> <li>User click 'visit her exhibition' on the button and activate to 'visit her exhibition' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
-
-Back to [Table of Contents](#table-of-contents)
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Below are the steps to complete a 'Home' page</th>
+        </tr>
+        <tr>
+            <td rowspan=3>Dash button</td>
+            <td rowspan=3>1. Open vertical to right</td>
+        </tr>
+        <tr>
+            <td>1. User click 'Home' and activate to Home page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. User click 'visit her exhibition' on the button and activate to 'visit her exhibition' page</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
 
 ### Please refer to the numbers in the order shown above the table in the images.
 
@@ -427,9 +478,33 @@ Back to [Table of Contents](#table-of-contents)
 
 * As **<u>text & translate ISL video:**</u> Due to unforeseen circumstances, we have decided to cancel the video ISL translation and will only provide the text version.
 
-| Feature | Action | Expected Result | Actual Results |
-|---------|--------|-----------------|----------------|
-| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'About' and activate to About page </li> <li>User click 'visit contact page' on the button and activate to 'Contact' page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Below are the steps to complete a 'About' page</th>
+        </tr>
+        <tr>
+            <td rowspan=3>Dash button</td>
+            <td rowspan=3>1. Open vertical to right</td>
+        </tr>
+        <tr>
+            <td>1. User click 'About' and activate to About page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. User click 'visit contact page' on the button and activate to 'Contact' page</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
 
 Back to [Table of Contents](#table-of-contents)
 
@@ -461,12 +536,93 @@ Back to [Table of Contents](#table-of-contents)
 
 **<u>Please note as above mention No.1:**</u> Please note that before consulting with my client, I revised my concept project for the painting category. I changed it to include landscapes, nudes, and other themes. This was done while I collected her previous paintings from galleries through her photography.
 
-
-| Feature | Action | Expected Result | Actual Results |
-|---------|--------|-----------------|----------------|
-| Dash button| <ol> <li>Open vertical to right</li> </ol> | <ol> <li>User click 'Category Painting' and activate to category painting page </li> <li>User click any button on category painting page and activate to Art Gallery page</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> </ol> |
-| Art Gallery Page | <ol> <li>Activate to art gallery page</li> </ol> | <ol> <li>User click any 'View Frame' on page and activate to add to bag page</li> <li>User click 'Add to bag' button</li><li>Alert box pop up</li> <li>User click to 'Secure Checkout' on the alert box</li> </ol> | <ol> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li></ol> |
-| Checkout Page | <ol> <li>Activate to checkout page</li> </ol> | <ol> <li>User click either 'Keep Shopping' or 'Secure Checkout' buttons</li> <ul><li>If User click to 'Secure Checkout' button and activate checkout form page</li> <li>If User click to 'Keep Shopping' button and activate Shop page</li></ul> <li>User fill the form</li><li>User make payment</li> <li>User click either 'Adjust Bag' or 'Complete Order' buttons</li> <ul><li>If User click to 'Adjust Bag' button and activate checkout page</li> <li>If User click to 'Complete Order' button and activate thank you page</li> </ul> <li>Alert box pop up after the complete order</li></ol> | <ol> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> <li>Works as expected</li> <li>Works as expected</li> <ul><li>Works as Expected</li> <li>Works as Expected</li> </ul> <li>Works as expected</li> </ol> |
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">Below are the steps to complete a 'Category Painting' page</th>
+        </tr>
+        <tr>
+            <td rowspan=2>1. Dash button</td>
+            <td rowspan=2>1. Open vertical to right</td>
+            <td>1. User click 'Category Painting' and activate to category painting page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. User click any button on category painting page and activate to Art Gallery page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">Below are the steps to complete a 'Art Gallery' page</th>
+        </tr>
+        <tr>
+            <td rowspan=4>2. Art Gallery Page</td>
+            <td rowspan=4>2. Activate to art gallery page</td>
+            <td>1. User click any 'View Frame' on page and activate to add to bag page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. User click 'Add to bag' button</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>3. Alert box pop up</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. User click to 'Secure Checkout' on the alert box</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <th colspan="4">Below are the steps to complete a 'Checkout' page</th>
+        </tr>
+        <tr>
+            <td rowspan=9>3. Checkout Page</td>
+            <td rowspan=9>3. Activate to checkout page</td>
+            <td>1. User click either 'Keep Shopping' or 'Secure Checkout' buttons</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>2. If User click to 'Secure Checkout' button and activate checkout form page</td>
+            <td>Works as Expected</td>
+        </tr>
+         <tr>
+            <td>3. If User click to 'Keep Shopping' button and activate Shop page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>4. User fill the form</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>5. User make payment</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>6. User click either 'Adjust Bag' or 'Complete Order' buttons</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>7. If User click to 'Adjust Bag' button and activate checkout page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>8. If User click to 'Complete Order' button and activate thank you page</td>
+            <td>Works as Expected</td>
+        </tr>
+        <tr>
+            <td>9. Alert box pop up after the complete order</td>
+            <td>Works as Expected</td>
+        </tr>
+        </tbody>
+    </table>
 
 Back to [Table of Contents](#table-of-contents)
 
@@ -486,8 +642,6 @@ Back to [Table of Contents](#table-of-contents)
         <img src="media/ReadMe/Manual testing/category-paint-colllect-button.png" alt=“Display to show the 'collections' button”>
         <img src="media/ReadMe/Manual testing/catgory-to-art-gallery-page.png" alt=“Display to show the Art Gallery page”>
     </details>
-
-Back to [Table of Contents](#table-of-contents)
 
 #### 2. Art Gallery Page
 
@@ -514,8 +668,6 @@ Back to [Table of Contents](#table-of-contents)
         <img src="media/ReadMe/Manual testing/category-alert-box-to-check.png" alt=“Display to show 'Secure Checkout' button on the alert box”>
     </details>
 
-Back to [Table of Contents](#table-of-contents)
-
 #### 3. Checkout Page
 
 1. 
@@ -524,14 +676,16 @@ Back to [Table of Contents](#table-of-contents)
         <img src="media/ReadMe/Manual testing/category-checkout-page.png" alt=“Display to show where are the two 'Keep Shopping' and 'Secure Checkout' buttons”>
     </details>
 
-    *   <details>
-                <summary>Click here to see the screenshot</summary>
-                <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show Checkout Form page”>
-        </details>
-    *   <details>
-                <summary>Click here to see the screenshot</summary>
-                <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show Category Painting page”>
-        </details>
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-to-form.png" alt=“Display to show Checkout Form page”>
+    </details>
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/shop-page.png" alt=“Display to show Category Painting page”>
+    </details>
 1. 
      <details>
         <summary>Click here to see the screenshot</summary>
@@ -550,14 +704,17 @@ Back to [Table of Contents](#table-of-contents)
         <img src="media/ReadMe/Manual testing/category-checkout-card-1.png" alt=“Display to show the make payment page">
     </details>
 
-    *   <details>
-                <summary>Click here to see the screenshot</summary>
-                <img src="media/ReadMe/Manual testing/category-checkout-page-1.png" alt=“Display to show Checkout Form page”>
-        </details>
-    *   <details>
-                <summary>Click here to see the screenshot</summary>
-                <img src="media/ReadMe/Manual testing/category-thankyou-page.png" alt=“Display to show thank you page”>
-        </details>
+1. 
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/category-checkout-page-1.png" alt=“Display to show Checkout Form page”>
+    </details>
+
+1.      
+    <details>
+        <summary>Click here to see the screenshot</summary>
+        <img src="media/ReadMe/Manual testing/category-thankyou-page.png" alt=“Display to show thank you page”>
+    </details>
 1. 
      <details>
         <summary>Click here to see the screenshot</summary>
@@ -2140,7 +2297,7 @@ Back to [Table of Contents](#table-of-contents)
 
 * Unlike Project 4, our site is designed to make learning easy and enjoyable. I'll have access to expert instructors, engaging content, and a supportive community of learners.
 
-* Art Gallery, a concept project brought to life. Visit the site Art Gallery.
+* Art Gallery, a concept project brought to life. Visit the site [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/).
 
 * Please find Agile management [Consult with a client](https://github.com/RQISL/portfolio-project-5-robert-quinlan/issues/7) as you can see when we were consulted up to date. 
 
