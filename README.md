@@ -2201,8 +2201,6 @@ Back to [Table of Contents](#table-of-contents)
 
 * While we thoroughly test for compatibility on various browsers, it is important to note that there may be slight variations in the appearance or functionality of certain elements. In the case of a minor discrepancy, such as a button placement in the bottom footer, we have made a conscious decision to maintain the original style without making any changes. Rest assured, this will not affect the overall user experience or functionality of your website.
 
-Back to [Table of Contents](#table-of-contents)
-
 ### Testing browser compatibility
 1. 
     <details>
@@ -2227,8 +2225,6 @@ Back to [Table of Contents](#table-of-contents)
 * This [Page Speed Insights](https://pagespeed.web.dev). is a test tool that analyzes the performance of a website on both desktop and mobile devices. It provides insights and recommendations based on the results obtained from running the test.
 
 * The test results indicate that the mobile performance of the analyzed website is relatively low, suggesting potential areas for improvement. It has been proven to improve website results, even in cases where responsive images have caused performance issues. I have decided not to pursue further fixes due to time constraints.
-
-Back to [Table of Contents](#table-of-contents)
 
 * ### See attached results for both Desktop & Mobile:
 
