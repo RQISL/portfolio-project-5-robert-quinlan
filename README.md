@@ -2149,26 +2149,27 @@ Back to [Table of Contents](#table-of-contents)
 
 # Deployment
 
-[The Heroku app page](https://id.heroku.com/login) where is deployed. How do processing the site deployed as follows:
+**If you're looking to deploy your [The Heroku app page](https://id.heroku.com/login), here are the steps you need to follow to ensure a smooth process:**
 
-* Login 
-* use the Google Authenticator app and open the screen display of the code number 
-and Verify Your Identity page "Verification Code" and insert the code in the box 
-then click on the Verify button. 
-* Click on the button "Create new app" 
-* Type in the box “project-4-order-foods”
-* Select Europe
-* Click on the "Create app" button
-* Click "art-gallery-elena" to open
-* Click on "Deploy" on the top menu
-* On RQISL next to the box copy from GitHub <https://github.com/RQISL/portfolio-project-5-robert-quinlan> to paste onto the box then click on to "search" button 
-* prompt shows the link active then click on the "connect" button
-* Make sure to check the "Enable Automatic" button is on
-* click on the "Deploy Branch" button
-* Prompts are active on the screen until the completed
-* Click on the "View" button to open the page
+1. Start by logging in to your Heroku account and using the Google Authenticator app to verify your identity.
 
-Back to [Table of Contents](#table-of-contents)
+1. Once you're logged in, click on the "Create new app" button and enter "art-gallery-elena" in the box. Then, select Europe and click on the "Create app" button.
+
+1. Next, click on "art-gallery-elena" to open it and make sure your API key is configured properly.
+
+1. To do this, click on "Settings" at the top of the menu and then click on the "Reveal Config Vars" button.
+
+1. You'll see several boxes, including "KEY" and "VALUE." In the "KEY" box, type "CLOUDINARY_URL" and in the "VALUE" box, copy your account from the Cloudinary site to get an API environment variable and paste it in the box. Then, click on the "Add" button.
+
+1. Repeat the same process for "DATABASE_URL," "EMAIL_HOST_PASS," "EMAIL_HOST_USER," "SECRET_KEY," "STRIPE_PUBLIC_KEY," "STRIPE_SECRET_KEY," and "STRIPE_WH_SECRET." Make sure to copy the relevant information from the corresponding sites and paste them in the appropriate boxes before clicking on the "Add" button.
+
+1. Once you're done configuring your API key, click on "Deploy" on the top menu and then click on the "Connect to GitHub" button.
+
+1. Next, copy the URL from GitHub to paste onto the box and click on the "Search" button. Once the link is active, click on the "Connect" button.
+
+1. Ensure that the "Enable Automatic Deploys" button is on and then click on the "Deploy Branch" button.
+
+1. You'll see prompts on the screen until the deployment is complete. Once it's done, click on the "View" button to open the page.
 
 ### The deployed site is now live [Art Gallery](https://art-gallery-elena-d4d9090ab15b.herokuapp.com/)
 
@@ -2184,21 +2185,29 @@ Back to [Table of Contents](#table-of-contents)
 
 ## Technologies Used
 
-1) [Gitpod](https://gitpod.io) I have used it since the beginning of Project 5
+- [Gitpod](https://gitpod.io) I have used it since the beginning of Project 5
 
-2) [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
+- [The CI Python Linter](https://pep8ci.herokuapp.com/#) is a powerful tool that allows you to run tests and identify errors in your Python code. By using this linter, you can easily fix any bugs and ensure the quality of your code. Additionally, I found [Code Beautify](https://codebeautify.org/python-formatter-beautifier#) to be extremely helpful in reducing stress and quickly identifying errors. This Python formatter and beautifier simplifies the process of finding and fixing errors. Simply copy and paste your code into the CI Python Linter, and it will highlight any errors for you to address. However, please note that some code may still have errors that cannot be changed to avoid any issues with the site.
 
-3) [Heroku app](https://www.heroku.com/) - The deployed to activate the browser.
+- [Heroku app](https://www.heroku.com/) - The deployed to activate the browser.
 
-5) [3WC HTML Validator](https://validator.w3.org/) - Run testing for any errors to fix the bugs
+- [3WC HTML Validator](https://validator.w3.org/) - Run testing for any errors to fix the bugs
 
-6) [3WC CSS Validator](https://jigsaw.w3.org/css-validator/)  - Run testing for any errors to fix the bugs
+- [3WC CSS Validator](https://jigsaw.w3.org/css-validator/)  - Run testing for any errors to fix the bugs
 
-7) [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used Bootstrap 5.
+- [Bootstraps 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/ )  - I used Bootstrap 5.
 
-8) Adobe Illustrator - I use it to design logos.
+- [Cloudinary](https://cloudinary.com/users/login)  - I used Cloudinary API.
 
-9) Adobe Photoshop - I use it to edit images.
+- [Stripe](https://dashboard.stripe.com/login)  - I used Stripe API.
+
+- [Google](https://accounts.google.com/)  - I used Google API.
+
+- [ElephantSQL](https://customer.elephantsql.com/login)  - I used ElephantSQL API.
+
+- Adobe Illustrator - I use it to design logos.
+
+- Adobe Photoshop - I use it to edit images.
 
 Back to [Table of Contents](#table-of-contents)
 
