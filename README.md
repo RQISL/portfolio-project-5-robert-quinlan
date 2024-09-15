@@ -3,44 +3,33 @@
 ![](media/ReadMe/mockup/Responsive_screen.png)
 
 # Table of Contents 
-1. **<u>[ISL Language](#please-note-irish-sign-language-isl-is-my-first-language-and-english-is-my-second-language-in-writing)</u>**
 
-2. **<u>[Agile Management](#agile-management)</u>** <ul><li> Image:  [Agile Management](#agile-management-1)</li></ul>
+1. **<u>[Agile Management](#agile-management)</u>** <ul><li> Image:  [Agile Management](#agile-management-1)</li></ul>
 
-3. **<u>[Concept Project](#concept-project)</u>** <ul><li>[Flowchart](#flowchart)</li><ul><li>Image: [Flowchart](#design-of-the-navbar-links-flowchart)</li></ul></ul><ul><li>[Wireframe](#wireframe)</li><li>[Moodboard](#moodboard)</li><li>[Colour Palette](#colour-palette)</li></ul>
+2. **<u>[Concept Project](#concept-project)</u>** <ul><li>[Flowchart](#flowchart)</li><ul><li>Image: [Flowchart](#design-of-the-navbar-links-flowchart)</li></ul></ul><ul><li>[Wireframe](#wireframe)</li><li>[Moodboard](#moodboard)</li><li>[Colour Palette](#colour-palette)</li></ul>
 
- 4. **<u>[Design Logo](#design-logo)</u>**
+ 3. **<u>[Design Logo](#design-logo)</u>**
 
- 5. **<u>[Features](#features)</u>** <ul><li>[Existing Features](#existing-features)</li><ul><li>[Narbar](#navbar)</li><li>[Open page from left to right side](#open-from-left-to-right-menu)</li> <li>[Home Page](#home-page)</li><li>[About Page](#about-us-page)</li><li>[Category Painting Page](#category-painting-page)</li><li>[Shop Page](#shop-page)</li><li>[Search Page](#search-page)</li><li>[My Account Page](#my-account-page)</li><li>[Contact Page](#contact-page)</li><li>[Footer Page](#footer)</li></ul></ul>
+ 4. **<u>[Features](#features)</u>** <ul><li>[Existing Features](#existing-features)</li><ul><li>[Narbar](#navbar)</li><li>[Open page from left to right side](#open-from-left-to-right-menu)</li> <li>[Home Page](#home-page)</li><li>[About Page](#about-us-page)</li><li>[Category Painting Page](#category-painting-page)</li><li>[Shop Page](#shop-page)</li><li>[Search Page](#search-page)</li><li>[My Account Page](#my-account-page)</li><li>[Contact Page](#contact-page)</li><li>[Footer Page](#footer)</li></ul></ul>
 
- 6. **<u>[Administration Page](#administration-page)</u>**
+ 5. **<u>[Administration Page](#administration-page)</u>**
 
- 7. **<u>[Testing](#testing)</u>** <ul><li>[Manual Testing](#manual-testing)</li><ul><li>[Navigation Bar](#1-navigation-bar)</li><li>[Home Page](#2-home-page)</li><li>[About Page](#3-about-page)</li><li>[Category Painting Page](#4-category-painting-page)</li><ul><li>1. Image: [Dash Button](#1-dash-button)</li><li>2. Image: [Art Gallery Page](#2-art-gallery-page)</li><li>3. Image: [Checkout Page](#3-checkout-page)</li></ul><li>[Shop Page](#5-shop-page)</li><ul><li>Image: [Shop](#shop-page-1)</li></ul><li>[Search Page](#6-search-page)</li><ul><li>Image: [Search](#search-page-1)</li></ul><li>[My Account Page](#7-my-account-page)</li><ul><li>Image: [Account](#my-account-page-1)</li></ul><li>[Contact Page](#8-contact-page)</li><ul><li>Image: [Contact](#contact-page-1)</li></ul><li>[Footer Page](#8-footer-page)</li><ul><li>Image: [Footer](#footer-page)</li></ul>
+ 6. **<u>[Testing](#testing)</u>** <ul><li>[Manual Testing](#manual-testing)</li><ul><li>[Navigation Bar](#1-navigation-bar)</li><li>[Home Page](#2-home-page)</li><li>[About Page](#3-about-page)</li><li>[Category Painting Page](#4-category-painting-page)</li><ul><li>1. Image: [Dash Button](#1-dash-button)</li><li>2. Image: [Art Gallery Page](#2-art-gallery-page)</li><li>3. Image: [Checkout Page](#3-checkout-page)</li></ul><li>[Shop Page](#5-shop-page)</li><ul><li>Image: [Shop](#shop-page-1)</li></ul><li>[Search Page](#6-search-page)</li><ul><li>Image: [Search](#search-page-1)</li></ul><li>[My Account Page](#7-my-account-page)</li><ul><li>Image: [Account](#my-account-page-1)</li></ul><li>[Contact Page](#8-contact-page)</li><ul><li>Image: [Contact](#contact-page-1)</li></ul><li>[Footer Page](#8-footer-page)</li><ul><li>Image: [Footer](#footer-page)</li></ul>
 
- 8. **<u>[User's Checkout Editable page](#users-checkout-editable)</u>** <ul><li> Image: [User's editable](#the-users-checkout-editable)</li><ul></ul></ul></ul>
+ 7. **<u>[User's Checkout Editable page](#users-checkout-editable)</u>** <ul><li> Image: [User's editable](#the-users-checkout-editable)</li><ul></ul></ul></ul>
 
- 9. **<u>[Manual testing primarily concentrates on testing the owner's CRUD](#manual-testing-primarily-concentrates-on-testing-the-owners-crud-create-read-update-and-delete-operations)</u>** <ul><li>[Owner's Editable in Home Page](#1-owners-editable-in-home-page)</li><ul><li>Image: [Home page](#home-page-1)</li></ul></ul> <ul><li>[Owner's Editable in About Page](#2-owners-editable-in-about-page)</li><ul><li>Image: [About page](#about-page)</li></ul></ul><ul><li>[Owner's Editable in Category Page](#4-category-painting-page)</li><ul><li>Image: [Category Painting page](#category-painting-page---add-category)</li></ul></ul><ul><li>[Owner's Editable in 'Edit' & 'Delete' Page](#4-owners-editable-in-edit--delete-page)</li><ul><li>Image: ['Edit' & 'Delete' Page](#category-painting-page---edit--delete-category)</li></ul></ul><ul><li>[Owner's Editable in Shop Page](#5-owners-editable-in-shop-page)</li><ul><li>Image: [Shop Page](#shop-page---add-editing--deleting-category)</li></ul></ul><ul><li>[Owner's Editable in Product Management Page](#6-owners-editable-in-product-management)</li><ul><li>Image: [Product Management Page](#product-management-page)</li></ul></ul><ul><li>[Owner's Administration - Contact View Page](#7-owners-administration-to-contact-view-the-message)</li><ul><li>Image: [Admin - Contact View Page](#admin---contact-view-page)</li></ul></ul><ul><li>[Owner's Mailchimp Account Page](#8-owners-mailchimp-account)</li><ul><li>Image: [Mailchimp Account Page](#mailchimp-page)</li></ul></ul>
- 10. **<u>[Browser Compatibility Testing ](#testing-browser-compatibility)</u>**
- 11. **<u>[The Lighthouse Testing](#the-lighthouse-runs-testing-and-results)</u>**
- 12. **<u>[The Validation Testing ](#validation-testing)</u>**<ul><li>[HTML](#html)</li><li>[CSS](#css)</li><li>[Python](#python)</li></ul></ul>
+ 8. **<u>[Manual testing primarily concentrates on testing the owner's CRUD](#manual-testing-primarily-concentrates-on-testing-the-owners-crud-create-read-update-and-delete-operations)</u>** <ul><li>[Owner's Editable in Home Page](#1-owners-editable-in-home-page)</li><ul><li>Image: [Home page](#home-page-1)</li></ul></ul> <ul><li>[Owner's Editable in About Page](#2-owners-editable-in-about-page)</li><ul><li>Image: [About page](#about-page)</li></ul></ul><ul><li>[Owner's Editable in Category Page](#4-category-painting-page)</li><ul><li>Image: [Category Painting page](#category-painting-page---add-category)</li></ul></ul><ul><li>[Owner's Editable in 'Edit' & 'Delete' Page](#4-owners-editable-in-edit--delete-page)</li><ul><li>Image: ['Edit' & 'Delete' Page](#category-painting-page---edit--delete-category)</li></ul></ul><ul><li>[Owner's Editable in Shop Page](#5-owners-editable-in-shop-page)</li><ul><li>Image: [Shop Page](#shop-page---add-editing--deleting-category)</li></ul></ul><ul><li>[Owner's Editable in Product Management Page](#6-owners-editable-in-product-management)</li><ul><li>Image: [Product Management Page](#product-management-page)</li></ul></ul><ul><li>[Owner's Administration - Contact View Page](#7-owners-administration-to-contact-view-the-message)</li><ul><li>Image: [Admin - Contact View Page](#admin---contact-view-page)</li></ul></ul><ul><li>[Owner's Mailchimp Account Page](#8-owners-mailchimp-account)</li><ul><li>Image: [Mailchimp Account Page](#mailchimp-page)</li></ul></ul>
+ 9. **<u>[Browser Compatibility Testing ](#testing-browser-compatibility)</u>**
+ 10. **<u>[The Lighthouse Testing](#the-lighthouse-runs-testing-and-results)</u>**
+ 11. **<u>[The Validation Testing ](#validation-testing)</u>**<ul><li>[HTML](#html)</li><li>[CSS](#css)</li><li>[Python](#python)</li></ul></ul>
 
- 8. **<u>[The Devices](#the-devices)</u>**
- 9. **<u>[Credits](#credits)</u>**
- 10. **<u>[Deployment](#deployment)</u>**
- 11. **<u>[Resource & Tutorial ](#resource--tutorial)</u>**
- 12. **<u>[Technologies Used](#technologies-used)</u>**
- 13. **<u>[Conclusion](#conclusion)</u>**
- 14. **<u>[Acknowledgement](#acknowements)</u>**
-
-
-## Please note: Irish Sign Language (ISL) is my first language, and English is my second language in writing.
-
-* The [Ahrefs Writing Tools Product Description Generator]( https://ahrefs.com/writing-tools/product-description-generator) is a powerful tool specifically designed to assist non-native English speakers in creating professional and polished product descriptions. It has proven to be an invaluable resource for individuals looking to improve their English writing skills, despite the cost of subscriptions. With its ability to write and translate English clearly and concisely, users can confidently produce informative and engaging product descriptions. Whether you are a business owner or a content creator, the Ahrefs Writing Tools Product Description Generator is an essential tool for enhancing your English writing abilities.
-* This particular tool was utilized in a site development project for an Art Gallery, showcasing its versatility and applicability across various industries.
-* Although the tool did not meet the requirements for my demonstration in the ReadMe, I was able to work around it by writing in my second language and then editing the generated content from the AI generator.
-* I sincerely hope that you have taken the time to read and understand the ReadMe document.
-
-Back to [Table of Contents](#table-of-contents)
+ 12. **<u>[The Devices](#the-devices)</u>**
+ 13. **<u>[Credits](#credits)</u>**
+ 14. **<u>[Deployment](#deployment)</u>**
+ 15. **<u>[Resource & Tutorial ](#resource--tutorial)</u>**
+ 16. **<u>[Technologies Used](#technologies-used)</u>**
+ 17. **<u>[Conclusion](#conclusion)</u>**
+ 18. **<u>[Acknowledgement](#acknowements)</u>**
 
 # Agile management
 
